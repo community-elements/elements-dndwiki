@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>D&amp;D Wiki</name>
+		<description>The 5e homebrew content from the D&amp;D Wiki website.</description>
+		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="dndwiki.index" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki.index" />
+		</update>
+	</info>
+	<files>
+		<!-- Races -->
+		<file name="race-dryad.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/races/race-dryad.xml" />
+		<file name="race-homunculus.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/races/race-homunculus.xml" />
+		<file name="subrace-firebearddwarf.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/races/subrace-firebearddwarf.xml" />
+		<file name="subrace-runedwarf.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/races/subrace-runedwarf.xml" />
+		<file name="race-sprite.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/races/race-sprite.xml" />
+		
+		<!-- Classes -->
+		<file name="class-necromancer.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/classes/class-necromancer.xml" />
+		<file name="class-weapon-master.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/classes/class-weapon-master.xml" />
+
+		<!-- Archetype -->
+		<file name="sorcerer-arcane-origin.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/classes/sorcerer-arcane-origin.xml" />
+		<file name="druid-claw.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/classes/druid-claw.xml" />
+
+		<!-- Backgrounds -->
+		<file name="background-adventurer.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/backgrounds/background-adventurer.xml" />
+		<file name="background-apothecary.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/backgrounds/background-apothecary.xml" />
+		<file name="background-prospector.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/backgrounds/background-prospector.xml" />
+		<file name="background-islander.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/backgrounds/background-islander.xml" />
+		<file name="background-witchhunter.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/backgrounds/background-witchhunter.xml" />
+		<file name="background-bounty-hunter.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/backgrounds/background-bounty-hunter.xml" />
+
+		<!-- Feats -->
+		<file name="feats.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/feats.xml" />
+
+		<!-- Spells -->
+		<file name="spells.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/spells.xml" />
+
+		<!-- Items -->
+		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/items/items-weapons.xml" />
+
+	</files>
+</index>
