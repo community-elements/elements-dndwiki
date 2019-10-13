@@ -1,6 +1,6 @@
 ---
 name: 'Content Issue '
-about: Create a report to help us improve the content.
+about: Create a report to help us fix any issues with the content.
 title: ''
 labels: ''
 assignees: ''

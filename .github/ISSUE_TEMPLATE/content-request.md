@@ -1,8 +1,8 @@
 ---
 name: Content Request
-about: Request content for the Aurora Builder.
+about: Request content from D&D Wiki.
 title: Content Request - [name]
-labels: content request
+labels: ''
 assignees: ''
 
 ---

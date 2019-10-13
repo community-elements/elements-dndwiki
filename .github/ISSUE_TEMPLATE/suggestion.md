@@ -1,9 +1,9 @@
 ---
 name: Suggestion
-about: Suggest an idea for the Aurora Builder software.
+about: Suggest an idea for the D&D Wiki Repository.
 title: ''
-labels: aurora builder, enhancement
-assignees: swdriessen
+labels: ''
+assignees: ''
 
 ---
 
