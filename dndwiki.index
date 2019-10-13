@@ -41,5 +41,8 @@
 		<!-- Items -->
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/items/items-weapons.xml" />
 
+		<!-- Sources -->
+		<file name="sources.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/sources.xml" />
+
 	</files>
 </index>
