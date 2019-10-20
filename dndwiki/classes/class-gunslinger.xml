@@ -4,8 +4,8 @@
     <name>Gunslinger</name>
     <description>The Gunslinger Class from D&amp;D Wiki</description>
     <author url="https://www.dandwiki.com/wiki/Gunslinger_(5e_Class)">D&amp;D Wiki</author>
-    <update version="0.0.4">
-      <file name="class-gunslinger.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/classes/class-gunslinger.xml" />
+    <update version="0.0.1">
+      <file name="class-gunslinger.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-gunslinger.xml" />
     </update>
   </info>
   <element name="Gunslinger" type="Class" source="D&amp;D Wiki" id="ID_WIKI_CLASS_GUNSLINGER">
