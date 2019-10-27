@@ -629,6 +629,7 @@
       <div element="ID_WIKI_ARCHETYPE_FEATURE_STAND_AS_ONE"/>
       <div element="ID_WIKI_ARCHETYPE_FEATURE_GUIDING_SHOT"/>
       <div element="ID_WIKI_ARCHETYPE_FEATURE_MILITARIZED_MOBILIZATION" />
+      <div element="ID_WIKI_ARCHETYPE_FEATURE_MASTER_COMMANDER" />
     </description>
     <sheet>
       <description>Commanders are leaders of the battlefield.</description>
