@@ -3,9 +3,9 @@
   <info>
     <name>Gunslinger</name>
     <description>The Gunslinger Class from D&amp;D Wiki</description>
-    <author url="https://www.dandwiki.com/wiki/Gunslinger_(5e_Class)">D&amp;D Wiki</author>
+    <author url="https://www.dandwiki.com/wiki/User:Quincy">Quincy</author>
     <update version="0.0.1">
-      <file name="class-gunslinger.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-gunslinger.xml" />
+      <file name="class-gunslinger.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/classes/class-gunslinger.xml" />
     </update>
   </info>
   <element name="Gunslinger" type="Class" source="D&amp;D Wiki" id="ID_WIKI_CLASS_GUNSLINGER">
@@ -24,7 +24,7 @@
       <p>
         <span class="emphasis">Hit Dice:</span>1d8 per Gunslinger level
         <br />
-        <span class="emphasis">Hit Points at 1st Level:</span>8 + your Constitution modefier
+        <span class="emphasis">Hit Points at 1st Level:</span>8 + your Constitution modifier
         <br />
         <span class="emphasis">Hit Points at Higher Levels:</span>1d8 (or 5) + your Constitution modifier per Gunslinger level after 1st
         <br />
@@ -79,10 +79,6 @@
       <div element="ID_WIKI_CLASS_FEATURE_TOOLS_OF_THE_TRADE" />
       <div element="ID_WIKI_CLASS_FEATURE_LOW_PROFILE" />
       <div element="ID_WIKI_CLASS_FEATURE_FERAL_SENSE" />
-
-
-
-
     </description>
     <sheet display="false">
       <description>A master of the fine art of gunplay.</description>
@@ -137,7 +133,6 @@
     <sheet>
       <description>Firearm attacks gain +2 to attack rolls.</description>
     </sheet>
-    <rules />
   </element>
   <element name="Weapon Forging" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_WEAPON_FORGING">
     <description>
@@ -169,11 +164,11 @@
     <description>You have {{wisdom:modifier}} grit points which refresh every rest and your Trick Shot DC is {{trick_shot:dc}}. You can only use one trick shot per attack.</description>
     </sheet>
     <rules>
-      <select type="Class Feature" name="Trick Shot" supports="Trick Shot" level="2" number="2"/>
-      <select type="Class Feature" name="Trick Shot" supports="Trick Shot" level="7"/>
-      <select type="Class Feature" name="Trick Shot" supports="Trick Shot" level="10"/>
-      <select type="Class Feature" name="Trick Shot" supports="Trick Shot" level="15"/>
-      <select type="Class Feature" name="Trick Shot" supports="Trick Shot" level="18"/>
+      <select type="Class Feature" name="Trick Shot" supports="Wiki Gunslinger Trick Shot" level="2" number="2"/>
+      <select type="Class Feature" name="Trick Shot" supports="Wiki Gunslinger Trick Shot" level="7"/>
+      <select type="Class Feature" name="Trick Shot" supports="Wiki Gunslinger Trick Shot" level="10"/>
+      <select type="Class Feature" name="Trick Shot" supports="Wiki Gunslinger Trick Shot" level="15"/>
+      <select type="Class Feature" name="Trick Shot" supports="Wiki Gunslinger Trick Shot" level="18"/>
       <stat name="trick_shot:dc" value="8" />
       <stat name="trick_shot:dc" value="proficiency" />
       <stat name="trick_shot:dc" value="wisdom:modifier" />
@@ -181,7 +176,7 @@
   </element>
   <element name="Gunslinger Archetype" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_GUNSLINGER_ARCHETYPE">
     <description>
-      <p>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Your archetype grants you features at 3rd level and again at 7th, 13th, 15th 18th, and 20th level.</p>
+      <p>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Your archetype grants you features at 3rd level and again at 7th, 13th, 15th, 18th, and 20th level.</p>
     </description>
     <sheet />
     <rules>
@@ -213,8 +208,8 @@
       <description level="11">You can attack three times, instead of once, whenever you take the Attack action on your turn</description>
     </sheet>
     <rules>
-    <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
-		<stat name="extra attack:count" value="3" level="11" bonus="extra attack" />    
+      <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		  <stat name="extra attack:count" value="3" level="11" bonus="extra attack" />    
     </rules>
   </element>
   <element name="Special Ammunition" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_SPECIAL_AMMUNITION">
@@ -222,9 +217,9 @@
       <p>Starting at 6th level, you can craft 2 special ammunition shots costing 50gp in materials, dealing 1d6 of the desired damage type (Fire, Lightning, or Cold). Appropriate materials are required to craft special ammunition, Essence of a Fire Elemental, Air Elemental, or Water Elemental (Or DM's discretion of what is allowed, Poison etc.) You can craft ammunition in increments of 25gp per day instead of 5gp per day, See Players Handbook for "Crafting" pg. 187. At 9th level this is upgraded to 100gp cost, dealing 1d8, and at 17th level this is upgraded to 200gp cost for 3, dealing 1d10.</p>
     </description>
     <sheet>
-      <description level="6">You can craft 2 elemental ammunitions for 50gp which deal 1d6 elemental damage.</description>
-      <description level="9">You can craft 2 elemental ammunitions for 100gp which deal 1d8 elemental damage.</description>
-      <description level="17">You can craft 3 elemental ammunitions for 200gp which deal 1d10 elemental damage.</description>
+      <description level="6">You can craft 2 pieces of elemental ammunition for 50gp which deal 1d6 elemental damage.</description>
+      <description level="9">You can craft 2 pieces of elemental ammunition for 100gp which deal 1d8 elemental damage.</description>
+      <description level="17">You can craft 3 pieces of elemental ammunition for 200gp which deal 1d10 elemental damage.</description>
     </sheet>
     <rules />
   </element>
@@ -274,15 +269,14 @@
       <p>Starting at 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened.</p>
     </description>
     <sheet>
-      <description>You dont get disadvantage on invisible enemies and know the location of all invisible creatures within 30 ft of you as long as you are not blinded or deafened.</description>
+      <description>You don't get disadvantage on invisible enemies and know the location of all invisible creatures within 30 ft of you as long as you are not blinded or deafened.</description>
     </sheet>
     <rules />
   </element>
 
   <!-- Trick Shot Options -->
   <element name="Bullying Shot" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_ADEPT_MARKSMAN_BULLYING_SHOT">
-    <supports>Trick Shot</supports>
-    <requirements />
+    <supports>Wiki Gunslinger Trick Shot</supports>
     <description>
       <p>You can use the powerful blast and thundering sound of your firearm to shake the resolve of a creature. You can expend one grit point while making a Charisma (Intimidation) check to gain advantage on the roll.</p>
     </description>
@@ -292,8 +286,7 @@
     <rules />
   </element>
   <element name="Dazing Shot" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_ADEPT_MARKSMAN_DAZING_SHOT">
-    <supports>Trick Shot</supports>
-    <requirements />
+    <supports>Wiki Gunslinger Trick Shot</supports>
     <description>
       <p>When you hit a creature with a firearm attack, you can expend one grit point to attempt to dizzy your opponent. The creature suffers normal damage and must make a Constitution saving throw or suffer disadvantage on attack rolls until the end of their next turn.</p>
     </description>
@@ -303,8 +296,7 @@
     <rules />
   </element>
   <element name="Deadeye Shot" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_ADEPT_MARKSMAN_DEADEYE_SHOT">
-    <supports>Trick Shot</supports>
-    <requirements />
+    <supports>Wiki Gunslinger Trick Shot</supports>
     <description>
       <p>When you make a firearm attack against a creature, you can expend one grit point to gain advantage on the attack roll.</p>
     </description>
@@ -314,8 +306,7 @@
     <rules />
   </element>
   <element name="Disarming Shot" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_ADEPT_MARKSMAN_DISARMING_SHOT">
-    <supports>Trick Shot</supports>
-    <requirements />
+    <supports>Wiki Gunslinger Trick Shot</supports>
     <description>
       <p>When you hit a creature with a firearm attack, you can expend one grit point to attempt to shoot an object from their hands. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or drop 1 held object of your choice and have that object be pushed 10 feet away from you.</p>
     </description>
@@ -325,8 +316,7 @@
     <rules />
   </element>
   <element name="Forceful Shot" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_ADEPT_MARKSMAN_FORCEFUL_SHOT">
-    <supports>Trick Shot</supports>
-    <requirements />
+    <supports>Wiki Gunslinger Trick Shot</supports>
     <description>
       <p>When you make a firearm attack against a creature, you can expend one grit point to attempt to trip them up and force them back. The creature suffers normal damage and must succeed on a Strength saving throw or be pushed 15 feet away from you.</p>
     </description>
@@ -335,9 +325,8 @@
     </sheet>
     <rules />
   </element>
-  <element name="Piercing Shot" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_ADEPT_MARKSMAN_PEIRCING_SHOT">
-    <supports>Trick Shot</supports>
-    <requirements />
+  <element name="Piercing Shot" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_ADEPT_MARKSMAN_PIERCING_SHOT">
+    <supports>Wiki Gunslinger Trick Shot</supports>
     <description>
       <p>When you hit a creature with a firearm attack, you can expend one grit point to attempt to fire through multiple opponents. The creature suffers normal damage and you must make an attack roll with disadvantage against every creature in a 15-foot line directly behind the target.</p>
     </description>
@@ -347,8 +336,7 @@
     <rules />
   </element>
   <element name="Violent Shot" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_ADEPT_MARKSMAN_VIOLENT_SHOT">
-    <supports>Trick Shot</supports>
-    <requirements />
+    <supports>Wiki Gunslinger Trick Shot</supports>
     <description>
       <p>When you hit a creature with a firearm attack, you can expend one or more grit points to enhance the volatility of the attack. Roll one additional weapon damage die per grit point spent when determining the damage.</p>
     </description>
@@ -358,8 +346,7 @@
     <rules />
   </element>
   <element name="Winging Shot" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_ADEPT_MARKSMAN_WINGING_SHOT">
-    <supports>Trick Shot</supports>
-    <requirements />
+    <supports>Wiki Gunslinger Trick Shot</supports>
     <description>
       <p>When you hit a creature with a firearm attack, you can expend one grit point to attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked prone.</p>
     </description>
@@ -396,7 +383,6 @@
     </rules>
   </element>
   <element name="Duelist Fighting Style" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
-    <supports>Gunslinger Style</supports>
     <description>
       <p>Starting at 3rd level, when you are wielding a firearm in one hand and no other weapons, you gain a +4 bonus to damage rolls and +2 bonus to attack rolls with that firearm.</p>
     </description>
@@ -405,7 +391,6 @@
     </sheet>
   </element>
   <element name="Two-Gun Fighting Fighting Style" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
-    <supports>Gunslinger Style</supports>
     <description>
       <p>Starting at 3rd level, when you take the Attack action and attack with a one-handed firearm that you're holding in one hand, you can use a bonus action to attack with a different one-handed firearm that you're holding in the other hand. You can also load or reload a firearm without difficulty if your hands are full.</p>
     </description>
@@ -493,13 +478,17 @@
     <description>
       <p>Starting at 3rd level, as a bonus action, you mark a creature that you can see. You have advantage on all attack rolls with firearms against that creature. This lasts for 1 minute or until you make an attack against another creature or the creature has 0 hit points. You can use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain any expended uses when you finish a long rest.</p>
     </description>
-    <sheet action="Bonus Action" usage="{{wisdom:modifier}}/Long Rest">
+    <sheet action="Bonus Action" usage="{{sniper mark:uses}}/Long Rest">
       <description>You can mark one enemy and gain advantage against it until you target another creature, the target drops to 0 HP or 1 minute passes.</description>
     </sheet>
+    <rules>
+      <stat name="sniper mark:uses" value="1" bonus="base" />
+      <stat name="sniper mark:uses" value="wisdom:modifier" bonus="base" />
+    </rules>
   </element>
   <element name="Marked Quarry" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_MARKED_QUARRY">
     <description>
-      <p>Starting at 7th level, you deal an additional 1d6 damage of your weapon's damage type against a creature effected by your Snipers Mark feature.</p>
+      <p>Starting at 7th level, you deal an additional 1d6 damage of your weapon's damage type against a creature effected by your Sniper's Mark feature.</p>
     </description>
     <sheet>
       <description>Marked targets take 1d6 more damage from your attacks.</description>
@@ -517,7 +506,7 @@
   </element>
   <element name="Interrupting Shot" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_INTERRUPTING_SHOT">
     <description>
-      <p>Starting at 15th level, when a creature marked by your Snipers Mark feature makes an attack, you may use your reaction to make a ranged weapon attack with a firearm you are holding against the marked creature. This attack happens before the marked creature hits.</p>
+      <p>Starting at 15th level, when a creature marked by your Sniper's Mark feature makes an attack, you may use your reaction to make a ranged weapon attack with a firearm you are holding against the marked creature. This attack happens before the marked creature hits.</p>
     </description>
     <sheet>
       <description>You may use your reaction to make a ranged weapon attack with a firearm you are holding against the marked creature when it attacks. This attack happens before the marked creature hits.</description>
@@ -530,7 +519,6 @@
     <sheet>
       <description>You regain all uses of your Sniper's Mark feature when you finish a short rest.</description>
     </sheet>
-    <rules></rules>
   </element>
 
   <!-- CQC Archetype -->
@@ -565,8 +553,8 @@
       <description /> 
     </sheet>
     <rules>
-      <stat name="ac:misc" value="1" bonus="fighting style" equipped="[armor:any]" alt="Armored Brute" />
-      <stat name="ac:misc" value="1" bonus="fighting style" equipped="[armor:any]" alt="Armored Brute" level="15" />
+      <stat name="ac:misc" value="1" bonus="armored brute" equipped="[armor:any]" alt="Armored Brute" />
+      <stat name="ac:misc" value="1" bonus="armored brute" equipped="[armor:any]" alt="Armored Brute" level="15" />
     </rules>
   </element>
   <element name="CQC Training" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_CQC_TRAINING">
@@ -580,7 +568,7 @@
       </p>
     </description>
     <sheet>
-      <description>You can make melee attacks with firearms without disadvantage and can use Strength instead of Dexterity for ranged weapon rolls.</description>
+      <description>You can make ranged attacks with firearms without disadvantage and can use Strength instead of Dexterity for ranged weapon rolls.</description>
     </sheet>
     <rules />
   </element>
@@ -614,7 +602,7 @@
       <p>Starting at 18th level, you gain proficiency with Shields and can mount a shield onto your forearm, this counts as carrying one for the purpose of qualifying for feats and you gain the appropriate AC bonus from it. With the shield mounted you can still carry a two-handed, heavy weapon if it's a firearm.</p>
     </description>
     <sheet>
-      <description>You can carry two-handed weapons with a shield and can carry a sheild for feat purposes.</description>
+      <description>You can carry two-handed weapons with a shield and can carry a shield for feat purposes.</description>
     </sheet>
     <rules>
       <grant type="Proficiency" name="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
@@ -625,7 +613,7 @@
       <p>Starting at 20th level, as long as you aren't incapacitate, you have advantage on saving Throws against any spells or abilities that would knock you prone, push you against your will, or cause you to be frightened. You also ignore any reduction to your move speed.</p>
     </description>
     <sheet>
-      <description>As long as you're not incapacitated you have advatange on saving throws against spells or effects that can move you and you can ignore speed reductions.</description>
+      <description>As long as you're not incapacitated you have advantage on saving throws against spells or effects that can move you and you can ignore speed reductions.</description>
     </sheet>
     <rules />
   </element>
@@ -659,10 +647,10 @@
       <p>As an action, you can boost your allies Morale. Choose a number of friendly creatures who can either see or hear you up to your Charisma modifier (minimum 1). The creatures you choose gain a +1 bonus to their attack rolls, damage rolls, and saving throws. The bonus provided by morale lasts for 1 minute or until you use this feature again, whichever comes first. Your allies lose this bonus if you cannot see them, or they cannot see or hear you, or you become incapacitated. You can use this feature twice, regaining any expended uses when you finish a long rest. The bonus to attack rolls, damage rolls, and saving throws this feature provides increases by 1 at 7th level (+2), and again at 13th level (+3).</p>
     </description>
     <sheet>
-      <description>As an action you can increase the damage, saves, and attack rolls of {{charisma:modifier}} friendly creatures by +1 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="7">As an action you can increase the damage, saves, and attack rolls of {{charisma:modifier}} friendly creatures by +2 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="13">As an action you can increase the damage, saves, and attack rolls of {{charisma:modifier}} friendly creatures by +3 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="20">As an action you can increase the damage, saves, and attack rolls of {{charisma:modifier}} friendly creatures by +4 for 1 min. You can do this 2 times per long rest.</description>
+      <description>As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +1 for 1 min. You can do this 2 times per long rest.</description>
+      <description level="7">As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +2 for 1 min. You can do this 2 times per long rest.</description>
+      <description level="13">As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +3 for 1 min. You can do this 2 times per long rest.</description>
+      <description level="20">As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +4 for 1 min. You can do this 2 times per long rest.</description>
     </sheet>
   </element>
   <element name="Demoralize" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_DEMORALIZE">
@@ -670,18 +658,22 @@
       <p>As an action, you can Demoralize the oppositions resolve. You choose a number of hostile creatures that you can see, and can see or hear you, up to your Charisma modifier (with a minimum of 1). Those creatures must make a Charisma saving throw (DC = 8 + your proficiency bonus + your Charisma Modifier). On a failed save, the creatures have a -1 penalty to attack rolls, damage rolls, and saving throws. This effect lasts for 1 minute or until you use this feature again, whichever comes first. A creature automatically succeeds on the saving throw if it's immune to being frightened. On a successful save, a creature becomes immune to the effects of Demoralize. The hostile creatures lose this penalty if you cannot see them, or they cannot see or hear you, or you become incapacitated. You can use this feature twice, regaining any expended uses when you finish a long rest. This penalty increases to a -2 penalty at 7th level, and to a -3 penalty at 13th level.</p>
     </description>
     <sheet>
-      <description>As an action you can force {{charisma:modifier}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -1 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="7">As an action you can force {{charisma:modifier}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -2 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="13">As an action you can force {{charisma:modifier}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -3 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="20">As an action you can force {{charisma:modifier}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -4 for 1 min. You can do this 2 times per long rest.</description>
+      <description>As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -1 for 1 min. You can do this 2 times per long rest.</description>
+      <description level="7">As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -2 for 1 min. You can do this 2 times per long rest.</description>
+      <description level="13">As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -3 for 1 min. You can do this 2 times per long rest.</description>
+      <description level="20">As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -4 for 1 min. You can do this 2 times per long rest.</description>
     </sheet>
+    <rules>
+      <stat name="moralize:targets" value="1" bonus="base" />
+      <stat name="moralize:targets" value="charisma:modifier" bonus="base" />
+    </rules>
   </element>
   <element name="Commanding Presence" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_COMMANDING_PRESENCE">
     <description>
       <p>Starting at 7th level, as long as a creature is under the effects of your Moralize feature, you have advantage on all saving throws and ranged attack rolls made with a firearm.</p>
     </description>
     <sheet>
-      <description>If a creature is affected by moralize you have advantage on all saving throws and advatange on attack rolls make with ranged attacks.</description>
+      <description>If a creature is affected by moralize you have advantage on all saving throws and advantage on attack rolls make with ranged attacks.</description>
     </sheet>
     <rules />
   </element>
@@ -698,8 +690,8 @@
     <description>
       <p>Starting at 15th level, when you hit a creature with a ranged weapon attack by a firearm, one ally of your choice gets advantage on their next attack against the creature you hit. Your ally must not be incapacitated, they must be able to see the target, as well as see and hear you to benefit from this feature. You can use this feature only once per turn.</p>
     </description>
-    <sheet>
-      <description>Once per turn, a hostile creature hit by your ranged attack can be attacked with advantage by one of your allies on their turn.</description>
+    <sheet usage="1/Turn">
+      <description>A hostile creature hit by your ranged attack can be attacked with advantage by one of your allies on their turn.</description>
     </sheet>
     <rules />
   </element>
@@ -708,9 +700,17 @@
       <p>Starting at 18th level, you can craft non-magical guns for NPC soldiers equal to your Charisma modifier (minimum of one). Each soldier has the stats of a Scout with the maximum possible hit points (Monster Manual pg.349). You teach them how to handle the weaponry, training them takes one week for each soldier. Once training is complete, you can then utilize them as a loyal militia requiring no payment, but still require lifestyle expenses for each soldier (Player's Handbook pg.157). The soldiers also gain the Firearm Fighting Style Feature: they gain a +2 bonus to attack rolls they make with firearms. (The DM may also decide if the soldiers can be equipped with different items, EX:Weapons, Armor, Magic Items, etc.). You may use a bonus action on your turn to command the militia to take one of the following actions in addition to their movement: Attack, Dash, Disengage, Dodge, Help, Hide, Search, or Use an Object.</p>
     </description>
     <sheet>
-      <description>You can gain a militia of {{charisma:modifier}} scouts and you can use your bonus action to control one member of your militia.</description>
+      <description>You can gain a militia of {{moralize:targets}} scouts and you can use your bonus action to control your militia.</description>
     </sheet>
-    <rules></rules>
+  </element>
+  <element name="Master Commander" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_MASTER_COMMANDER">
+    <description>
+      <p>Starting at 20th level, your Morale feature gets an additional +1 bonus to allies attack rolls, damage rolls, and saving throws, and your Demoralize feature gets an additional -1 penalty to hostile creatures attack rolls, damage rolls, and saving throws.</p>
+    </description>
+    <sheet display="false">
+      <description>Your Morale feature gets an additional +1 bonus to allies attack rolls, damage rolls, and saving throws, and your Demoralize feature gets an additional -1 penalty to hostile creatures attack rolls, damage rolls, and saving throws.</description>
+    </sheet>
+    <rules />
   </element>
 
   <!-- Preacher Archetype -->
@@ -745,13 +745,13 @@
     <description>
       <p>At 3rd level, you have learned to augment your martial prowess with divine spellcasting.</p>
       <p class="indent"><strong><em>Cantrips.</em></strong> You can choose two cantrips from the cleric spell list. At 10th level, you can choose another cantrip from the cleric spell list.</p>
-	  <p class="indent"><strong><em>Spell Slots.</em></strong> The Preacher Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
-	  <p class="indent">For example, if you know the 1st-level spell shield of faith and have a 1st-level and a 2nd-level spell slot available, you can cast shield of faith using either slot.</p>
-	  <p class="indent"><strong><em>Spells Known of 1st-Level and Higher.</em></strong> You know three 1st-level paladin spells of your choice.</p>
+	    <p class="indent"><strong><em>Spell Slots.</em></strong> The Preacher Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+	    <p class="indent">For example, if you know the 1st-level spell shield of faith and have a 1st-level and a 2nd-level spell slot available, you can cast shield of faith using either slot.</p>
+	    <p class="indent"><strong><em>Spells Known of 1st-Level and Higher.</em></strong> You know three 1st-level paladin spells of your choice.</p>
       <p class="indent">The Spells Known column of the Subclass Spellcasting table shows when you learn more paladin spells of 1st level or higher. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</p>
-	  <p class="indent">The spells you learn at 8th, 14th, and 20th level can come from the cleric spell list.</p>
-	  <p class="indent">Charisma is your spellcasting ability for your paladin spells, since your power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a cleric or paladin spell you cast and when making an attack roll with one.</p>
-	  <p class="indent"><strong><em>Spellcasting Ability.</em></strong> Charisma is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</p>
+	    <p class="indent">The spells you learn at 8th, 14th, and 20th level can come from the cleric spell list.</p>
+      <p class="indent">Whenever you gain a level in this class, you can replace one of the paladin spells you know with another spell of your choice from the paladin spell list. The new spell must be of a level for which you have spell slots.</p>
+	    <p class="indent"><strong><em>Spellcasting Ability.</em></strong> Charisma is your spellcasting ability for your paladin or cleric spells, since your power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin or cleric spell you cast and when making an attack roll with one.</p>
       <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
       <p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
     </description>
@@ -759,42 +759,42 @@
       <description>You can use a holy symbol as a spellcasting focus for your paladin spells.</description>
     </sheet>
     <spellcasting name="Preacher" ability="Charisma" prepare="false" allowReplace="true">
-      <list>Cleric, Paladin</list>
+      <list>Paladin</list>
     </spellcasting>
     <rules>
       <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
 
-      <stat name="Preacher:spellcasting:slots:1" value="2" level="3" />
-      <stat name="Preacher:spellcasting:slots:1" value="1" level="4" />
-      <stat name="Preacher:spellcasting:slots:1" value="1" level="7" />
-      <stat name="Preacher:spellcasting:slots:2" value="2" level="7" />
-      <stat name="Preacher:spellcasting:slots:2" value="1" level="10" />
-      <stat name="Preacher:spellcasting:slots:3" value="2" level="13" />
-      <stat name="Preacher:spellcasting:slots:3" value="1" level="16" />
-      <stat name="Preacher:spellcasting:slots:4" value="1" level="19" />
+      <stat name="preacher:spellcasting:slots:1" value="2" level="3" />
+      <stat name="preacher:spellcasting:slots:1" value="1" level="4" />
+      <stat name="preacher:spellcasting:slots:1" value="1" level="7" />
+      <stat name="preacher:spellcasting:slots:2" value="2" level="7" />
+      <stat name="preacher:spellcasting:slots:2" value="1" level="10" />
+      <stat name="preacher:spellcasting:slots:3" value="2" level="13" />
+      <stat name="preacher:spellcasting:slots:3" value="1" level="16" />
+      <stat name="preacher:spellcasting:slots:4" value="1" level="19" />
 
       <select type="Spell" name="Cantrip (Preacher)" supports="Cleric, 0" level="3" number="2" spellcasting="Preacher" />
       <select type="Spell" name="Cantrip (Preacher)" supports="Cleric, 0" level="10" number="1" spellcasting="Preacher" />
 
-      <select type="Spell" name="Spellcasting (Preacher)" supports="Paladin, 1" level="3" number="3" spellcasting="Preacher" />
-      <select type="Spell" name="Spellcasting (Preacher)" supports="Paladin, 1" level="4" spellcasting="Preacher"/>
-      <select type="Spell" name="Spellcasting (Preacher)" supports="Paladin, (1 || 2)" level="7" spellcasting="Preacher"/>
-      <select type="Spell" name="Spellcasting (Preacher)" supports="(Paladin || Cleric), (1 || 2)" level="8" spellcasting="Preacher"/>
-      <select type="Spell" name="Spellcasting (Preacher)" supports="Paladin, (1 || 2)" level="10" spellcasting="Preacher"/>
-      <select type="Spell" name="Spellcasting (Preacher)" supports="Paladin, (1 || 2)" level="11" spellcasting="Preacher"/>
-      <select type="Spell" name="Spellcasting (Preacher)" supports="Paladin, (1 || 2 || 3)" level="13" spellcasting="Preacher"/>
-      <select type="Spell" name="Spellcasting (Preacher)" supports="(Paladin || Cleric), (1 || 2 || 3)" level="14" spellcasting="Preacher"/>
-      <select type="Spell" name="Spellcasting (Preacher)" supports="Paladin, (1 || 2 || 3)" level="16" spellcasting="Preacher"/>
-      <select type="Spell" name="Spellcasting (Preacher)" supports="Paladin, (1 || 2 || 3 || 4)" level="19" spellcasting="Preacher"/>
-      <select type="Spell" name="Spellcasting (Preacher)" supports="(Paladin || Cleric), (1 || 2 || 3 || 4)" level="20" spellcasting="Preacher"/>
+      <select type="Spell" name="Spellcasting (Preacher)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="3" spellcasting="Preacher" />
+      <select type="Spell" name="Spellcasting (Preacher)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" spellcasting="Preacher"/>
+      <select type="Spell" name="Spellcasting (Preacher)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" spellcasting="Preacher"/>
+      <select type="Spell" name="Spellcasting (Preacher)" supports="($(spellcasting:list) || Cleric), $(spellcasting:slots)" level="8" spellcasting="Preacher"/>
+      <select type="Spell" name="Spellcasting (Preacher)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" spellcasting="Preacher"/>
+      <select type="Spell" name="Spellcasting (Preacher)" supports="$(spellcasting:list), $(spellcasting:slots))" level="11" spellcasting="Preacher"/>
+      <select type="Spell" name="Spellcasting (Preacher)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" spellcasting="Preacher"/>
+      <select type="Spell" name="Spellcasting (Preacher)" supports="($(spellcasting:list) || Cleric), $(spellcasting:slots)" level="14" spellcasting="Preacher"/>
+      <select type="Spell" name="Spellcasting (Preacher)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" spellcasting="Preacher"/>
+      <select type="Spell" name="Spellcasting (Preacher)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" spellcasting="Preacher"/>
+      <select type="Spell" name="Spellcasting (Preacher)" supports="($(spellcasting:list) || Cleric), $(spellcasting:slots)" level="20" spellcasting="Preacher"/>
     </rules>
   </element>
   <element name="Religious Studies" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_RELIGIOUS_STUDIES">
     <description>
       <p>When you choose this archetype at 3rd level, as a result of your theological inclinations you gain proficiency in the Religion skill, and your proficiency bonus is doubled for any ability check you make that uses that skill.</p>
     </description>
-    <sheet>
-      <description>You gain proficiency in the Religion skills.</description>
+    <sheet display="false">
+      <description>You gain proficiency in the Religion skill.</description>
     </sheet>
     <rules>
       <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
@@ -806,7 +806,7 @@
       <p>Beginning at 3rd level, your unique blend of martial and divine training allows you to "project" your smiting spells at a distance. A spell with "Smite" in the name that can normally only be used with a melee weapon can now be used with a firearm, but only if the target is within normal range. When using a firearm this way, being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.</p>
     </description>
     <sheet>
-      <description>Spell with the word "smite" can be used with your ranged weapons and dont get disadvantage attacking a creature in melee range.</description>
+      <description>Spell with the word "smite" can be used with your ranged weapons and don't get disadvantage attacking a creature in melee range.</description>
     </sheet>
   </element>
   <element name="Bane Shot" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_BANE_SHOT">
@@ -828,18 +828,23 @@
   </element>
   <element name="Shot of Disruption" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_SHOT_OF_DISRUPTION">
     <description>
-      <p>Beginning at 18th level, your firearm attacks are devastatingly powerful against fiends and undead, sundering the essence of wicked beings with every shot. If a fiend or undead has 50 hit points or fewer after taking damage from one of your firearm attacks, it must succeed on a Wisdom saving throw (DC = 8 + your Charisma modiier + your proficiency bonus) or be destroyed. On a successful save, the creature becomes frightened of you until the end of your next turn.</p>
+      <p>Beginning at 18th level, your firearm attacks are devastatingly powerful against fiends and undead, sundering the essence of wicked beings with every shot. If a fiend or undead has 50 hit points or fewer after taking damage from one of your firearm attacks, it must succeed on a Wisdom saving throw (DC = 8 + your Charisma modifier + your proficiency bonus) or be destroyed. On a successful save, the creature becomes frightened of you until the end of your next turn.</p>
     </description>
     <sheet>
-      <description>Fiends or undead under 50 HP that are hit by your firearm attacks have to make a wisdom save (DC {{trick_shot:dc}}) or be killed immediately, on a sucess the creatured if frightened until the end of your next turn.</description>
+      <description>Fiends or undead under 50 HP that are hit by your firearm attacks have to make a wisdom save (DC {{shot of disruption:dc}}) or be killed immediately, on a success the creature is frightened until the end of your next turn.</description>
     </sheet>
+    <rules>
+      <stat name="shot of disruption:dc" value="8" />
+      <stat name="shot of disruption:dc" value="charisma:modifier" />
+      <stat name="shot of disruption:dc" value="proficiency" />
+    </rules>
   </element>
   <element name="Pale Rider" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_PALE_RIDER">
     <description>
       <p>Starting at 20th level, death simply can't stop your divine mission. Should you die, you will come back to life 1d4 hours later as if by a true resurrection spell. Once you have used this feature, you can't use it again until 7 days have passed. Additionally, you no longer suffer the drawbacks of old age.</p>
     </description>
     <sheet>
-      <description>Once ever 7 days if you die, you are resurrected by a true ressurrection spell after 1d4 hours, you also suffer no drawbacks from old age.</description>
+      <description>Once ever 7 days if you die, you are resurrected by a true resurrection spell after 1d4 hours, you also suffer no drawbacks from old age.</description>
     </sheet>
     <rules />
   </element>
@@ -847,7 +852,7 @@
 
   <!-- Firearm Expertise -->
 
-  <element name="Weapon Proficiency (Firearms)" type="Proficiency" source="Critical Role" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FIREARMS">
+  <element name="Weapon Proficiency (Firearms)" type="Proficiency" source="D&amp;D Wiki" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_FIREARMS">
 		<requirements>ID_WIKI_CLASS_GUNSLINGER</requirements>
     <sheet alt="Firearms" />
 		<rules>
