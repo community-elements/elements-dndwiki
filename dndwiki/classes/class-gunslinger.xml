@@ -478,12 +478,14 @@
     <description>
       <p>Starting at 3rd level, as a bonus action, you mark a creature that you can see. You have advantage on all attack rolls with firearms against that creature. This lasts for 1 minute or until you make an attack against another creature or the creature has 0 hit points. You can use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain any expended uses when you finish a long rest.</p>
     </description>
-    <sheet action="Bonus Action" usage="{{sniper mark:uses}}/Long Rest">
+    <sheet action="Bonus Action" usage="{{sniper mark:uses}}/{{sniper mark:rest}}">
       <description>You can mark one enemy and gain advantage against it until you target another creature, the target drops to 0 HP or 1 minute passes.</description>
     </sheet>
     <rules>
       <stat name="sniper mark:uses" value="1" bonus="base" />
       <stat name="sniper mark:uses" value="wisdom:modifier" bonus="base" />
+      <stat name="sniper mark:rest" value="Long Rest" />
+      <stat name="sniper mark:rest" value="Rest" level="20" />
     </rules>
   </element>
   <element name="Marked Quarry" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_MARKED_QUARRY">
