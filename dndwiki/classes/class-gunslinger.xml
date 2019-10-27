@@ -208,8 +208,8 @@
       <description level="11">You can attack three times, instead of once, whenever you take the Attack action on your turn</description>
     </sheet>
     <rules>
-      <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
-		  <stat name="extra attack:count" value="3" level="11" bonus="extra attack" />    
+	    <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+	    <stat name="extra attack:count" value="3" level="11" bonus="extra attack" />    
     </rules>
   </element>
   <element name="Special Ammunition" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_SPECIAL_AMMUNITION">
@@ -862,7 +862,7 @@
 			<grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_SCATTERGUN" />
 			<grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_BAD_NEWS" />
 			<grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_HAND_MORTAR" />
-      <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" />
+			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" />
 			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET" />
 
 			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_PISTOL_AUTOMATIC" />
