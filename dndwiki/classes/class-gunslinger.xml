@@ -208,8 +208,8 @@
       <description level="11">You can attack three times, instead of once, whenever you take the Attack action on your turn</description>
     </sheet>
     <rules>
-	    <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
-	    <stat name="extra attack:count" value="3" level="11" bonus="extra attack" />    
+      <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+      <stat name="extra attack:count" value="3" level="11" bonus="extra attack" />    
     </rules>
   </element>
   <element name="Special Ammunition" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_SPECIAL_AMMUNITION">
@@ -646,26 +646,30 @@
     <description>
       <p>As an action, you can boost your allies Morale. Choose a number of friendly creatures who can either see or hear you up to your Charisma modifier (minimum 1). The creatures you choose gain a +1 bonus to their attack rolls, damage rolls, and saving throws. The bonus provided by morale lasts for 1 minute or until you use this feature again, whichever comes first. Your allies lose this bonus if you cannot see them, or they cannot see or hear you, or you become incapacitated. You can use this feature twice, regaining any expended uses when you finish a long rest. The bonus to attack rolls, damage rolls, and saving throws this feature provides increases by 1 at 7th level (+2), and again at 13th level (+3).</p>
     </description>
-    <sheet>
-      <description>As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +1 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="7">As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +2 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="13">As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +3 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="20">As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +4 for 1 min. You can do this 2 times per long rest.</description>
+    <sheet usage="2/Long Rest">
+      <description>As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +1 for 1 min.</description>
+      <description level="7">As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +2 for 1 min.</description>
+      <description level="13">As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +3 for 1 min.</description>
+      <description level="20">As an action you can increase the damage, saves, and attack rolls of {{moralize:targets}} friendly creatures by +4 for 1 min.</description>
     </sheet>
   </element>
   <element name="Demoralize" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_DEMORALIZE">
     <description>
       <p>As an action, you can Demoralize the oppositions resolve. You choose a number of hostile creatures that you can see, and can see or hear you, up to your Charisma modifier (with a minimum of 1). Those creatures must make a Charisma saving throw (DC = 8 + your proficiency bonus + your Charisma Modifier). On a failed save, the creatures have a -1 penalty to attack rolls, damage rolls, and saving throws. This effect lasts for 1 minute or until you use this feature again, whichever comes first. A creature automatically succeeds on the saving throw if it's immune to being frightened. On a successful save, a creature becomes immune to the effects of Demoralize. The hostile creatures lose this penalty if you cannot see them, or they cannot see or hear you, or you become incapacitated. You can use this feature twice, regaining any expended uses when you finish a long rest. This penalty increases to a -2 penalty at 7th level, and to a -3 penalty at 13th level.</p>
     </description>
-    <sheet>
-      <description>As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -1 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="7">As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -2 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="13">As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -3 for 1 min. You can do this 2 times per long rest.</description>
-      <description level="20">As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{trick_shot:dc}}), on a fail their damage, attack and saving rolls decrease by -4 for 1 min. You can do this 2 times per long rest.</description>
+    <sheet usage="2/Long Rest">
+      <description>As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{demoralize:dc}}), on a fail their damage, attack and saving rolls decrease by -1 for 1 min.</description>
+      <description level="7">As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{demoralize:dc}}), on a fail their damage, attack and saving rolls decrease by -2 for 1 min.</description>
+      <description level="13">As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{demoralize:dc}}), on a fail their damage, attack and saving rolls decrease by -3 for 1 min.</description>
+      <description level="20">As an action you can force {{moralize:targets}} hostile creatures to make a wisdom saving throw (DC {{demoralize:dc}}), on a fail their damage, attack and saving rolls decrease by -4 for 1 min.</description>
     </sheet>
     <rules>
       <stat name="moralize:targets" value="1" bonus="base" />
       <stat name="moralize:targets" value="charisma:modifier" bonus="base" />
+      <stat name="demoralize:dc" value="8" bonus="base" />
+      <stat name="demoralize:dc" value="charisma:modifier" />
+      <stat name="demoralize:dc" value="proficiency" />
+
     </rules>
   </element>
   <element name="Commanding Presence" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_COMMANDING_PRESENCE">
@@ -862,8 +866,8 @@
 			<grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_SCATTERGUN" />
 			<grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_BAD_NEWS" />
 			<grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_HAND_MORTAR" />
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" />
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET" />
+      <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" />
+      <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET" />
 
 			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_PISTOL_AUTOMATIC" />
 			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_REVOLVER" />
