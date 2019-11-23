@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="https://www.dandwiki.com/wiki/Incubus/Succubus_(5e_Race)">Geodude671 and others</author>
 		<update version="0.2.0">
-			<file name="race-concubus.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki/races/race-concubus.xml" />
+			<file name="race-concubus.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-concubus.xml" />
 		</update>
 	</info>
 
