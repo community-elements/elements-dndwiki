@@ -473,8 +473,7 @@
     <rules>
       <stat name="sniper mark:uses" value="1" bonus="base" />
       <stat name="sniper mark:uses" value="wisdom:modifier" bonus="base" />
-      <stat name="sniper mark:rest" value="Long Rest" />
-      <stat name="sniper mark:rest" value="Rest" level="20" />
+      <stat name="sniper mark:rest" value="Long Rest" bonus="Sniper's Mark Rest" inline="true" />
     </rules>
   </element>
   <element name="Marked Quarry" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_MARKED_QUARRY">
@@ -508,6 +507,9 @@
     <sheet display="false">
       <description>You regain all uses of your Sniper's Mark feature when you finish a short rest.</description>
     </sheet>
+    <rules>
+      <stat name="sniper mark:rest" value="Rest" level="20" bonus="Sniper's Mark Rest" inline="true" />
+    </rules>
   </element>
 
   <!-- CQC Archetype -->
