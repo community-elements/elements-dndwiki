@@ -20,6 +20,7 @@
 		<!-- Classes -->
 		<file name="class-necromancer.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-necromancer.xml" />
 		<file name="class-weapon-master.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-weapon-master.xml" />
+		<file name="class-gunslinger.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-gunslinger.xml" />
 
 		<!-- Archetype -->
 		<file name="sorcerer-arcane-origin.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/sorcerer-arcane-origin.xml" />
