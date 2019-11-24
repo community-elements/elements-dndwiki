@@ -15,6 +15,7 @@
 		<file name="subrace-firebearddwarf.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-firebearddwarf.xml" />
 		<file name="subrace-runedwarf.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-runedwarf.xml" />
 		<file name="race-sprite.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-sprite.xml" />
+		<file name="race-concubus.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-concubus.xml" />
 		
 		<!-- Classes -->
 		<file name="class-necromancer.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-necromancer.xml" />

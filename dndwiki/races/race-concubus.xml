@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Concubus</name>
+		<description></description>
+		<author url="https://www.dandwiki.com/wiki/User:Geodude671">Geodude671</author>
+		<update version="0.0.1">
+			<file name="race-concubus.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-concubus.xml" />
+		</update>
+	</info>
+
+  <element name="Concubus" type="Race" source="D&amp;D Wiki" id="ID_WIKI_RACE_CONCUBUS">
+    <description>
+      <p>Succubi are the iconic depiction of lust. Feared for their typically evil nature and ability to steal one's soul, succubi are fiends who wield subtle illusions and enchantments to tempt their victims into forfeiting their eternal souls. Succubi inhabit all of the Lower Planes, and the lascivious dark-winged fiends can be found in service to devils, demons, night hags, rakshasas, and yugoloths. Asmodeus, ruler of the Nine Hells, uses these fiends to tempt mortals to perform evil acts. The demon lord Graz'zt keeps succubi and incubi as advisers and consorts.</p>
+      <p>Succubi often live up to their reputation, acting as seductive females or males to lure males and/or females into relinquishing some of their life-force. Particularly adept at controlling others in the peak of their strength, they're often employed - albeit reluctantly - by others to act as crowd control, or to tame certain creatures. Most of them share the nature of their reputation; flirtatious. They avoid fighting where possible, instead choosing seduction or fleeing.</p>
+      <p>The gender-neutral term for Succubi and Incubi is usually either Foocubus or Concubus.</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>Succubi in their true forms have an appearance similar to that of humans, but are horned, clawed, tailed, winged, and comely. They are typically slender, well toned, and are very rarely overly muscular. Due to their shapechanging abilities, they can tweak their appearances or even change them completely to suit their needs.</p>
+      <h4>SUCCUBUS NAMES</h4>
+      <p>Succubi tend to have names in the Abyssal or Infernal language, and may also take on a wide variety of pseudonyms in their interactions with other races and cultures.</p>
+      <h4>SUCCUBUS TRAITS</h4>
+      <p>Beautiful fiends who thrive on the corruption of mortal souls.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 1, and your Charisma score increases by 1.<br/>
+        <span class="feature">Age.</span>Succubi are ageless demons, typically reaching adulthood between the ages of 15 and 19 and will not die of old age.<br/>
+        <span class="feature">Alignment.</span>Due to their fiendish natures, succubi often tend toward evil alignments. Neutral or good succubi are extremely rare, but not unheard of. They have no particular tendency toward or against lawful or chaotic alignments.<br/>
+        <span class="feature">Size.</span>Succubi are shapeshifters; however, in general, they are similar in size to most other humanoid races. Your size is Medium.<br/>
+        <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+        <span class="feature">Darkvision.</span>Because you are a fiend, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+        <span class="feature">Fiendish Nature.</span>Your creature type is considered to be both Fiend and Humanoid, and you are considered to have the "Shapechanger" tag. Additionally, you are vulnerable to radiant damage.<br/>
+        <span class="feature">Shapechanger.</span>As an action, you can transform your appearance or revert to your natural form. You can't duplicate the appearance of a creature you've never seen, and you revert to your natural form if you die.<br/>
+        You decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race; you lose the flying speed granted by your wings trait if your current form does not have wings; otherwise, none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible.<br/>
+        Even to the most astute observers, your ruse is usually indiscernible. If you rouse suspicion, or if a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection of your true nature.<br/>
+        <span class="feature">Silver Tongue.</span>You have proficiency with the Persuasion skill. If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.<br/>
+        <span class="feature">Wings.</span>You have a pair of wings that give you a flying speed of 30 feet. You cannot use this fly speed if you are wearing medium or heavy armor or if your current form granted by your shapechanger trait does not have wings.<br/>
+        <span class="feature">Languages.</span>You can speak, read, and write Common and your choice of Abyssal or Infernal.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="height" modifier="2d10">4'9"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+      <set name="sourceUrl">https://www.dandwiki.com/wiki/Incubus/Succubus_(5e_Race)</set>
+    </setters>
+    <rules>      
+      <stat name="dexterity" value="1"/>
+      <stat name="charisma" value="1"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <stat name="innate speed:fly" value="30" bonus="base" equipped="![armor:medium],![armor:heavy]" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <select type="Language" supports="ID_LANGUAGE_INFERNAL|ID_LANGUAGE_ABYSSAL" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FIENDISH_NATURE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHAPECHANGER" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SILVER_TONGUE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_WINGS" />
+    </rules>
+  </element>
+
+  <element name="Fiendish Nature" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_FIENDISH_NATURE">
+    <description>
+      <p>Your creature type is considered to be both Fiend and Humanoid, and you are considered to have the "Shapechanger" tag. Additionally, you are vulnerable to radiant damage.</p>
+    </description>
+    <sheet>
+      <description>Your creature type is considered to be both Fiend and Humanoid, and you are considered to have the "Shapechanger" tag. You are also vulnerable to radiant damage.</description>
+    </sheet>
+  </element>
+  <element name="Shapechanger" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_SHAPECHANGER">
+    <description>
+      <p>As an action, you can transform your appearance or revert to your natural form. You can't duplicate the appearance of a creature you've never seen, and you revert to your natural form if you die.<br/>
+      You decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race; you lose the flying speed granted by your wings trait if your current form does not have wings; otherwise, none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible.<br/>
+      Even to the most astute observers, your ruse is usually indiscernible. If you rouse suspicion, or if a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection of your true nature.</p>
+    </description>
+    <sheet action="Action">
+      <description>You can transform your appearance or revert to your natural form. You can't duplicate the appearance of a creature you've never seen, and you revert to your natural form if you die. You decide what you look like entirely, even as a member of another race; you lose the flying speed if your current form does not have wings; otherwise, none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same, but your clothing and other equipment don't change in appearance.<br/> If a creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</description>
+    </sheet>
+  </element>
+  <element name="Wings" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_WINGS">
+    <description>
+      <p>You have a pair of wings that give you a flying speed of 30 feet. You cannot use this fly speed if you are wearing medium or heavy armor or if your current form granted by your shapechanger trait does not have wings.</p>
+    </description>
+    <sheet>
+      <description>You have a pair of wings that give you a flying speed of 30 feet. You cannot use this fly speed if you are wearing medium or heavy armor or if your current form granted by your shapechanger trait does not have wings.</description>
+    </sheet>
+  </element>
+  <element name="Silver Tongue" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_SILVER_TONGUE">
+    <description>
+      <p>You have proficiency with the Persuasion skill. If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.</p>
+    </description>
+    <sheet>
+      <description>If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION"/>
+    </rules>
+  </element>
+</elements>
