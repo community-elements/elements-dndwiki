@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Combat Medic</name>
+		<description>Combat Medic Background</description>
+		<author url="https://www.dandwiki.com/wiki/Combat_Medic_(5e_Background)">Lobo and others</author>
+		<update version="0.2.0">
+			<file name="background-combatmedic.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-combatmedic.xml" />
+		</update>
+	</info>
+
+    <element name="Combat Medic" type="Background" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_COMBAT_MEDIC">
+        <description>
+            <p>War has happened many times in your life and armies always need someone to fight, someone to help save troops that are wounded and somebody to pray with them. Your family's history has inspired you into learning the medical field and combat. You trained as a youth, studied survival techniques, studied the use of weapons and armor, and studied ways of keeping people alive. You might have been a medic for an army or a freelancer medic for mercenary companies. You're primarily responsible for providing emergency medical treatment, protection, and evacuation from a point of injury or illness. You help keep your comrades alive and fight off the enemies as well. Not only do you keep your comrades alive but you take care of them after injury and help boost moral by keeping them company, hearing their worries and giving them telling them inspirational stories from religious scripts. </p>			
+			<p>			
+				<strong>Skill Proficiencies:</strong> Medicine, Athletics<br />
+				<strong>Tool Proficiencies:</strong> Vehicle (land), Herbalism Kit <br/>
+				<strong>Equipment:</strong>  Healers kit, soap, lamp, common clothes, blanket, a roll of bandages, a pouch containing 10 gp, and an insignia denoting your role as a medic.<br/>
+            </p>
+			<h5>Speciality</h5>
+			<p>During your time as a medic, you handle your job in different ways in your unit or army. Roll a d6 or choose from the table. </p>
+			<table>
+				<thead>
+					<tr><td>d8</td><td>Specialization</td></tr>
+				</thead>
+				<tr><td>1</td><td>Surgeon</td></tr>
+				<tr><td>2</td><td>Nurse</td></tr>
+				<tr><td>3</td><td>Doctor</td></tr>
+				<tr><td>4</td><td>Battle Medic</td></tr>
+				<tr><td>5</td><td>Assistant</td></tr>
+				<tr><td>6</td><td>Supervisor</td></tr>
+			</table>
+            <div element="ID_WIKI_BACKGROUND_FEATURE_COMBAT_MEDIC_HEALTH_CARE_SPECIALIST" />
+        </description>
+        <setters>
+            <set name="sourceUrl">https://www.dandwiki.com/wiki/Combat_Medic_(5e_Background)</set>
+        </setters>
+        <rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+			<grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_COMBAT_MEDIC_HEALTH_CARE_SPECIALIST" />
+            <select name="Speciality" type="List" optional="true">
+                <item id="1">Surgeon</item>
+                <item id="2">Nurse</item>
+                <item id="3">Doctor</item>
+                <item id="4">Battle Medic</item>
+                <item id="5">Assistant</item>
+                <item id="6">Supervisor</item>
+            </select>
+            <select name="Personality Trait" type="List" number="2">
+                <item id="1">I'm respectful and polite</item>
+                <item id="2">I will never give up </item>
+                <item id="3">Danger will not stop me from helping</item>
+                <item id="4">I'm haunted by memories of people I couldn't save </item>
+                <item id="5">I enjoy fixing things </item>
+                <item id="6">I have a sense of humor... sometimes odd </item>
+                <item id="7">I have many stories of seeing serious injuries </item>
+                <item id="8">I'm quick to make new friends</item>
+            </select>
+            <select name="Ideal" type="List">
+                <item id="1">Responsibility: We will save lives no matter the cost (Lawful) </item>
+                <item id="2">Greater Good: We will sacrifice our lives if needed (Good) </item>
+                <item id="3">Independence: We are not judges, our job is to save lives (Neutral) </item>
+                <item id="4">Soldier: Sometimes to save a life, you must take a life (any) </item>
+                <item id="5">Solo: Sometimes it's not worth risking my life for yours (Evil) </item>
+                <item id="6">Judge: Listen, I'm the one who will decide if you live or not (Chaotic) </item>
+            </select>
+            <select name="Bond" type="List">
+                <item id="1">I will risk my life to save another </item>
+                <item id="2">I will never leave anyone behind </item>
+                <item id="3">The safety of my patients is my priority</item>
+                <item id="4">I fight for those who cannot defend themselves</item>
+                <item id="5">My family medical experience inspired me to save lives </item>
+                <item id="6">My job is my life</item>
+            </select>
+            <select name="Flaw" type="List">
+                <item id="1">My hesitation cost many people their life </item>
+                <item id="2">The injuries i've seen have haunted me </item>
+                <item id="3">I will never forgive the enemy, even after it's all over </item>
+                <item id="4">Sometimes I prefer to work alone </item>
+                <item id="5">I can never get along with comrades that I dislike </item>
+                <item id="6">I have no respect to anyone until they have proven themselves  </item>
+            </select>
+        </rules>
+    </element>
+    <element name="Health Care Specialist" type="Background Feature" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_FEATURE_COMBAT_MEDIC_HEALTH_CARE_SPECIALIST">
+		<supports>Background Feature</supports>
+        <description>
+            <p>You are a medical soldier and spiritual advisor, who heals the heart mind and body. Did you extract arrows or prepare healing herbal brews? Were you sent out onto a battlefield to retrieve wounded soldiers? Perhaps you had to fight to defend yourself. Either way, both sides respect and take comfort when they see your distinctive uniform coming over the battlefield towards them. Wherever you go, you are welcomed. Soldiers of all ranks and villagers alike will come to you with their wounds, illnesses, and to seek spiritual guidance (as long as similar alignment, values). If you help others, they will help you; this will provide you with contacts and allies others don't have.</p>
+            <p>In "civilized" warfare, it is often considered a war crime to attack a combat medic. </p>
+        </description>
+		<sheet alt="Health Care Specialist" />
+    </element>
+</elements>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
