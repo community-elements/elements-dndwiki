@@ -27,11 +27,13 @@
 		<!-- Backgrounds -->
 		<file name="background-adventurer.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-adventurer.xml" />
 		<file name="background-apothecary.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-apothecary.xml" />
+		<file name="background-combatmedic.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-combatmedic.xml" />
 		<file name="background-prospector.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-prospector.xml" />
 		<file name="background-islander.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-islander.xml" />
 		<file name="background-witchhunter.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-witchhunter.xml" />
 		<file name="background-bounty-hunter.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-bounty-hunter.xml" />
 
+		
 		<!-- Feats -->
 		<file name="feats.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/feats.xml" />
 
