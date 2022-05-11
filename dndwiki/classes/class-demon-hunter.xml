@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<name>Demon Hunter</name>
+		<description>The Demon Hunter class from the D&amp;D Wiki</description>
+		<author url="https://www.dandwiki.com/wiki/Demon_Hunter_(5e_Class)">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="class-demon-hunter.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-demon-hunter.xml"/>
+		</update>
+	</info>
+
+    <element name="Demon Hunter" type="Class" source="D&amp;D Wiki" id="ID_WIKI_CLASS_DEMON_HUNTER">
+        <description>
+            <p><em>"For generations, our village has had to live under the constant threat of possible invasion from demonic entities. That was until they arrived. A figure glowing with energy told us not to worry, as they would take care of the menace that we faced. Although we are unsure of what became of that individual, after they left, there hasn't been a demon sighting in these parts for years. -Yadris, Village Mayor"</em></p>
+            <p class="indent">On one normally quiet and tranquil day, a figure moves through the dried husk of a forest with a letter in hand. The charred and blacked ground crunches between their feet as they move onwards towards their target. Soon they spot their target in the distance, an impressive city with massive gray walls adorned with guard towers. As the figure approaches, the walls seem to almost crumble to dust before him as the sight of the broken and crumbled wall seem to break the figure's trance of imagining the once majestic walls that once guarded this town. Stepping inside, the figure sees burnt and dilapidated houses stretching as far as the eye can see. The figure smiles, as he notices the hulking figure of a demon covered in a multitude of boils, horns, appendages. Undeterred, the figure charges the demon ready to slay their mark. This individual is a demon hunter.</p>
+            <p class="indent">Demon hunters are individuals who have chosen to make a pact with a vengeful angel or a devil in order to exterminate demons. A demon hunter's pact can take many forms, it may be a brand on their skin, it may allow the demon hunter to glow with white or black energy, or it may even affect the very way a demon hunter thinks and speaks. Even so, through this pact, demon hunters gain the ability to harness magic as well as the power to feel the life essences of fiends and undead. Their tenacity in combat, along with their effective use of finesse and magic allows them to adapt to a variety of circumstances both in and out of combat.</p>
+            <p class="indent">Those who choose this path tend to crave battle and power, and at times, are often known to enter a trance where they kill their targets with no remorse. By choosing to become a demon hunter, these individuals have chosen to a life of killing as they know their job doesn't stop with the death of one demon, it only ends with either the extermination of all demons or their death. Many demon hunters therefore choose to travel with others, as alone, demon hunters often fall into an endless cycle of killing with no remorse.</p>
+            <h4>CREATING A DEMON HUNTER</h4>
+            <p>As you are creating a demon hunter, keep in mind how your character relates to society and why they took up monster hunting. Why are you devoted to a cause of killing demons? Why did you decide to make a deal with your patron? Was it for revenge, power, or does it serve some other purpose? Is your patron an angel or a devil? Why would your character decide to group up with others? Do you have another goal besides the killing of demon's? Typically, a demon hunter without a goal or cause is lost.</p>
+            <h5 class="caption">QUICK BUILD</h5>
+            <p>You can make a demon hunter quickly by following these suggestions. First, Strength or Dexterity should be your highest ability score followed by Wisdom then Constitution. Second, choose the Faction Agent background. Third, choose the leather armor, a rapier for the martial weapon and a shield, the arcane focus, and the dungeoneer's pack.</p>
+            <h2>CLASS FEATURES</h2>
+            <p>As a demon hunter, you gain the following class features.</p>
+            <h5 class="caption">HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d10 per demon hunter level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per demon hunter level after 1st</li>
+            </ul>
+            <h5 class="caption">PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, medium armor, shields</li>
+                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Strength, Wisdom</li>
+                <li><strong>Skills:</strong> Choose two from Acrobatics, Arcana, Athletics, History, Insight, Investigation, Medicine, Perception, Religion, Stealth, and Survival.</li>
+            </ul>
+            <h5 class="caption">EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li>(a) leather armor or (b) hide armor</li>
+                <li>(a) a martial weapon and a shield or (b) two martial weapons</li>
+                <li>(a) an arcane focus or (b) a component pouch</li>
+                <li>(a) a explorer's pack or (b) a dungeoneer's pack</li>
+            </ul>
+            <h5 class="cpation">THE DEMON HUNTER</h5>
+            <table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-60 left">Features</td><td>Cantrips Known</td><td>Spells Known</td><td>Spell Slots</td><td>Slot Level</td><td>Bonus Weapon Damage</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Pact Magic, Hunter's Bane</td><td>2</td><td>2</td><td>1</td><td>1st</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Coalesced Power, Preferred Weapons</td><td>2</td><td>3</td><td>2</td><td>1st</td><td>+2</td></tr>
+				<tr><td> 3rd</td><td class="left">Hunter Order</td><td>2</td><td>4</td><td>2</td><td>1st</td><td>+2</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>5</td><td>2</td><td>1st</td><td>+2</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack</td><td>3</td><td>6</td><td>2</td><td>2nd</td><td>+3</td></tr>
+				<tr><td> 6th</td><td class="left">Hunter's Bane Improvement</td><td>3</td><td>7</td><td>2</td><td>2nd</td><td>+3</td></tr>
+				<tr><td> 7th</td><td class="left">Hunter Order feature</td><td>3</td><td>8</td><td>2</td><td>2nd</td><td>+3</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>9</td><td>2</td><td>2nd</td><td>+4</td></tr>
+				<tr><td> 9th</td><td class="left">Gilded Eyes</td><td>3</td><td>10</td><td>2</td><td>3rd</td><td>+4</td></tr>
+				<tr><td>10th</td><td class="left">Preferred Weapons (2)</td><td>4</td><td>10</td><td>2</td><td>3rd</td><td>+4</td></tr>
+				<tr><td>11th</td><td class="left">Sheer Skill</td><td>4</td><td>11</td><td>3</td><td>3rd</td><td>+5</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>11</td><td>3</td><td>3rd</td><td>+5</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td>4</td><td>12</td><td>3</td><td>4th</td><td>+5</td></tr>
+				<tr><td>14th</td><td class="left">Hunter Order feature</td><td>4</td><td>12</td><td>3</td><td>4th</td><td>+6</td></tr>
+				<tr><td>15th</td><td class="left">Combat Style</td><td>4</td><td>13</td><td>3</td><td>4th</td><td>+6</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>13</td><td>3</td><td>4th</td><td>+6</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>+7</td></tr>
+				<tr><td>18th</td><td class="left">Hunter Order feature</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>+7</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>+7</td></tr>
+				<tr><td>20th</td><td class="left">Resilience</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>+8</td></tr>
+			</table>
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_PACT_MAGIC" />
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_HUNTERS_BANE" />
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_COALESCED_POWER" />
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_PREFERRED_WEAPONS" />
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_HUNTER_ORDER" />
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_ABILITY_SCORE_IMPROVEMENT" />
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_EXTRA_ATTACK" />
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_GILDED_EYES" />
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_SHEER_SKILL" />
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_COMBAT_STYLE" />
+                    <div element="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_RESILIENCE" />
+        </description>
+        <setters>
+            <set name="hd">d10</set>
+            <set name="short">A demon hunter is one who has made a pact with a devil or vengeful angel to exterminate demons.</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_DEMON_HUNTER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_DEMON_HUNTER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_DEMON_HUNTER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_DEMON_HUNTER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_DEMON_HUNTER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_DEMON_HUNTER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_DEMON_HUNTER" />
+            <select type="Proficiency" name="Skill Proficiency, Demon Hunter" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_DEMON_HUNTER" />
+
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_PACT_MAGIC" level="1" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_HUNTERS_BANE" level="1" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_COALESCED_POWER" level="2" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_PREFERRED_WEAPONS" level="2" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_HUNTER_ORDER" level="3" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_EXTRA_ATTACK" level="5" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_GILDED_EYES" level="9" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_SHEER_SKILL" level="11" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_COMBAT_STYLE" level="15" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_RESILIENCE" level="20" />
+        </rules>
+        <multiclass id="ID_CUSTOM_DANDWIKI_MULTICLASS_DEMON_HUNTER">
+			<prerequisite>Strength 13 or Dexterity 13 and Wisdom 13</prerequisite>
+			<requirements>([str:13]||[dex:13],[wis:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, medium armor, simple weapons, martial weapons</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			</rules>
+		</multiclass>
+    </element>
+    <element name="Pact Magic" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_PACT_MAGIC">
+		<description>
+		<p>At 1st level, your arcane research and the magic bestowed on you by your angelic or devil patron have given you facility with spells.</p>
+			<h5>CANTRIPS</h5>
+			<p>You know the eldritch blast cantrip and one other cantrip of your choice from the demon hunter spell list. If you already know the eldritch blast cantrip, you instead learn two other cantrips of your choice from the demon hunter spell list. You learn additional cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Demon Hunter table.</p>
+			<h5>SPELL SLOTS</h5>
+			<p>The Demon Hunter table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your demon hunter spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>
+			<p class="indent">For example, when you are 5th level, you have two 2nd-level spell slots. To cast the 1st-level spell hellish rebuke, you must spend one of those slots, and you cast it as a 2nd-level spell.</p>
+			<h5>SPELLS KNOWN OF 1ST LEVEL AND HIGHER</h5>
+			<p>At 1st level, you know two 1st-level spells of your choice from the demon hunter spell list.</p>
+            <p class="indent">The Spells Known column of the Demon Hunter table shows when you learn more demon hunter spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 9th level, for example, you learn a new demon hunter spell, which can be 1st, 2nd, or 3rd level.</p>
+            <p class="indent">Additionally, when you gain a level in this class, you can choose one of the demon hunter spells you know and replace it with another spell from the demon hunter spell list, which also must be of a level for which you have spell slots.</p>
+            <h5>SPELLCASTING ABILITY</h5>
+            <p>Wisdom is your spellcasting ability for your demon hunter spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a demon hunter spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+			<h5>SPELLCASTING FOCUS</h5>
+			<p>You can use an arcane focus as a spellcasting focus for your demon hunter spells.</p>
+		</description>
+		<sheet display="false">
+			<description>Your arcane research and the magic bestowed on you by your angelic or devil patron have given you facility with spells.</description>
+		</sheet>
+		<spellcasting name="Demon Hunter" ability="Wisdom" allowReplace="true">
+			<list>DNDWIKI_DEMON_HUNTER</list>
+		</spellcasting>
+		<rules>
+			<!-- add not full but single _not counting as multiclass spellcaster due to pact magic -->
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+
+			<stat name="demon hunter:spellcasting:slots:count" value="1" level="1"/>
+			<stat name="demon hunter:spellcasting:slots:count" value="1" level="2"/>
+			<stat name="demon hunter:spellcasting:slots:count" value="1" level="11"/>
+			<stat name="demon hunter:spellcasting:slots:count" value="1" level="17"/>
+
+			<stat name="demon hunter:spellcasting:slot" value="1" level="1" />
+			<stat name="demon hunter:spellcasting:slot" value="1" level="5" />
+			<stat name="demon hunter:spellcasting:slot" value="1" level="9" />
+			<stat name="demon hunter:spellcasting:slot" value="1" level="13" />
+			<stat name="demon hunter:spellcasting:slot" value="1" level="17" />
+
+			<!-- negative count to remove slots -->
+			<stat name="demon hunter:spellcasting:slots:1" value="demon hunter:spellcasting:slots:count" level="1" />
+			<stat name="demon hunter:spellcasting:slots:1" value="-demon hunter:spellcasting:slots:count" level="5" />
+			<stat name="demon hunter:spellcasting:slots:2" value="demon hunter:spellcasting:slots:count" level="5" />
+			<stat name="demon hunter:spellcasting:slots:2" value="-demon hunter:spellcasting:slots:count" level="9" />
+			<stat name="demon hunter:spellcasting:slots:3" value="demon hunter:spellcasting:slots:count" level="9" />
+			<stat name="demon hunter:spellcasting:slots:3" value="-demon hunter:spellcasting:slots:count" level="13" />
+			<stat name="demon hunter:spellcasting:slots:4" value="demon hunter:spellcasting:slots:count" level="13" />
+			<stat name="demon hunter:spellcasting:slots:4" value="-demon hunter:spellcasting:slots:count" level="17" />
+			<stat name="demon hunter:spellcasting:slots:5" value="demon hunter:spellcasting:slots:count" level="17" />
+
+			<select type="Spell" name="Cantrip (Demon Hunter)" supports="$(spellcasting:list),0" level="1" number="2" spellcasting="Demon Hunter" />
+			<select type="Spell" name="Cantrip (Demon Hunter)" supports="$(spellcasting:list),0" level="4" spellcasting="Demon Hunter" />
+			<select type="Spell" name="Cantrip (Demon Hunter)" supports="$(spellcasting:list),0" level="10" spellcasting="Demon Hunter" />
+
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Demon Hunter"/>
+			<select type="Spell" name="Spellcasting (Demon Hunter)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Demon Hunter"/>
+		</rules>
+	</element>
+    <element name="Hunter's Bane" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_HUNTERS_BANE">
+		<description>
+		    <p>Beginning 1st level, you have advantage on Wisdom (Survival) checks to track undead and fiends, as well as on Intelligence checks to recall information about them. Upon reaching 6th level, you have advantage on Wisdom (Insight) checks and Wisdom saving throws against undead and fiends.</p>
+		</description>
+        <sheet>
+			<description>You have advantage on Wisdom (Survival) checks to track undead and fiends, as well as on Intelligence checks to recall information about them.</description>
+        </sheet>
+    </element>
+    <element name="Coalesced Power" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_COALESCED_POWER">
+		<description>
+			<p>Beginning at 2nd level, when you cast <em>eldritch blast</em>, you may add your Wisdom modifier to the damage it deals on a hit if you do not already add an ability modifier to the spell's damage.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+			</div>
+		</description>
+		<sheet>
+			<description>When you cast eldritch blast, add {{coalesced power:damage}} to the damage it deals on a hit.</description>
+		</sheet>
+		<rules>
+			<stat name="coalesced power:damage" value="wisdom:modifier" bonus="base" />
+		</rules>
+	</element>
+    <element name="Preferred Weapons" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_PREFERRED_WEAPONS">
+        <description>
+            <p>Beginning at 2nd level, you have trained for years with two weapons of your choice that have become your preferred weapons. Choose a martial melee weapon and a martial ranged weapon. You have a +2 bonus to damage rolls with these weapons. The amount of bonus damage increases as you gain levels, as shown in the Bonus Weapon Damage column of the Demon Hunter table.</p>
+            <p class="indent">At 10th level, you may also choose another martial melee weapon and martial ranged weapon to also gain this benefit.</p>
+        </description>
+        <sheet>
+            <description>When you attack with a chosen preferred weapon, add {{preferred weapon:damage}} to the damage it deals on a hit.</description>
+        </sheet>
+        <rules>
+            <stat name="preferred weapon:damage" value="2" level="2"/>
+            <stat name="preferred weapon:damage" value="3" level="5"/>
+            <stat name="preferred weapon:damage" value="4" level="8"/>
+            <stat name="preferred weapon:damage" value="5" level="11"/>
+            <stat name="preferred weapon:damage" value="6" level="14"/>
+            <stat name="preferred weapon:damage" value="7" level="17"/>
+            <stat name="preferred weapon:damage" value="8" level="20"/>
+            <select type="Class Feature" name="Preferred Melee Weapon 1" supports="ID_AW_OOTD_CLASS_FEATURE_CHAKRAM|ID_WOTC_WGTE_CLASS_FEATURE_DOUBLE_BLADED_SCIMITAR|ID_WOTC_ERLW_CLASS_FEATURE_DOUBLE_BLADED_SCIMITAR|ID_WOTC_PHB_CLASS_FEATURE_BATTLEAXE|ID_WOTC_PHB_CLASS_FEATURE_FLAIL|ID_WOTC_PHB_CLASS_FEATURE_GLAIVE|ID_WOTC_PHB_CLASS_FEATURE_GREATAXE|ID_WOTC_PHB_CLASS_FEATURE_GREATSWORD|ID_WOTC_PHB_CLASS_FEATURE_HALBERD|ID_WOTC_PHB_CLASS_FEATURE_LANCE|ID_WOTC_PHB_CLASS_FEATURE_LONGSWORD|ID_WOTC_PHB_CLASS_FEATURE_MAUL|ID_WOTC_PHB_CLASS_FEATURE_MORNINGSTAR|ID_WOTC_PHB_CLASS_FEATURE_PIKE|ID_WOTC_PHB_CLASS_FEATURE_RAPIER|ID_WOTC_PHB_CLASS_FEATURE_SCIMITAR|ID_WOTC_PHB_CLASS_FEATURE_SHORTSWORD|ID_WOTC_PHB_CLASS_FEATURE_TRIDENT|ID_WOTC_PHB_CLASS_FEATURE_WAR_PICK|ID_WOTC_PHB_CLASS_FEATURE_WARHAMMER|ID_WOTC_PHB_CLASS_FEATURE_WHIP" level="2" number="1"/>
+            <select type="Class Feature" name="Preferred Ranged Weapon 1" supports="ID_WOTC_PHB_CLASS_FEATURE_BLOWGUN|ID_WOTC_PHB_CLASS_FEATURE_CROSSBOW_HAND|ID_WOTC_PHB_CLASS_FEATURE_CROSSBOW_HEAVY|ID_WOTC_PHB_CLASS_FEATURE_LONGBOW|ID_WOTC_PHB_CLASS_FEATURE_NET|ID_DMSG_MUSG_CLASS_FEATURE_LASSO" level="2" number="1"/>
+            <select type="Class Feature" name="Preferred Melee Weapon 2" supports="ID_AW_OOTD_CLASS_FEATURE_CHAKRAM|ID_WOTC_WGTE_CLASS_FEATURE_DOUBLE_BLADED_SCIMITAR|ID_WOTC_ERLW_CLASS_FEATURE_DOUBLE_BLADED_SCIMITAR|ID_WOTC_PHB_CLASS_FEATURE_BATTLEAXE|ID_WOTC_PHB_CLASS_FEATURE_FLAIL|ID_WOTC_PHB_CLASS_FEATURE_GLAIVE|ID_WOTC_PHB_CLASS_FEATURE_GREATAXE|ID_WOTC_PHB_CLASS_FEATURE_GREATSWORD|ID_WOTC_PHB_CLASS_FEATURE_HALBERD|ID_WOTC_PHB_CLASS_FEATURE_LANCE|ID_WOTC_PHB_CLASS_FEATURE_LONGSWORD|ID_WOTC_PHB_CLASS_FEATURE_MAUL|ID_WOTC_PHB_CLASS_FEATURE_MORNINGSTAR|ID_WOTC_PHB_CLASS_FEATURE_PIKE|ID_WOTC_PHB_CLASS_FEATURE_RAPIER|ID_WOTC_PHB_CLASS_FEATURE_SCIMITAR|ID_WOTC_PHB_CLASS_FEATURE_SHORTSWORD|ID_WOTC_PHB_CLASS_FEATURE_TRIDENT|ID_WOTC_PHB_CLASS_FEATURE_WAR_PICK|ID_WOTC_PHB_CLASS_FEATURE_WARHAMMER|ID_WOTC_PHB_CLASS_FEATURE_WHIP" level="10" number="1"/>
+            <select type="Class Feature" name="Preferred Ranged Weapon 2" supports="ID_WOTC_PHB_CLASS_FEATURE_BLOWGUN|ID_WOTC_PHB_CLASS_FEATURE_CROSSBOW_HAND|ID_WOTC_PHB_CLASS_FEATURE_CROSSBOW_HEAVY|ID_WOTC_PHB_CLASS_FEATURE_LONGBOW|ID_WOTC_PHB_CLASS_FEATURE_NET|ID_DMSG_MUSG_CLASS_FEATURE_LASSO" level="10" number="1"/>
+        </rules>
+    </element>
+    <element name="Hunter Order" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_HUNTER_ORDER">
+		<description>
+			<p>Beginning at 3rd level, you choose a subclass that you emulate in the exercise of your hunter abilities: Deathblade, Power Fiend, or Arcane Devastator, all detailed at the end of the class description. Your subclass choice grants you features at 3rd level and again at levels 7th, 14th, and 18th.</p>
+		</description>
+		<sheet display="false">
+			<description>You choose a subclass that you emulate in the exercise of your hunter abilities.</description>
+		</sheet>
+		<rules>
+			<select type="Archetype" name="Hunter Order" supports="Hunter Order" />
+		</rules>
+	</element>
+    <element name="Ability Score Improvement" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_ABILITY_SCORE_IMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+		<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option, Demon Hunter, 4" level="4" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option, Demon Hunter, 8" level="8" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option, Demon Hunter, 12" level="12" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option, Demon Hunter, 16" level="16" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option, Demon Hunter, 19" level="19" />
+		</rules>
+	</element>
+    <element name="Extra Attack" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+    <element name="Gilded Eyes" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_GILDED_EYES">
+		<description>
+			<p>Beginning at 9th level, you gain darkvision for 60 feet. If you already have darkvision, the range is instead increased by an additional 30 feet.</p>
+		</description>
+		<sheet>
+			<description>You gain darkvision for 60 feet. If you already have darkvision, the range is instead increased by an additional 30 feet.</description>
+		</sheet>
+	</element>
+    <element name="Sheer Skill" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_SHEER_SKILL">
+		<description>
+			<p>Starting at 11th level, before the results of a roll have been announced, you may add 1d6 to any roll you make. You may not use Sheer Skill more than once on any roll you make. You may use this feature an amount of times equal to your proficiency bonus and you regain all uses of this feature after you finish a short or long rest.</p>
+		</description>
+		<sheet>
+			<description>Before the results of a roll have been announced, you may add 1d6 to any roll you make. You may not use Sheer Skill more than once on any roll you make. You may use this feature an amount of times equal to your proficiency bonus and you regain all uses of this feature after you finish a short or long rest.</description>
+		</sheet>
+	</element>
+    <element name="Combat Style" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_COMBAT_STYLE">
+		<description>
+			<p>Beginning at 15th level, you may choose a combat style that emphasizes your specialty in combat.</p>
+			<h5 class="caption">DEXTROUS EVADER</h5>
+			<p>Through practice, you have learned how to anticipate upcoming attacks in order to dodge them. You may take a specialized Dodge action as a bonus action, which gives you the effects of the Dodge action and advantage on Dexterity saving throws until the start of your next turn. You may use this feature a number of times equal to your half your Dexterity modifier rounded up (minimum of one), and you regain all uses of this feature after you finish a long rest.</p>
+			<h5 class="caption">PRECISION CASTER</h5>
+			<p>You have focused all your training efforts into learning how to properly connect with your spells and cantrips. You have a +1 bonus to your spell attack rolls and spell save DC.</p>
+			<h5 class="caption">SPECIALIZED HUNTER</h5>
+			<p>You have spent ages learning how to effectively kill your hated enemies. You have advantage on your first weapon attack roll each turn when targeting a demon or undead, and deal additional damage equal to your proficiency bonus on that attack.</p>
+			<h5 class="caption">SPEEDY HANDS</h5>
+			<p>You have trained your hands at the point of mastery at handling of crossbows. You ignore the loading property of crossbows with which you are proficient and being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls with crossbows.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Combat Style" supports="ID_CUSTOM_DANDWIKI_DEMON_HUNTER_COMBAT_STYLE_DEXTROUS_EVADER|ID_CUSTOM_DANDWIKI_DEMON_HUNTER_COMBAT_STYLE_PRECISION_CASTER|ID_CUSTOM_DANDWIKI_DEMON_HUNTER_COMBAT_STYLE_SPECIALIZED_HUNTER|ID_CUSTOM_DANDWIKI_DEMON_HUNTER_COMBAT_STYLE_SPEEDY_HANDS" number="1" />
+		</rules>
+	</element>
+	<element name="Dextrous Evader" type="Class Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_DEMON_HUNTER_COMBAT_STYLE_DEXTROUS_EVADER">
+		<description>
+			<p>Through practice, you have learned how to anticipate upcoming attacks in order to dodge them. You may take a specialized Dodge action as a bonus action, which gives you the effects of the Dodge action and advantage on Dexterity saving throws until the start of your next turn. You may use this feature a number of times equal to your half your Dexterity modifier rounded up (minimum of one), and you regain all uses of this feature after you finish a long rest.</p>
+		</description>
+		<sheet usage="dexterity:modifier:half:up/Long Rest">
+			<description>You may take a specialized Dodge action as a bonus action, which gives you the effects of the Dodge action and advantage on Dexterity saving throws until the start of your next turn. You may use this feature a number of times equal to your half your Dexterity modifier rounded up (minimum of one), and you regain all uses of this feature after you finish a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Precision Caster" type="Class Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_DEMON_HUNTER_COMBAT_STYLE_PRECISION_CASTER">
+		<description>
+			<p>You have focused all your training efforts into learning how to properly connect with your spells and cantrips. You have a +1 bonus to your spell attack rolls and spell save DC.</p>
+		</description>
+		<sheet>
+			<description>You have a +1 bonus to your spell attack rolls and spell save DC.</description>
+		</sheet>
+	</element>
+	<element name="Specialized Hunter" type="Class Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_DEMON_HUNTER_COMBAT_STYLE_SPECIALIZED_HUNTER">
+		<description>
+			<p>You have spent ages learning how to effectively kill your hated enemies. You have advantage on your first weapon attack roll each turn when targeting a demon or undead, and deal additional damage equal to your proficiency bonus on that attack.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on your first weapon attack roll each turn when targeting a demon or undead, and deal additional damage equal to your proficiency bonus on that attack.</description>
+		</sheet>
+	</element>
+	<element name="Speedy Hands" type="Class Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_DEMON_HUNTER_COMBAT_STYLE_SPEEDY_HANDS">
+		<description>
+			<p>You have trained your hands at the point of mastery at handling of crossbows. You ignore the loading property of crossbows with which you are proficient and being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls with crossbows.</p>
+		</description>
+		<sheet>
+			<description>You ignore the loading property of crossbows with which you are proficient and being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls with crossbows.</description>
+		</sheet>
+	</element>
+    <element name="Resilience" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_DEMON_HUNTER_RESILIENCE">
+		<description>
+			<p>Beginning at 20th level, you attain the pinnacle of resilience on battle. If you have no more than half your hit points left, as a bonus action, you can spend up to two hit dice to heal yourself for an amount of hit points equal to amount rolled + your Constitution modifier for each hit die rolled. You can not use this feature if you have 0 hit points.</p>
+		</description>
+		<sheet>
+			<description>You attain the pinnacle of resilience on battle. If you have no more than half your hit points left, as a bonus action, you can spend up to two hit dice to heal yourself for an amount of hit points equal to amount rolled + your Constitution modifier for each hit die rolled. You can not use this feature if you have 0 hit points.</description>
+		</sheet>
+	</element>
+    <element name="Deathblade" type="Archetype" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_DEMON_HUNTER_DEATHBLADE">
+		<supports>Hunter Order</supports>
+		<description>
+			<p>Deathblade demon hunters who adhere to this path are no strangers to the grimmer parts of their job as demon hunters. Due to the strain of the job, some of these individuals lose themselves over time, becoming more and more immersed with death as time goes by. In exchange, they receive the powers of the grim art of death, allowing them to quickly bring death to others while forestalling the death of their friends.</p>
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_DEATHS_DOOR" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_FLEETING_STEP" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_GRIM_SAGE" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_DEATHS_DOCTOR" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_QUICK_DASH" />
+            <div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_CONTROL_OVER_DEATH" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_DEATHS_DOOR" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_FLEETING_STEP" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_GRIM_SAGE" level="7" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_DEATHS_DOCTOR" level="7" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_QUICK_DASH" level="14" />
+            <grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_CONTROL_OVER_DEATH" level="18" />
+		</rules>
+	</element>
+    <element name="Death's Door" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_DEATHS_DOOR">
+        <description>
+            <p>Beginning at 3rd level, you have accepted death as a natural part of life for all creatures except yourself. If you succeed on a death saving throw, you may regain 1 hit point. Once you use this ability, you can not use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>You have accepted death as a natural part of life for all creatures except yourself. If you succeed on a death saving throw, you may regain 1 hit point.</description>
+        </sheet>
+    </element>
+    <element name="Fleeting Step" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_FLEETING_STEP">
+        <description>
+            <p>Beginning at 3rd level, your speed and evasiveness have reached new levels. Your base walking speed is increased by 5 feet, and may take the Disengage action as a bonus action.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>You may take the Disengage action as a bonus action.</description>
+        </sheet>
+        <rules>
+            <stat name="demon hunter:fleeting step" value="5" bonus="fleeting step" level="3" />
+
+            <stat name="innate speed:misc" value="demon hunter:fleeting step" bonus="fleeting step" requirements="[innate speed:1]" />
+        </rules>
+    </element>
+    <element name="Grim Sage" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_GRIM_SAGE">
+        <description>
+            <p>At 7th level, your experience instills you with what you need to act cunning in combat. You may add your Wisdom modifier to your initiative rolls.</p>
+        </description>
+        <sheet>
+            <description>Your experience instills you with what you need to act cunning in combat. You may add your Wisdom modifier to your initiative rolls.</description>
+        </sheet>
+    </element>
+    <element name="Death's Doctor" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_DEATHS_DOCTOR">
+        <description>
+            <p>Beginning at 7th level, your knowledge of death limits exemplified. You have advantage on Wisdom (Medicine) checks to stabilize creatures and you may attempt to stabilize a creature as a bonus action.</p>
+        </description>
+        <sheet>
+            <description>Your knowledge of death limits exemplified. You have advantage on Wisdom (Medicine) checks to stabilize creatures and you may attempt to stabilize a creature as a bonus action.</description>
+        </sheet>
+    </element>
+    <element name="Quick Dash" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_QUICK_DASH">
+        <description>
+            <p>Beginning at 14th level, you know how to quickly bound towards other creatures and make a quick strike against them. As a bonus action, you may move 15 feet in a direction and make a weapon attack against a creature within range. You may use this feature a number of times equal to your proficiency bonus and you regain all uses of this feature at the end of a long rest.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>You know how to quickly bound towards other creatures and make a quick strike against them. As a bonus action, you may move 15 feet in a direction and make a weapon attack against a creature within range.</description>
+        </sheet>
+    </element>
+    <element name="Control Over Death" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_CONTROL_OVER_DEATH">
+        <description>
+            <p>Beginning at 18th level, you have learned how to effectively stop death. As an action, you may bind a creature's soul to your current plane as long as the creature is within 60ft of you. You may choose to target a living creature or you may target a creature that has not been dead for more than 1 round(6 seconds). If the creature was living, until the start of your next turn, that creature can not be killed or knocked unconscious. If the target would take damage that knocks them unconscious, they instead remain conscious at 1 hit point. If the target was recently slain, you return that creature to life with 50 hit points and with 0 failed death saving throws. Once you use this feature, you may not use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>You have learned how to effectively stop death. As an action, you may bind a creature's soul to your current plane as long as the creature is within 60ft of you. You may choose to target a living creature or you may target a creature that has not been dead for more than 1 round(6 seconds). If the creature was living, until the start of your next turn, that creature can not be killed or knocked unconscious. If the target would take damage that knocks them unconscious, they instead remain conscious at 1 hit point. If the target was recently slain, you return that creature to life with 50 hit points and with 0 failed death saving throws.</description>
+        </sheet>
+    </element>
+    <element name="Power Fiend" type="Archetype" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_DEMON_HUNTER_POWER_FIEND">
+		<supports>Hunter Order</supports>
+		<description>
+			<p>Some demon hunters believe that without sufficient power and durability they stand no chance against the very demons they swore to slay. As such, these individuals choose to become Power Fiends allowing them to harness power akin to that of the very creatures they swore to destroy. However, no matter the threats they face, from rampaging demons and hordes of elementals to towering giants and terrifying dragons, Power Fiends will face them head on to act as the bulwark between civilization and the terrors of the Abyss.</p>
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_HARDENED_BODY" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_WEATHERED" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_PROTECTION_PACT" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_FURY" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_SUPREME_FORTITUDE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_HARDENED_BODY" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_WEATHERED" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_PROTECTION_PACT" level="7" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_FURY" level="14" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_SUPREME_FORTITUDE" level="18" />
+		</rules>
+	</element>
+    <element name="Hardened Body" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_HARDENED_BODY">
+        <description>
+            <p>Beginning at 3rd level, your body becomes hardened to the effects of battle. Bludgeoning, piercing, and slashing damage that you take is reduced by 2 (damage reduction is before resistance). This amount increases by 1 at 5th level, 11th level, and 17th level.</p>
+        </description>
+        <sheet>
+            <description>Your body becomes hardened to the effects of battle. Bludgeoning, piercing, and slashing damage that you take is reduced by {{demon hunter:hardened body}} (damage reduction is before resistance).</description>
+        </sheet>
+        <rules>
+            <stat name="demon hunter:hardened body" value="2" level="3" />
+            <stat name="demon hunter:hardened body" value="3" level="5" />
+            <stat name="demon hunter:hardened body" value="4" level="11" />
+            <stat name="demon hunter:hardened body" value="5" level="17" />
+        </rules>
+    </element>
+    <element name="Weathered" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_WEATHERED">
+        <description>
+            <p>Beginning at 3rd level, you have advantage on Constitution saving throws against extreme weather.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Constitution saving throws against extreme weather.</description>
+        </sheet>
+    </element>
+    <element name="Protection Pact" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_PROTECTION_PACT">
+        <description>
+            <p>Beginning at 7th level, your pact with the fiendish entity now grants you some degree of protection. You are now considered to be under the effects of nondetection at all times and may not be moved or teleported by a magical effect without your consent.</p>
+        </description>
+        <sheet>
+            <description>Your pact with the fiendish entity now grants you some degree of protection. You are now considered to be under the effects of nondetection at all times and may not be moved or teleported by a magical effect without your consent.</description>
+        </sheet>
+    </element>
+    <element name="Fury" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_FURY">
+        <description>
+            <p>Beginning at 14th level, you have learned how to put your full might behind your attacks. As a bonus action you may enter a state of all out aggression for 1 minute. Your first weapon attack that hits each turn deals additional damage equal to your proficiency bonus. However, while in this state, you have disadvantage on Wisdom and Intelligence saving throws. Once you use this feature, you may not use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="1/Short or Long Rest">
+            <description>You have learned how to put your full might behind your attacks. As a bonus action you may enter a state of all out aggression for 1 minute. Your first weapon attack that hits each turn deals additional damage equal to your proficiency bonus. However, while in this state, you have disadvantage on Wisdom and Intelligence saving throws. Once you use this feature, you may not use it again until you finish a short or long rest.</description>
+        </sheet>
+    </element>
+    <element name="Supreme Fortitude" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_SUPREME_FORTITUDE">
+        <description>
+            <p>Beginning at 18th level, after being hit by an attack and taking damage, you may make a reaction to make it so that no damage is done. You may use this feature twice and you regain all uses of this feature after you finish a long rest.</p>
+        </description>
+        <sheet usage="2/Long Rest">
+            <description>After being hit by an attack and taking damage, you may make a reaction to make it so that no damage is done. You may use this feature twice and you regain all uses of this feature after you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Arcane Devastator" type="Archetype" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_DEMON_HUNTER_ARCANE_DEVASTATOR">
+		<supports>Hunter Order</supports>
+		<description>
+			<p>Arcane Devastators could simply be described as those who want an abundance of magical power to destroy their enemies, but that would be a bit too simple. Although they can not cast as many spells as traditional spellcasters, these individuals still try their hardest to manipulate magic in whatever way they can to their betterment. In the end though, how each Arcane Devastator deals with their limitations on magic, is what determines who succeeds and who fails.</p>
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_FLEXIBLE_SPELL_LIST" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_WELL_LEARNED" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_MAGIC_GUIDANCE" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_ENHANCED_SPELLCASTING" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_WELL_OF_MAGIC" />
+            <div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_MAGIC_PACT" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_FLEXIBLE_SPELL_LIST" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_WELL_LEARNED" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_MAGIC_GUIDANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_ENHANCED_SPELLCASTING" level="7" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_WELL_OF_MAGIC" level="14" />
+            <grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_MAGIC_PACT" level="18" />
+		</rules>
+	</element>
+     <element name="Flexible Spell List" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_FLEXIBLE_SPELL_LIST">
+        <description>
+            <p>Beginning at 3rd level, whenever you finish a long rest, you can choose one of the demon hunter spells you know and replace it with another spell from the demon hunter spell list, which also must be of a level for which you have spell slots.</p>
+        </description>
+        <sheet>
+            <description>Whenever you finish a long rest, you can choose one of the demon hunter spells you know and replace it with another spell from the demon hunter spell list, which also must be of a level for which you have spell slots.</description>
+        </sheet>
+    </element>
+    <element name="Well Learned" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_WELL_LEARNED">
+        <description>
+            <p>Beginning at 3rd level, you gain proficiency in the History or Arcana skill, and if you already have proficiency in it, your proficiency bonus is doubled for any check you make using it.</p>
+        </description>
+        <sheet>
+            <description>You gain proficiency in the History or Arcana skill, and if you already have proficiency in it, your proficiency bonus is doubled for any check you make using it.</description>
+        </sheet>
+        <rules>
+             <select type="Proficiency" name="Skill Proficiency, Arcane Devastator" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY" number="1" />
+        </rules>
+    </element>
+    <element name="Magic Guidance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_MAGIC_GUIDANCE">
+        <description>
+            <p>Beginning at 3rd level, when you make an ability check or a saving throw and have disadvantage on the roll, you can cancel the disadvantage for that roll. Alternatively, before you make an ability check or a saving throw, you may add your proficiency bonus to the roll regardless of whether you are proficiency in the check or not. Once you use this feature, you may not use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>When you make an ability check or a saving throw and have disadvantage on the roll, you can cancel the disadvantage for that roll. Alternatively, before you make an ability check or a saving throw, you may add your proficiency bonus to the roll regardless of whether you are proficiency in the check or not. Once you use this feature, you may not use it again until you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Enhanced Spellcasting" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_ENHANCED_SPELLCASTING">
+        <description>
+            <p>Beginning at 7th level, when you cast a spell that deals damage, you deal 1 additional point of damage per damage die. This bonus damage is the same damage type as the damage from the spell.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell that deals damage, you deal 1 additional point of damage per damage die. This bonus damage is the same damage type as the damage from the spell.</description>
+        </sheet>
+    </element>
+    <element name="Well of Magic" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_WELL_OF_MAGIC">
+        <description>
+            <p>Beginning at 14th level, you have learned how to reach into your inner most depths of your pact for more magic. You gain an additional demon hunter spell slot.</p>
+        </description>
+        <sheet>
+            <description>You have learned how to reach into your inner most depths of your pact for more magic. You gain an additional demon hunter spell slot.</description>
+        </sheet>
+        <rules>
+            <stat name="demon hunter:spellcasting:slots:count" value="1" level="14"/>
+        </rules>
+    </element>
+    <element name="Magic Pact" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_DEMON_HUNTER_MAGIC_PACT">
+        <description>
+            <p>Beginning at 18th level, your pact can now further enhance your spellcasting capabilities. You may cast any 5th level or lower spell from the demon hunter spell list once. Once you use this feature, you may not use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>Your pact can now further enhance your spellcasting capabilities. You may cast any 5th level or lower spell from the demon hunter spell list once. Once you use this feature, you may not use it again until you finish a long rest.</description>
+        </sheet>
+    </element>
+
+    <append id="ID_XGTE_SPELL_CREATE_BONFIRE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DANCING_LIGHTS">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_ELDRITCH_BLAST">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_SCAG_SPELL_GREEN_FLAME_BLADE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_LIGHT">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_MAGE_HAND">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_MENDING">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_MESSAGE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_MINOR_ILLUSION">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_PRESTIDIGITATION">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_RAY_OF_FROST">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_ARMS_OF_HADAR">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_XGTE_SPELL_CAUSE_FEAR">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_CHARM_PERSON">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_COLOR_SPRAY">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_COMPREHEND_LANGUAGES">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DETECT_MAGIC">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DISGUISE_SELF">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_ENTANGLE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_FAERIE_FIRE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_FEATHER_FALL">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_FOG_CLOUD">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_HELLISH_REBUKE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_HEX">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_IDENTIFY">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_LONGSTRIDER">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_ALTER_SELF">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_ARCANE_LOCK">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_BLINDNESS_DEAFNESS">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_BLUR">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_CLOUD_OF_DAGGERS">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DARKNESS">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DETECT_THOUGHTS">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_ENHANCE_ABILITY">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_HEAT_METAL">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_HOLD_PERSON">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_INVISIBILITY">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_LEVITATE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_LOCATE_OBJECT">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_MIRROR_IMAGE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_MISTY_STEP">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_PHANTASMAL_FORCE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_SEE_INVISIBILITY">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_SUGGESTION">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_WEB">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_BLINK">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_CLAIRVOYANCE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_COUNTERSPELL">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DAYLIGHT">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DISPEL_MAGIC">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_FEAR">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_GLYPH_OF_WARDING">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_HYPNOTIC_PATTERN">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_MAGIC_CIRCLE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_MAJOR_IMAGE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_XGTE_SPELL_MELFS_MINUTE_METEORS">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_NONDETECTION">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_REMOVE_CURSE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_SENDING">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_SLEET_STORM">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_SPEAK_WITH_DEAD">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_STINKING_CLOUD">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_TONGUES">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_WATER_BREATHING">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_WIND_WALL">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_ARCANE_EYE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_BANISHMENT">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_BLIGHT">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_COMPULSION">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_CONFUSION">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_CONTROL_WATER">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DIMENSION_DOOR">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DIVINATION">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_GREATER_INVISIBILITY">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_ICE_STORM">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_LOCATE_CREATURE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_WALL_OF_FIRE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_CONE_OF_COLD">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DOMINATE_PERSON">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DREAM">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_CONTACT_OTHER_PLANE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOO">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_GEAS">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_HOLD_MONSTER">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_INSECT_PLAGUE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_LEGEND_LORE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_MODIFY_MEMORY">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_SCRYING">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_SEEMING">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_TELEKINESIS">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_TELEPORTATION_CIRCLE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+    <append id="ID_PHB_SPELL_WALL_OF_FORCE">
+		<supports>DNDWIKI_DEMON_HUNTER</supports>
+	</append>
+
+	<element name="Chakram" type="Class Feature" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_CLASS_FEATURE_CHAKRAM">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_CHAKRAM</supports>
+		<description>
+			<p>This bladed circular disc is an unusual thrown weapon. It glides through the air, slicing through anything in its path. Warriors who specialize with the chakram can learn to throw it in such a way that it returns to them after cutting the enemy.</p>
+			<div element="ID_AW_OOTD_WEAPON_PROPERTY_SPECIAL_CHAKRAM" />
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">60/120</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_AW_OOTD_WEAPON_PROFICIENCY_CHAKRAM</set>
+		</setters>
+	</element>
+	<element name="Double-Bladed Scimitar" type="Class Feature" source="Wayfinder’s Guide to Eberron" id="ID_WOTC_WGTE_CLASS_FEATURE_DOUBLE_BLADED_SCIMITAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_WOTC_WGTE_INTERNAL_WEAPON_PROPERTY_SPECIAL_DOUBLE_BLADED_SCIMITAR</supports>
+		<description>
+			<p>The double scimitar is the signature weapon of Valenar elves. A haft of fine wood supports a long blade on either end. Forged with techniques honed over tens of thousands of years, these blades are strong, sharp, and remarkably light. Each scimitar is a masterpiece, and as a result the double scimitar is an expensive weapon, but few people ever have an opportunity to purchase one. If you’re an elf, your blade could have a long and storied history. If you’re not an elf, you might have stolen the weapon from a fallen foe or received it from a dying Valenar ally. If you work with your DM to create the story behind your double scimitar, you can start with the weapon at 1st level in place of a martial weapon normally granted by your class. However, it can be dangerous for a non-elf to carry a double scimitar. Valenar may demand its return or challenge you to prove that you’re worthy to wield it.</p>
+			<div element="ID_WOTC_WGTE_INTERNAL_WEAPON_PROPERTY_SPECIAL_DOUBLE_BLADED_SCIMITAR" />
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">2d4</set>
+			<set name="proficiency">ID_WOTC_WGTE_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR</set>
+		</setters>
+	</element>
+	<element name="Double-Bladed Scimitar" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_DOUBLE_BLADED_SCIMITAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_WOTC_ERLW_INTERNAL_WEAPON_PROPERTY_SPECIAL_DOUBLE_BLADED_SCIMITAR</supports>
+		<description>
+			<p>The double-bladed scimitar is the signature weapon of Valenar elves. A haft of fine wood supports a long, curving blade on either end. Forged with techniques honed over centuries, these blades are strong, sharp, and remarkably light.</p>
+			<div element="ID_WOTC_ERLW_INTERNAL_WEAPON_PROPERTY_SPECIAL_DOUBLE_BLADED_SCIMITAR" />
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">2d4</set>
+			<set name="proficiency">ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR</set>
+		</setters>
+	</element>
+	<element name="Battleaxe" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BATTLEAXE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE</set>
+		</setters>
+	</element>
+	<element name="Flail" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FLAIL">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="bludgeoning">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL</set>
+		</setters>
+	</element>
+	<element name="Glaive" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_GLAIVE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE</set>
+		</setters>
+	</element>
+	<element name="Greataxe" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_GREATAXE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">30</set>
+			<set name="weight" lb="7">7 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">1d12</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE</set>
+		</setters>
+	</element>
+	<element name="Greatsword" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_GREATSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">2d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD</set>
+		</setters>
+	</element>
+	<element name="Halberd" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_HALBERD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD</set>
+		</setters>
+	</element>
+	<element name="Lance" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_LANCE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_LANCE</supports>
+		<description>
+			<p></p>
+			<div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_LANCE" />
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d12</set>
+			<set name="versatile">1d12</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE</set>
+		</setters>
+	</element>
+	<element name="Longsword" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_LONGSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
+		</setters>
+	</element>
+	<element name="Maul" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_MAUL">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_MAULS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="bludgeoning">2d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL</set>
+		</setters>
+	</element>
+	<element name="Morningstar" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_MORNINGSTAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR</set>
+		</setters>
+	</element>
+	<element name="Pike" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_PIKE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="18">18 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="piercing"> 1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE</set>
+		</setters>
+	</element>
+	<element name="Rapier" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_RAPIER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+		</setters>
+	</element>
+	<element name="Scimitar" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SCIMITAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR</set>
+		</setters>
+	</element>
+	<element name="Shortsword" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SHORTSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
+		</setters>
+	</element>
+	<element name="Trident" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_TRIDENT">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="versatile">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT</set>
+		</setters>
+	</element>
+	<element name="War Pick" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WAR_PICK">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK</set>
+		</setters>
+	</element>
+	<element name="Warhammer" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARHAMMER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="bludgeoning">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
+		</setters>
+	</element>
+	<element name="Whip" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WHIP">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP</set>
+		</setters>
+	</element>
+	<element name="Blowgun" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BLOWGUN">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">25/100</set>
+			<set name="damage" type="piercing">1</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN</set>
+		</setters>
+	</element>
+	<element name="Crossbow, Hand" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_CROSSBOW_HAND">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_DAMAGE_TYPE_PIERCING,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_LIGHT,ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/120</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND</set>
+		</setters>
+	</element>
+	<element name="Crossbow, Heavy" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_CROSSBOW_HEAVY">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="18">18 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">100/400</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY</set>
+		</setters>
+	</element>
+	<element name="Longbow" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_LONGBOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">150/600</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW</set>
+		</setters>
+	</element>
+	<element name="Net" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_NET">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_NET, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p></p>
+			<div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_NET" />
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">5/15</set>
+			<set name="damage">—</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_NET</set>
+		</setters>
+	</element>
+	<element name="Lasso" type="Class Feature" source="Mirt’s Undermountain Survival Guide" id="ID_DMSG_MUSG_CLASS_FEATURE_LASSO">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_DMSG_MUSG_WEAPON_PROPERTY_SPECIAL_LASSO</supports>
+		<description>
+			<p>An ordinary rope may be turned into a lasso.</p>
+			<p>A Large or smaller creature hit by a lasso is Restrained until it is freed. A lasso has no effect on creatures that are formless, or creatures that are Huge or larger. Treat a completely stationary target as having AC 10.</p>
+            <p class="indent">A creature caught by a lasso can use its action to make a DC 10 Dexterity check, freeing itself or another creature within its reach on a success. Dealing 3 slashing damage to the lasso (AC 10) also frees the creature without harming it, ending the effect and turning the lasso into a cut rope.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">10/20</set>
+			<!-- <set name="damage" type=""></set> -->
+			<set name="proficiency">ID_DMSG_MUSG_WEAPON_PROFICIENCY_LASSO</set>
+		</setters>
+	</element>
+</elements>
