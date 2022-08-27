@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Weapons from D&amp;D Wiki</name>
-        <description>5E Homebrew weapons from D&amp;D Wiki</description>
-        <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
-        <update version="0.1.3">
-            <file name="items-weapons.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/items/items-weapons.xml" />
-        </update>
+		<name>Items: Weapons</name>
+		<description>Weapons from D&amp;D Wiki</description>
+		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
+		<update version="0.1.4">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/items/items-weapons.xml" />
+		</update>
 	</info>
+
+	<!-- Katana, its variation, and proficiency, created by "Jaini" with contributions from "Marasmusine"; elements created by: NickVendel on 29 Jan 2019 -->
 	<element name="Katana" type="Weapon" source="D&amp;D Wiki" id="ID_WIKI_WEAPON_KATANA">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p>In some cultures this strong, single-edged sword is a symbol of honor and prestige. The katana is intended for two-handed use, but it's light enough to be wielded one-handed. </p>
 		</description>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/wiki/Katana_(5e_Equipment)</set>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">15</set>
 			<set name="weight" lb="3">3 lb.</set>
@@ -22,49 +23,63 @@
 			<set name="damage" type="slashing">1d8</set>
 			<set name="versatile">1d10</set>
 			<set name="proficiency">ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Katana_(5e_Equipment)&amp;oldid=1106763</set>
 		</setters>
 	</element>
+
 	<element name="Katana, Finesse" type="Weapon" source="D&amp;D Wiki" id="ID_WIKI_WEAPON_LIGHT_KATANA">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p>Historically, katana widely varied in size and weight. If you would prefer a katana that emphasizes fast, precise cuts, then you can choose this variation instead. </p>
 		</description>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/wiki/Katana_(5e_Equipment)</set>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">15</set>
 			<set name="weight" lb="2">2 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="slashing">1d8</set>
 			<set name="proficiency">ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Katana_(5e_Equipment)&amp;oldid=1106763</set>
 		</setters>
 	</element>
+
 	<element name="Weapon Proficiency (Katana)" type="Proficiency" source="D&amp;D Wiki" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_KATANA">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Katana_(5e_Equipment)&amp;oldid=1106763</set>
+		</setters>
 	</element>
+
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
 		<rules>
 			<grant type="Proficiency" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
 		</rules>
 	</append>
+
+	<!-- Scythe and its proficiency, created by "Jaini" with contributions from "ConcealedLight"; elements created by: NickVendel on 9 Feb 2019 -->
 	<element name="Scythe" type="Weapon" source="D&amp;D Wiki" id="ID_WIKI_WEAPON_SCYTHE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
 		<description>
 			<p>This weapon is inspired by the common farming implement used to cut swaths of grown hay, but it has a straight handle and a heavier blade. Despite its humble origins, the scythe is recognized as a symbol of death in many cultures because of its use in reaping. Rather than being too heavy for most smaller creatures, the scythe is too long for Small sized creatures to wield effectively. </p>
 		</description>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/wiki/Scythe_(5e_Equipment)</set>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">20</set>
 			<set name="weight" lb="4">4 lb.</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">2d4</set>
 			<set name="proficiency">ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Scythe_(5e_Equipment)&amp;oldid=1053337</set>
 		</setters>
 	</element>
+
 	<element name="Weapon Proficiency (Scythe)" type="Proficiency" source="D&amp;D Wiki" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Scythe_(5e_Equipment)&amp;oldid=1053337</set>
+		</setters>
 	</element>
+
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
 		<rules>
 			<grant type="Proficiency" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />

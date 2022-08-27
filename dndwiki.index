@@ -4,47 +4,50 @@
 		<name>D&amp;D Wiki</name>
 		<description>The 5e homebrew content from the D&amp;D Wiki website.</description>
 		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="dndwiki.index" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki.index" />
 		</update>
 	</info>
 	<files>
-		<!-- Races -->
-		<file name="race-dryad.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-dryad.xml" />
-		<file name="race-homunculus.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-homunculus.xml" />
-		<file name="subrace-firebearddwarf.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-firebearddwarf.xml" />
-		<file name="subrace-runedwarf.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-runedwarf.xml" />
-		<file name="race-sprite.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-sprite.xml" />
-		<obselete name="race-concubus.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-concubus.xml" />
-		<file name="race-succubus.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-succubus.xml" />
-		
-		<!-- Classes -->
-		<file name="class-necromancer.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-necromancer.xml" />
-		<file name="class-weapon-master.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-weapon-master.xml" />
-
-		<!-- Archetype -->
-		<file name="sorcerer-arcane-origin.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/sorcerer-arcane-origin.xml" />
-		<file name="druid-claw.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/druid-claw.xml" />
-
 		<!-- Backgrounds -->
 		<file name="background-adventurer.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-adventurer.xml" />
 		<file name="background-apothecary.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-apothecary.xml" />
-		<file name="background-prospector.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-prospector.xml" />
-		<file name="background-islander.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-islander.xml" />
-		<file name="background-witchhunter.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-witchhunter.xml" />
 		<file name="background-bounty-hunter.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-bounty-hunter.xml" />
+		<file name="background-islander.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-islander.xml" />
+		<file name="background-prospector.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-prospector.xml" />
+		<file name="background-witch-hunter.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-witch-hunter.xml" />
+
+		<!-- Classes & Archetypes -->
+		<file name="class-necromancer.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-necromancer.xml" />
+		<file name="class-weapon-master.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-weapon-master.xml" />
+		<file name="druid-claw.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/druid-claw.xml" />
+		<file name="sorcerer-arcane-origin.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/sorcerer-arcane-origin.xml" />
+
+		<!-- Items -->
+		<file name="items-tools.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/items/items-tools.xml" />
+		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/items/items-weapons.xml" />
+
+		<!-- Races -->
+		<file name="race-dryad.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-dryad.xml" />
+		<file name="race-homunculus.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-homunculus.xml" />
+		<file name="race-sprite.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-sprite.xml" />
+		<file name="race-succubus.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-succubus.xml" />
+		<file name="subrace-dwarf-firebeard.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-dwarf-firebeard.xml" />
+		<file name="subrace-dwarf-rune.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-dwarf-rune.xml" />
 
 		<!-- Feats -->
 		<file name="feats.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/feats.xml" />
 
+		<!-- Source -->
+		<file name="source.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/source.xml" />
+
 		<!-- Spells -->
 		<file name="spells.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/spells.xml" />
 
-		<!-- Items -->
-		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/items/items-weapons.xml" />
-
-		<!-- Sources -->
-		<file name="sources.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/sources.xml" />
-
+		<!-- Obsoleted Files (delete after 6 months) -->
+		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/sources.xml" />
+		<obsolete name="background-witchhunter.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-witchhunter.xml" />
+		<obsolete name="subrace-firebearddwarf.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-firebearddwarf.xml" />
+		<obsolete name="subrace-runedwarf.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-runedwarf.xml" />
 	</files>
 </index>

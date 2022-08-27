@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<!-- file is created by: swdriessen
+		date of file creation: 12 Feb 2018 -->
+		<name>Rune Dwarf</name>
+		<description>The Rune Dwarf Subrace from the D&amp;D Wiki, created by user "Azernath", with minor contributions from other users.</description>
+		<author url="https://www.dandwiki.com/w/index.php?title=Rune_Dwarf_(5e_Subrace)&amp;oldid=1074080">D&amp;D Wiki</author>
+		<update version="0.0.4">
+			<file name="subrace-dwarf-rune.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-dwarf-rune.xml" />
+		</update>
+	</info>
+
+	<element name="Rune Dwarf" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_DWARF_RUNE">
+		<supports>Dwarf</supports>
+		<description>
+			<p>Rune dwarfs, also known as Ruhn Kadan (meaning sons of rune/or rune son) are Dwarfs gifted by the gods with the mark of rune. This gift passes from son to son during birth; granting each and every one of them an uncanny resistance against magic, to a certain limit. However, these same runes limit the dwarfs to have difficulty while casting greater spells, forcing them to commit to a more direct way of combat.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Charisma score increases by 1.<br/>
+				<span class="feature">Runic Protection.</span>You have advantage on saving throws against spells of a level equal to or lower than your Charisma modifier; however, you have disadvantage on attack rolls when casting a spell of a higher level than your Charisma modifier.<br/>
+			</p>
+		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Rune_Dwarf_(5e_Subrace)&amp;oldid=1074080</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Rune Dwarf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_RUNE_DWARF_RUNIC_PROTECTION" />
+		</rules>
+	</element>
+	
+	<element name="Runic Protection" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_RUNE_DWARF_RUNIC_PROTECTION">
+		<description>
+			<p>You have advantage on saving throws against spells of a level equal to or lower than your Charisma modifier; however, you have disadvantage on attack rolls when casting a spell of a higher level than your Charisma modifier.</p>
+		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Rune_Dwarf_(5e_Subrace)&amp;oldid=1074080</set>
+		</setters>
+		<sheet>
+			<description>You have advantage on saving throws against spells of a level equal to or lower than {{charisma:modifier}}; however, you have disadvantage on attack rolls when casting a spell of a higher level than {{charisma:modifier}}.</description>
+		</sheet>
+	</element>
+</elements>

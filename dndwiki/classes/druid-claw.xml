@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Circle of the Claw</name>
-		<description>The Druid Circle of the Claw from the D&amp;D Wiki.</description>
-		<author url="https://www.dandwiki.com/w/index.php?title=Circle_of_the_Claw_(5e_Subclass)&amp;oldid=1156015">Wolferty</author>
-		<update version="0.0.2">
+		<!-- file is created by: NickVendel
+		date of file creation: 8 Sep 2019 -->
+		<name>Circle of the Claw Subclass</name>
+		<description>The Circle of the Claw Druid Subclass from the D&amp;D Wiki, created by user "Wolferty", with contributions from users "WeirdoWhoever" and "70.65.180.86".</description>
+		<author url="https://www.dandwiki.com/w/index.php?title=Circle_of_the_Claw_(5e_Subclass)&amp;oldid=1156015">D&amp;D Wiki</author>
+		<update version="0.0.3">
 			<file name="druid-claw.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/druid-claw.xml" />
 		</update>
 	</info>
@@ -19,6 +21,9 @@
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_CIRCLE_CLAW_MONSTROUS_WILD_SHAPE" />
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_CIRCLE_CLAW_MASTER_OF_THE_CLAW" />
 		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Circle_of_the_Claw_(5e_Subclass)&amp;oldid=1156015</set>
+		</setters>
 		<sheet>
 			<description>The Circle of the Claw has a focus on the use of beast form, and stronger forms of it instead of spells.</description>
 		</sheet>
@@ -33,18 +38,24 @@
 
 	<element name="Deft Wild Shape" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_CIRCLE_CLAW_DEFT_WILD_SHAPE">
 		<description>
-			<p>The druid has improved control over the bestial forms which allows them to keep their Dexterity modifier instead of their Charisma modifier, as well as use of finesse while in beast form. Also, they have access to a greater form of wild shape which allows them to stay in their forms indefinitely, only ending the form if it is reduced to 0 hit points. When the form ends, they can not go back into a form unless they succeeds on a DC 15 Constitution check. They can freely enter a form again after a long rest. </p>
+			<p>The druid has improved control over the bestial forms which allows them to keep their Dexterity modifier instead of their Charisma modifier, as well as use of finesse while in beast form. Also, they have access to a greater form of wild shape which allows them to stay in their forms indefinitely, only ending the form if it is reduced to 0 hit points. When the form ends, they can not go back into a form unless they succeeds on a DC 15 Constitution check. They can freely enter a form again after a long rest.</p>
 		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Circle_of_the_Claw_(5e_Subclass)&amp;oldid=1156015</set>
+		</setters>
 		<sheet>
-			<description>The druid's bestial forms allow them to keep their Dexterity modifier instead of their Charisma modifier, as well as use of finesse while in beast form. they can also stay in their forms indefinitely, only ending the form if it is reduced to 0 hit points. When the form ends, they can not go back into a form unless they succeeds on a DC 15 Constitution check.</description>
+			<description>The druid's bestial forms allow them to keep their Dexterity modifier instead of their Charisma modifier, as well as use of finesse while in beast form. They can also stay in their forms indefinitely, only ending the form if it is reduced to 0 hit points. After form is lost, you have to succeed on a DC 15 Constitution check to enter it again until you take a long rest.</description>
 		</sheet>
-		<rules />
 	</element>
+
 	<element name="Circle Forms" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_CIRCLE_CLAW_CIRCLE_FORMS">
 		<description>
 			<p>The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).</p>
 			<p class="indent">Starting at 4th level, you can transform into a beast with a challenge rating as high as your druid level divided by 2, rounded up. </p>
 		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Circle_of_the_Claw_(5e_Subclass)&amp;oldid=1156015</set>
+		</setters>
 		<sheet>
 			<description>You can use your Wild Shape to transform into a beast with a challenge rating as high as {{circle:form challenge:rating}} (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).</description>
 		</sheet>
@@ -53,31 +64,50 @@
 			<stat name="circle:form challenge:rating" value="level:druid:half:up" bonus="Base" level="4"/>
 		</rules>
 	</element>
+
 	<element name="Primal Strike" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_CIRCLE_CLAW_PRIMAL_STRIKE">
 		<description>
 			<p>Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
 			<p class="indent">Additionally, while you are in the beast shape from your Wild Shape class feature, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Circle_of_the_Claw_(5e_Subclass)&amp;oldid=1156015</set>
+		</setters>
 		<sheet>
 			<description>You can attack twice in beast form and your attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical damage.</description>
 		</sheet>
-		<rules />
 	</element>
+
 	<element name="Monstrous Wild Shape" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_CIRCLE_CLAW_MONSTROUS_WILD_SHAPE">
 		<description>
 			<p>By 10th level, you can expend two charges of your Wild Shape class feature to transform into a monstrosity of appropriate challenge rating.</p>
 		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Circle_of_the_Claw_(5e_Subclass)&amp;oldid=1156015</set>
+		</setters>
 		<sheet>
 			<description>You can expend two charges of your Wild Shape class feature to transform into a monstrosity of appropriate challenge rating.</description>
 		</sheet>
-		<rules />
 	</element>
+
 	<element name="Master of the Claw" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_CIRCLE_CLAW_MASTER_OF_THE_CLAW">
 		<description>
 			<p>At 14th level, you can cast the <i>animal friendship</i> and <i>speak with animals</i> at will, as a 1st-level spells. You can also cast the <i>enhance ability</i> spell at will on yourself, as a 2nd-level spell.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ANIMAL_FRIENDSHIP" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ENHANCE_ABILITY" />
+			</div>
 		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Circle_of_the_Claw_(5e_Subclass)&amp;oldid=1156015</set>
+		</setters>
 		<sheet>
-			<description>You can cast the <i>animal friendship</i>, <i>speak with animals</i> at will, as a 1st-level spells. And <i>enhance ability</i> spell at will on yourself, as a 2nd-level spell.</description>
+			<description>You can cast the animal friendship and speak with animals spells at will, as a 1st-level spells. And enhance ability spell at will on yourself, as a 2nd-level spell.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP" />
