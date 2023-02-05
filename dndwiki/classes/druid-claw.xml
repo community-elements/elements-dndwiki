@@ -60,8 +60,8 @@
 			<description>You can use your Wild Shape to transform into a beast with a challenge rating as high as {{circle:form challenge:rating}} (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).</description>
 		</sheet>
 		<rules>
-			<stat name="circle:form challenge:rating" value="1" bonus="Base" level="2"/>
-			<stat name="circle:form challenge:rating" value="level:druid:half:up" bonus="Base" level="4"/>
+			<stat name="circle:form challenge:rating" value="1" level="2" bonus="base" />
+			<stat name="circle:form challenge:rating" value="level:druid:half:up" level="4" bonus="base" />
 		</rules>
 	</element>
 

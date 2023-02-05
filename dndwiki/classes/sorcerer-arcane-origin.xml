@@ -106,7 +106,7 @@
 			<p>At 18th level your harmful spells grow more powerful, capable of extreme destruction upon those you wish it on. Whenever you roll for the damage dealt by a spell, you may spend any number of sorcery points to re-roll a number of damage die. Spending one sorcery point allows you to re-roll up to two damage die. You can re-roll the damage dice for ongoing effects, such as the <i>wall of fire</i> spell, when a creature takes damage from it, and from instantaneous effects at the time of casting. </p>
 		</description>
 		<sheet>
-			<description>Whenever you roll for the damage dealt by a spell, you may spend any number of sorcery points to re-roll a number of damage die. Spending one sorcery point allows you to re-roll up to two damage die. You can re-roll the damage dice for ongoing effects, such as the <i>wall of fire</i> spell, when a creature takes damage from it, and from instantaneous effects at the time of casting.</description>
+			<description>Whenever you roll for the damage dealt by a spell, you may spend any number of sorcery points to re-roll a number of damage die. Spending one sorcery point allows you to re-roll up to two damage dice. You can re-roll the damage dice for ongoing effects, such as the <i>wall of fire</i> spell, when a creature takes damage from it, and from instantaneous effects at the time of casting.</description>
 		</sheet>
 	  	<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Arcane_Origin_(5e_Subclass)&amp;oldid=1086754</set>

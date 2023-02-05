@@ -194,9 +194,7 @@
 		<description>
 			<p>At 3rd level, you choose the path that you walk as a Weapon master. Choose Combat Mastery, Tactic Mastery, or Evasive Mastery all detailed at the end of the class description. The pathway you choose grant you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</p>
 		</description>
-		<sheet>
-			<description></description>
-		</sheet>
+		<sheet display="false" />
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Martial_Archetype</set>
 		</setters>
@@ -226,10 +224,7 @@
 		<description>
 			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the attack action on your turn. The number of attacks increases to three when you reach 17th level in this class.</p>
 		</description>
-		<sheet>
-			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
-			<description level="17">You can attack three times, instead of twice, whenever you take the Attack action on your turn.</description>
-		</sheet>
+		<sheet display="false" />
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Extra_Attack</set>
 		</setters>
@@ -256,7 +251,7 @@
 			<p>At 9th level, you become extremely hard to fight due to your uncanny stance. When a creature you can see or hear attacks you, you can use your reaction to make attacks from that creature roll with disadvantage when attacking you. If the creature misses an attack against you, in the same reaction you can counter attack, making one melee attack against that creature. You can use this feature a number of times equal to your Dexterity modifier(minimum 1) and regain uses of this feature when you finish a long rest.</p>
 		</description>
 		<sheet action="Reaction" usage="{{flawless stance:uses}}/Long Rest">
-			<description>When a creature you can see or hear attacks you, you can use your reaction to make attacks from that creature roll with disadvantage when attacking you. If the creature misses an attack against you, in the same reaction you can counter attack, making one melee attack against that creature.</description>
+			<description>When a creature you can see or hear attacks you, you can give that creature disadvantage on attacks against you. If the creature misses an attack against you, as part of the reaction you can counter attack, making one melee attack against that creature.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Flawless_Stance</set>
@@ -296,7 +291,7 @@
 	<element name="Combat Mastery" type="Archetype" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_WEAPON_MASTER_COMBAT_MASTERY">
 		<supports>Weapon Master Martial Archetypes</supports>
 		<description>
-			<p>The Combat Mastery archetype specialises in combat techniques of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows in combat.</p>
+			<p>The Combat Mastery archetype specializes in combat techniques of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows in combat.</p>
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_COMBAT_MASTERY_MARTIAL_PROWESS" />
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_COMBAT_MASTERY_COMBAT_PROWESS" />
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_COMBAT_MASTERY_FURY" />
@@ -307,7 +302,7 @@
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Combat_Mastery</set>
 		</setters>
 		<sheet>
-			<description>The Combat Mastery archetype specialises in combat techniques of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows in combat.</description>
+			<description>The Combat Mastery archetype specializes in combat techniques of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows in combat.</description>
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_WIKI_ARCHETYPE_FEATURE_COMBAT_MASTERY_MARTIAL_PROWESS" level="3" />
@@ -322,11 +317,9 @@
 		<description>
 			<p>Starting at 3rd level, you can add half your proficiency bonus (rounded up) to any Strength or Dexterity based skill check you make that doesn’t already use your proficiency bonus.</p>
 		</description>
-		<sheet display="false">
-			<description>You can add half your proficiency bonus (rounded up) to any Strength or Dexterity based skill check you make that doesn’t already use your proficiency bonus.</description>
-		</sheet>
+		<sheet display="false" />
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Martial_Prowess</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Combat_Mastery</set>
 		</setters>
 		<rules>
 			<stat name="acrobatics:misc" value="proficiency:half:up" requirements="!ID_PROFICIENCY_SKILL_ACROBATICS" />
@@ -341,10 +334,10 @@
 			<p>At 7th level, when you miss a weapon attack, you can choose to make it a hit instead. Once you use this feature you can’t use it again until you finish a long rest.</p>
 		</description>
 		<sheet usage="1/Long Rest">
-			<description>When you miss a weapon attack, you can choose to make it a hit instead.</description>
+			<description>When you miss a weapon attack, you can choose to hit instead.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Combat_Prowess</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Combat_Mastery</set>
 		</setters>
 	</element>
 
@@ -356,7 +349,7 @@
 			<description>When you make a weapon attack with your favored weapon and roll the highest possible number on any of the dice on the damage roll, roll an additional die of the same type for each highest possible number. Do not roll additional dice again if the additional dice result in a highest possible roll.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Fury</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Combat_Mastery</set>
 		</setters>
 	</element>
 
@@ -365,10 +358,10 @@
 			<p>At 15th level, you may now make a spinning attack on all attackers within five feet of you as an action. You have to roll a separate attack roll for each of the enemies.</p>
 		</description>
 		<sheet action="Action">
-			<description>You make a spinning attack on all attackers within five feet of you. You have to roll a separate attack roll for each of the enemies.</description>
+			<description>You can attack any number of creatures within 5 feet of you, rolling separately for each target.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Whirlwind_Attack</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Combat_Mastery</set>
 		</setters>
 	</element>
 
@@ -380,7 +373,7 @@
 			<description>You can spend a hit dice to heal yourself equal to hit die + {{constitution:modifier}} if you have no more than half of your hit points left. You can not use this feature if you have 0 hit points.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Survivor</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Combat_Mastery</set>
 		</setters>
 	</element>
 
@@ -414,11 +407,11 @@
 		<description>
 			<p>Starting at 3rd level, when you make an attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack with advantage.</p>
 		</description>
-		<sheet>
-			<description>When you make an attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack with advantage.</description>
+		<sheet action="Bonus Action">
+			<description>When you make an attack action on your turn, you can forgo one of your attacks to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack with advantage.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Natural_Leader</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Tactic_Mastery</set>
 		</setters>
 	</element>
 
@@ -426,15 +419,17 @@
 		<description>
 			<p>At 7th level, you can use your reaction in combat to parry an attack. Once per turn, you can choose to parry one melee weapon attack against you as long as you aren’t surprised or the creature attacking you doesn’t have advantage against you. The damage of the attack from that creature is reduced by half your current weapon master level rounded down + your Dexterity modifier.</p>
 		</description>
-		<sheet action="Reaction">
-			<description>Once per turn, you can choose to parry one melee weapon attack against you as long as you aren’t surprised or the creature attacking you doesn’t have advantage against you. The damage of the attack from that creature is reduced by {{parry:damage reduction}}.</description>
+		<sheet action="Reaction" usage="1/Turn">
+			<description>You can choose to parry one melee weapon attack against you as long as you aren’t surprised or the creature attacking you doesn’t have advantage against you. The damage of the attack is reduced by {{parry:damage reduction}}.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Parry</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Tactic_Mastery</set>
 		</setters>
 		<rules>
-			<stat name="parry:damage reduction" value="level:weapon master:half" />
-			<stat name="parry:damage reduction" value="dexterity:modifier" />
+			<stat name="parry:damage reduction:level" value="level:weapon master:half" bonus="base"/>
+			<stat name="parry:damage reduction:ability" value="dexterity:modifier" bonus="base"/>
+			<stat name="parry:damage reduction" value="parry:damage reduction:level" />
+			<stat name="parry:damage reduction" value="parry:damage reduction:ability" />
 		</rules>
 	</element>
 
@@ -446,7 +441,7 @@
 			<description>When you take the Help action, you may Help a separate target as a bonus action.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Helper</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Tactic_Mastery</set>
 		</setters>
 	</element>
 
@@ -458,7 +453,7 @@
 			<description>When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Multiattack_Defence</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Tactic_Mastery</set>
 		</setters>
 	</element>
 
@@ -470,7 +465,7 @@
 			<description>If you observing or interacting with another creature within 60ft of you, you can spend an action and a bonus action to learn its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regards to the following characteristics; Strength score, Dexterity score, Constitution score, Armor class, current hit points, and total class level or CR.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Know_Your_Enemy</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Tactic_Mastery</set>
 		</setters>
 	</element>
 
@@ -508,7 +503,7 @@
 			<description>You can use the Dash or Disengage actions as a bonus action.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Wind_Walker</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Evasive_Mastery</set>
 		</setters>
 	</element>
 
@@ -521,7 +516,7 @@
 			<description>Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical terrain without being slowed by it and without taking damage from it if they have thorns, spines, or a similar hazard. And you have advantage on saving throws that use magic to impede movement.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Land.27s_Stride</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Evasive_Mastery</set>
 		</setters>
 	</element>
 
@@ -533,20 +528,23 @@
 			<description>When you are subjected to an effect, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Evasion</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Evasive_Mastery</set>
 		</setters>
 	</element>
 
 	<element name="Mobility" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_EVASIVE_MASTERY_MOBILITY">
 		<description>
-			<p>From 15th level, when a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</p>
+			<p>Beginning at 15th level, your movement speed is increased by 5 feet. You may also take the dodge action as a bonus action. You regain use of this feature after you finish a short or long rest.</p>
 		</description>
-		<sheet>
-			<description>When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</description>
+		<sheet action="Bonus Action" usage="1/Rest">
+			<description>You use the Dodge action.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Mobility</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Evasive_Mastery</set>
 		</setters>
+		<rules>
+			<stat name="speed:misc" value="5" />
+		</rules>
 	</element>
 
 	<element name="Hawk's Eye" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_EVASIVE_MASTERY_HAWKS_EYE">
@@ -558,7 +556,7 @@
 			<description>You gain advantage on any Dexterity saving throws from magic.</description>
 		</sheet>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Hawk.27s_Eye</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Evasive_Mastery</set>
 		</setters>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERCEPTION" />
