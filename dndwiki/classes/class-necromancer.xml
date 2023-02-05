@@ -213,20 +213,21 @@
 
 	<element name="Life Tap" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_NECROMANCER_LIFE_TAP">
 		<description>
-			<p>Starting at 1st level, your touch can siphon the life force of others to bolster your own. As an action, you can make a melee spell attack against a living creature, dealing necrotic damage equal to 1d8 + your Charisma modifier on a hit. You gain temporary hit points equal to the amount of necrotic damage dealt. If this feature kills the creature, you gain twice as many temporary hit points from using this feature. The damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8). You may use this feature a number of times equal to your Charisma modifier(minimum one) and you regain all uses of this feature at the end of a long rest.</p>
+			<p>Starting at 1st level, your touch can siphon the life force of others to bolster your own. As an action, you can make a melee spell attack against a living creature, dealing necrotic damage equal to 1d8 + your Charisma modifier on a hit. You gain temporary hit points equal to the amount of necrotic damage dealt. If this feature kills the creature, you gain twice as many temporary hit points from using this feature. The damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8). You may use this feature a number of times equal to your Charisma modifier (minimum of one) and you regain all uses of this feature at the end of a long rest.</p>
 		</description>
-		<sheet>
-			<description>{{life tap:count}}/long rest. As an action, you can make a melee spell attack against a living creature, dealing necrotic damage equal to 1d8 + your Charisma modifier on a hit. You gain temporary hit points equal to the amount of necrotic damage dealt. If this feature kills the creature, you gain twice as many temporary hit points from using this feature.</description>
-			<description level="5">{{life tap:count}}/long rest. As an action, you can make a melee spell attack against a living creature, dealing necrotic damage equal to 2d8 + your Charisma modifier on a hit. You gain temporary hit points equal to the amount of necrotic damage dealt. If this feature kills the creature, you gain twice as many temporary hit points from using this feature. </description>
-			<description level="11">{{life tap:count}}/long rest. As an action, you can make a melee spell attack against a living creature, dealing necrotic damage equal to 3d8 + your Charisma modifier on a hit. You gain temporary hit points equal to the amount of necrotic damage dealt. If this feature kills the creature, you gain twice as many temporary hit points from using this feature.</description>
-			<description level="17">{{life tap:count}}/long rest. As an action, you can make a melee spell attack against a living creature, dealing necrotic damage equal to 4d8 + your Charisma modifier on a hit. You gain temporary hit points equal to the amount of necrotic damage dealt. If this feature kills the creature, you gain twice as many temporary hit points from using this feature.</description>
+		<sheet action="Action" usage="{{life tap:count}}/Long Rest">
+			<description>You can make a melee spell attack against a living creature, dealing necrotic damage equal to {{life tap:damage:dice}}d8 + your Charisma modifier on a hit. You gain temporary hit points equal to the amount of necrotic damage dealt. If this feature kills the creature, you gain twice as many temporary hit points from using this feature.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Life_Tap</set>
 		</setters>
 		<rules>
-			<stat name="life tap:count" value="1" bonus="life tap" />
-			<stat name="life tap:count" value="charisma:modifier" bonus="life tap" />
+			<stat name="life tap:count" value="1" bonus="base" />
+			<stat name="life tap:count" value="charisma:modifier" bonus="base" />
+			<stat name="life tap:damage:dice" value="1" bonus="base" />
+			<stat name="life tap:damage:dice" value="2" level="5" bonus="base" />
+			<stat name="life tap:damage:dice" value="3" level="11" bonus="base" />
+			<stat name="life tap:damage:dice" value="4" level="17" bonus="base" />
 		</rules>
 	</element>
 
@@ -275,6 +276,9 @@
 	<element name="Spontaneous Unburial" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_NECROMANCER_SPONTANEOUS_UNBURIAL">
 		<description>
 			<p>Starting at 5th level, your understanding of necrotic and negative energies allows you to raise the dead with ease. You may cast the spell <i>animate dead</i> as an action and you do not require a corpse or pile of bones to do so; the skeleton or zombie will claw its way up from underground and acts on your next turn. In addition, you learn the spell <i>animate dead</i>. This spell does not count against your number of spells known.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ANIMATE_DEAD" />
+			</div>
 		</description>
 		<sheet>
 			<description>You may cast the spell <i>animate dead</i> as an action and you do not require a corpse or pile of bones to do so; the skeleton or zombie will claw its way up from underground and acts on your next turn.</description>
@@ -293,14 +297,17 @@
 			<p class="indent">At level 11, you may animate a monstrosity, humanoid or beast with a challenge rating of 6 or lower.</p>
 			<p class="indent">At level 15, you may animate a monstrosity, humanoid or beast with a challenge rating of 9 or lower. In addition, a major undead now lasts until its hit points are reduced to 0.</p>
 		</description>
-		<sheet>
-			<description>1/long rest. You can now raise any corpse that is Huge or smaller of a monstrosity, humanoid, or beast with challenge rating 3 or lower can be animated. It keeps its original abilities and attacks, but loses any resistances, immunities, legendary actions, senses it had and gains the immunities and vulnerabilities of its type, skeleton or zombie. You can only control one major undead at a time. This feature functions as the spell <i>animate dead</i> except where otherwise noted. You may use this feature on an existing undead you control to reassert your control over it. </description>
-			<description level="11">1/long rest. You can now raise any corpse that is Huge or smaller of a monstrosity, humanoid, or beast with challenge rating 6 or lower can be animated. It keeps its original abilities and attacks, but loses any resistances, immunities, legendary actions, senses it had and gains the immunities and vulnerabilities of its type, skeleton or zombie. You can only control one major undead at a time. This feature functions as the spell <i>animate dead</i> except where otherwise noted. You may use this feature on an existing undead you control to reassert your control over it. </description>
-			<description level="15">1/long rest. You can now raise any corpse that is Huge or smaller of a monstrosity, humanoid, or beast with challenge rating 9 or lower can be animated. It keeps its original abilities and attacks, but loses any resistances, immunities, legendary actions, senses it had and gains the immunities and vulnerabilities of its type, skeleton or zombie. You can only control one major undead at a time. This feature functions as the spell <i>animate dead</i> except where otherwise noted. You may use this feature on an existing undead you control to reassert your control over it. In addition, a major undead now lasts until its hit points are reduced to 0. </description>
+		<sheet usage="1/Long Rest">
+			<description>You can now raise any corpse that is Huge or smaller of a monstrosity, humanoid, or beast with challenge rating {{animate major undead:cr}} or lower can be animated. It keeps its original abilities and attacks, but loses any resistances, immunities, legendary actions, senses it had and gains the immunities and vulnerabilities of its type, skeleton or zombie. You can only control one major undead at a time. This feature functions as the spell <i>animate dead</i> except where otherwise noted. You may use this feature on an existing undead you control to reassert your control over it. </description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Animate_Major_Undead</set>
 		</setters>
+		<rules>
+			<stat name="animate major undead:cr" value="3" bonus="base" />
+			<stat name="animate major undead:cr" value="6" level="11" bonus="base" />
+			<stat name="animate major undead:cr" value="9" level="15" bonus="base" />
+		</rules>
 	</element>
 
 	<element name="Ritualistic Unburial" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_NECROMANCER_RITUALISTIC_UNBURIAL">
@@ -308,7 +315,7 @@
 			<p>At level 14th level, the repetitive nature of raising your undead has become like a ritual for you. You may cast <i>animate dead</i> as a ritual.</p>
 		</description>
 		<sheet>
-			<description>You may cast <i>animate dead</i> as a ritual.</description>
+			<description>You can cast <i>animate dead</i> as a ritual.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Ritualistic_Unburial</set>
@@ -317,10 +324,10 @@
 
 	<element name="Macabre" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_NECROMANCER_MACABRE">
 		<description>
-			<p>Starting at 18th level, the death you surround yourself with has become part of you. Your flesh has become pale and your eyes have taken on a yellow tint. Some necromancers alter their appearance with stitches sewn on their face, body, legs, or arms. Others may adorn the remains of corpses to impose fear and keep people away. The overexposure to death has earned an affinity with undead. Whenever you interact with undead, you have advantage on all Charisma checks. In addition, while you may look sick and exhausted from the constant dealings with death, you do not age and you are immune to poison damage, diseases, exhuastion, as well as the frightened and poisoned conditions. </p>
+			<p>Starting at 18th level, the death you surround yourself with has become part of you. Your flesh has become pale and your eyes have taken on a yellow tint. Some necromancers alter their appearance with stitches sewn on their face, body, legs, or arms. Others may adorn the remains of corpses to impose fear and keep people away. The overexposure to death has earned an affinity with undead. Whenever you interact with undead, you have advantage on all Charisma checks. In addition, while you may look sick and exhausted from the constant dealings with death, you do not age and you are immune to poison damage, diseases, exhaustion, as well as the frightened and poisoned conditions. </p>
 		</description>
 		<sheet>
-			<description>Whenever you interact with undead, you have advantage on all Charisma checks. In addition, you do not age and you are immune to poison damage, diseases, exhuastion, as well as the frightened and poisoned conditions.</description>
+			<description>Whenever you interact with undead, you have advantage on all Charisma checks. In addition, you do not age and you are immune to poison damage, diseases, exhaustion, as well as the frightened and poisoned conditions.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Macabre</set>
@@ -335,7 +342,7 @@
 			<p>Starting at 20th level, your presence commands respect from undead. At will, the necromancer can target one undead creature they can see within 30 feet of them. The target must make a Wisdom saving throw. On a failed save, the target must obey the necromancer's commands for the next 24 hours, or until the necromancer uses Séance again. A necromancer can only control a single undead creature with this feature.</p>
 		</description>
 		<sheet>
-			<description>At will, the necromancer can target one undead creature they can see within 30 feet of them. The target must make a Wisdom saving throw. On a failed save, the target must obey the necromancer's commands for the next 24 hours, or until the necromancer uses Séance again. A necromancer can only control a single undead creature with this feature.</description>
+			<description>At will, you can target one undead creature you can see within 30 feet of you. The target must make a Wisdom saving throw. On a failed save, the target must obey your commands for the next 24 hours, or until you use Séance again. You can only control a single undead creature with this feature.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#S.C3.A9ance</set>
@@ -348,8 +355,8 @@
 		<description>
 			<p>Starting at 20th level, the area around you becomes a volatile zone of death and necrotic magic. You have learned to sew the agony of the newly departed's death into those nearby. Whenever an enemy creature dies within 60 feet of the you, you may use your reaction to target it and cause an explosion of necrotic energy. Choose any number of creatures within 10 feet of the explosion to make a Constitution saving throw. On a failed save, they take 8d6 necrotic damage and half as much on a success. If this damage kills any creatures, you may target one of the creatures killed to cause a secondary explosion but the damage is reduced to 4d6 and halved on a successful Constitution saving throw. If this secondary explosion kills any creatures, you may choose one of the creatures killed by this secondary damage to cause an explosion a third time but the damage is reduced to 2d6 or no damage on a successful Constitution saving throw. Any undead you control within the radius of the explosions regain hit points equal to half the amount of necrotic damage done. You regain use of this feature when you complete a short or long rest. </p>
 		</description>
-		<sheet>
-			<description>1/rest. Whenever an enemy creature dies within 60 feet of the you, you may use your reaction to target it and cause an explosion of necrotic energy. Choose any number of creatures within 10 feet of the explosion to make a Constitution saving throw. On a failed save, they take 8d6 necrotic damage and half as much on a success. If this damage kills any creatures, you may target one of the creatures killed to cause a secondary explosion but the damage is reduced to 4d6 and halved on a successful Constitution saving throw. If this secondary explosion kills any creatures, you may choose one of the creatures killed by this secondary damage to cause an explosion a third time but the damage is reduced to 2d6 or no damage on a successful Constitution saving throw. Any undead you control within the radius of the explosions regain hit points equal to half the amount of necrotic damage done.</description>
+		<sheet action="Reaction" usage="1/Rest">
+			<description>Whenever an enemy creature dies within 60 feet of the you, you can target it and cause an explosion of necrotic energy. Choose any number of creatures within 10 feet of the explosion to make a Constitution saving throw. On a failed save, they take 8d6 necrotic damage or half as much on a success. If this damage kills any creatures, you may target one of the creatures killed to cause a secondary explosion but the damage is reduced to 4d6 and halved on a successful Constitution saving throw. If this secondary explosion kills any creatures, you may choose one of the creatures killed by this secondary damage to cause an explosion a third time but the damage is reduced to 2d6 or no damage on a successful Constitution saving throw. Any undead you control within the radius of the explosions regain hit points equal to half the amount of necrotic damage done.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Variant_Feature:_Grim_Harvest</set>
@@ -383,18 +390,23 @@
 
 	<element name="Life on Demand" type="Archetype Feature" source="D&amp;D Wiki"  id="ID_WIKI_ARCHETYPE_FEATURE_NECROMANCER_KEEPER_LIFE_ON_DEMAND">
 		<description>
-			<p>Beginning at 2nd level, you can accelerate the body's natural healing when it is needed the most. As an action, a creature you touch can expand a number of its hit dice equal to your spellcasting modifier (minimum of 1) to regain hit points. After you use this feature, you must finish a short or long rest.</p>
+			<p>Beginning at 2nd level, you can accelerate the body's natural healing when it is needed the most. As an action, a creature you touch can expend a number of its hit dice equal to your spellcasting modifier (minimum of 1) to regain hit points. After you use this feature, you must finish a short or long rest.</p>
 			<p class="indent">At 5th level, a creature can also add it's Constitution modifier to hit points recovered this way.</p>
 			<p class="indent">At level 10, you may use this feature twice between rests.</p>
 		</description>
-		<sheet>
-			<description>1/rest. As an action, a creature you touch can expand a number of its hit dice equal to your spellcasting modifier (minimum of 1) to regain hit points.</description>
-			<description level="5">1/rest. As an action, a creature you touch can expand a number of its hit dice equal to your spellcasting modifier (minimum of 1) to regain hit points. A creature can also add it's Constitution modifier to hit points recovered this way. </description>
-			<description level="10">2/rest. As an action, a creature you touch can expand a number of its hit dice equal to your spellcasting modifier (minimum of 1) to regain hit points. A creature can also add it's Constitution modifier to hit points recovered this way. </description>
+		<sheet action="Action" usage="{{life on demand:usage}}/Rest">
+			<description>A creature you touch can expend a number of its hit dice equal to {{life on demand:hit dice}} to regain hit points.</description>
+			<description level="5">A creature you touch can expend a number of its hit dice equal to {{life on demand:hit dice}} to regain hit points. A creature can also add it's Constitution modifier to hit points recovered this way.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Life_on_Demand</set>
 		</setters>
+		<rules>
+			<stat name="life on demand:usage" value="1" bonus="base" />
+			<stat name="life on demand:usage" value="2" level="10" bonus="base" />
+			<stat name="life on demand:hit dice" value="1" bonus="base" />
+			<stat name="life on demand:hit dice" value="charisma:modifier" bonus="base" />
+		</rules>
 	</element>
 
 	<element name="Expanded Intellect" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_NECROMANCER_KEEPER_EXPANDED_INTELLECT">
@@ -427,7 +439,7 @@
 			<p>Beginning at 10th level, you emanate an aura that rejuvenates and prolongs the life of others around you. If an allied creature begins its turn within 10 feet of you, it gains hit points equal to your proficiency bonus if its hit points are below half its hit point maximum.</p>
 		</description>
 		<sheet>
-			<description>If an allied creature begins its turn within 10 feet of you, it gains hit points equal to your proficiency bonus if its hit points are below half its hit point maximum.</description>
+			<description>When an allied creature begins its turn within 10 feet of you and is missing half of its hit points or more, it regains {{proficiency}} hit points.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Aura_of_Wellbeing</set>
@@ -438,8 +450,8 @@
 		<description>
 			<p>Beginning at 14th level, you can decide to ignore death if it's too inconvenient. If a creature within 5 feet of you that you can touch (including you) drops to 0 hit points, you may use your reaction to cause that creature to drop to 1 hit point instead. You must finish a short or long rest before you can use this feature again.</p>
 		</description>
-		<sheet>
-			<description>1/rest. If a creature within 5 feet of you that you can touch (including you) drops to 0 hit points, you may use your reaction to cause that creature to drop to 1 hit point instead. </description>
+		<sheet action="Reaction" usage="1/Rest">
+			<description>When creature within 5 feet of you that you can touch (including you) would fall to 0 hit points, you can cause that creature to drop to 1 hit point instead.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Refusal</set>
@@ -563,7 +575,7 @@
 		</description>
 		<sheet>
 			<description>You have resistance to necrotic damage and your hit point maximum cannot be reduced.</description>
-			<description level="5">You have resistance to necrotic damage and your hit point maximum cannot be reduced. This feature also extends to any undead under your control.</description>
+			<description level="5">You and undead under your control have resistance to necrotic damage and your hit point maximum cannot be reduced.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Unholy_Resistance</set>
