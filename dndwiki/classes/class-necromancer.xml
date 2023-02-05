@@ -374,9 +374,7 @@
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_NECROMANCER_KEEPER_AURA_OF_WELLBEING" />
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_NECROMANCER_KEEPER_REFUSAL" />
 		</description>
-		<sheet>
-			<description>Keepers have a deep and intricate understanding of why creatures die, and how to slow death or stop it all together. But the things necessary to obtain such knowledge are not for the faint of heart, or those lacking resolve.</description>
-		</sheet>
+		<sheet display="false" />
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Keeper</set>
 		</setters>
@@ -469,9 +467,7 @@
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_NECROMANCER_REAPER_NECROSIS_SPELLCASTING" />
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_NECROMANCER_REAPER_GRIM" />
 		</description>
-		<sheet>
-			<description>A reaper won't always show his intentions to others until he is ready for them to play with his undead or feel necrosis from his spells.</description>
-		</sheet>
+		<sheet display="false" />
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Reaper</set>
 		</setters>
@@ -554,9 +550,7 @@
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_NECROMANCER_UNDERTAKER_UNDEAD_RESOLVE" />
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_NECROMANCER_UNDERTAKER_LORD_OF_THE_UNDEAD" />
 		</description>
-		<sheet>
-			<description>An undertaker is from the Occult that specializes in raising the dead and has no fear of death since death itself fights for them.</description>
-		</sheet>
+		<sheet display="false" />
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Necromancer_(5e_Class)&amp;oldid=1134222#Undertaker</set>
 		</setters>

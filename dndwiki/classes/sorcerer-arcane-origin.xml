@@ -21,9 +21,7 @@
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_ARCANE_ORIGIN_PERSISTENT_MAGIC" />
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_ARCANE_ORIGIN_ARCANE_DESTRUCTION" />
 		</description>
-		<sheet>
-			<description>Your innate abilities come from a deep connection with the fabric of magic.</description>
-		</sheet>
+		<sheet display="false" />
 	  	<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Arcane_Origin_(5e_Subclass)&amp;oldid=1086754</set>
 	  	</setters>

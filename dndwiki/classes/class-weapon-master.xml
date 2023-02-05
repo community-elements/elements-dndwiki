@@ -301,9 +301,7 @@
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Combat_Mastery</set>
 		</setters>
-		<sheet>
-			<description>The Combat Mastery archetype specializes in combat techniques of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows in combat.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
 			<grant type="Archetype Feature" id="ID_WIKI_ARCHETYPE_FEATURE_COMBAT_MASTERY_MARTIAL_PROWESS" level="3" />
 			<grant type="Archetype Feature" id="ID_WIKI_ARCHETYPE_FEATURE_COMBAT_MASTERY_COMBAT_PROWESS" level="7" />
@@ -388,9 +386,7 @@
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_TACTIC_MASTERY_MULTIATTACK_DEFENSE" />
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_TACTIC_MASTERY_KNOW_YOUR_ENEMY" />
 		</description>
-		<sheet>
-			<description>The Tactic Mastery archetype specialises in uncanny tactics to be able to lead anyone they fight alongside to victory. Those who model themselves on this archetype have exceptional skill in making strategies during battle and have unbreakable willpower.</description>
-		</sheet>
+		<sheet display="false" />
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Tactic_Mastery</set>
 		</setters>
@@ -480,9 +476,7 @@
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_EVASIVE_MASTERY_MOBILITY" />
 			<div element="ID_WIKI_ARCHETYPE_FEATURE_EVASIVE_MASTERY_HAWKS_EYE" />
 		</description>
-		<sheet>
-			<description>The Evasive Mastery archetype specializes in agile movements to maneuver around the battle field like the wind. Those who model themselves on this archetype are nimble and have excelling awareness of their surroundings.</description>
-		</sheet>
+		<sheet display="false" />
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Weapon_Master_(5e_Class)&amp;oldid=1131376#Evasive_Mastery</set>
 		</setters>

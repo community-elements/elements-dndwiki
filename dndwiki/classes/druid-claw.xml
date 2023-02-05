@@ -24,9 +24,7 @@
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Circle_of_the_Claw_(5e_Subclass)&amp;oldid=1156015</set>
 		</setters>
-		<sheet>
-			<description>The Circle of the Claw has a focus on the use of beast form, and stronger forms of it instead of spells.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
 			<grant type="Archetype Feature" name="ID_WIKI_ARCHETYPE_FEATURE_CIRCLE_CLAW_DEFT_WILD_SHAPE" level="2" />
 			<grant type="Archetype Feature" name="ID_WIKI_ARCHETYPE_FEATURE_CIRCLE_CLAW_CIRCLE_FORMS" level="2" />
