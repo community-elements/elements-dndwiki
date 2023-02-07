@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+	<info>
+        <description>The Way of the Beast Monk subclass from D&amp;D Wiki, created by "2601:601:1300:3446:b0d0:56e1:d611:5a24", with contributions from users "Swankypants", "Anastacio", "MarshDASavage" and many others.</description>
+		<author url="https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="subclass-monk-beast.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/subclass-monk-beast.xml" />
+		</update>
+    </info>
+
+	<element name="Way of the Beast" type="Archetype" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_WAY_OF_THE_BEAST">
+		<supports>Monastic Tradition</supports>
+		<description>
+			<p>Those who follow the Way of the Beast are akin to druids in many ways. They greatly revere animals, and mold their techniques after them. This lends them many unique fighting styles, known as "stances". In these stances, powered by ki, they are capable of great feats even most other monks cannot attempt.</p>
+			<div element="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_BEAST_STANCE" />
+			<div element="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_FRIEND_OF_FAUNA" />
+			<div element="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_HYBRID_STYLE" />
+			<div element="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_EMBRACE_THE_LAND" />
+		</description>
+		<sheet description="false" />
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_BEAST_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_FRIEND_OF_FAUNA" level="6"/>
+			<grant type="Archetype Feature" id="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_HYBRID_STYLE" level="11" />
+			<grant type="Archetype Feature" id="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_EMBRACE_THE_LAND" level="17" />
+		</rules>
+	</element>
+	<element name="Beast Stance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_BEAST_STANCE">
+		<description>
+			<p>Upon following this monastic tradition at 3rd level, you gain the ability to enter a Beast Stance as a bonus action for 2 ki points. The Beast Stance lasts for 1 minute, until you enter another Beast Stance, or until you become incapacitated. You know 2 stances and learn an additional stance at 6th, 11th, and 17th level. The possible Beast Stances are as follows.</p>
+			<ul>
+				<li><i>Monkey. </i>You draw from the mobility of a monkey. You gain a climbing speed equal to your walking speed, and you have advantage on Dexterity saving throws.</li>
+				<li><i>Tortoise. </i>You shape your ki into a shell to protect you from harm. You resistance to bludgeoning, piercing, and slashing damage.</li>
+				<li><i>Crane. </i>You channel the grace of a swan. Creatures cannot make attacks of opportunity against you, and you have advantage on saving throws against being pushed or knocked prone.</li>
+				<li><i>Mantis. </i>You adopt the reach of a mantis. Your unarmed strikes gain the Reach property.</li>
+				<li><i>Bear. </i>You embrace the power of a bear. You count as proficient in Athletics, and you can use your Dexterity score in place of your Strength score.</li>
+				<li><i>Cobra. </i>You strike with the deadly speed and accuracy of a cobra. Your attacks made with unarmed strikes or monk weapons score a critical hit on a roll of 19-20.</li>
+				<li><i>Owl. </i>You are granted the wisdom and senses of the owl, the nocturnal predator. You gain truesight at a range of 60 feet, and have advantage on Wisdom saving throws.</li>
+				<li><i>Panter. </i>You hunt your prey and manifest the strength of the primal nightstalker. The first time you hit a creature on your turn with an unarmed strike or monk weapon, you can add double your Dexterity modifier, instead.</li>
+			</ul>
+		</description>
+		<sheet action="Bonus Action" usage="2 Ki Points">
+			<description>You gain the ability to enter a Beast Stance as a bonus action for 2 ki points. The Beast Stance lasts for 1 minute, until you enter another Beast Stance, or until you become incapacitated.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+		<rules>
+			<select type="Archetype Feature" name="Beast Stance" supports="Beast Stance" number="2" />
+			<select type="Archetype Feature" name="Beast Stance(Level 6)" supports="Beast Stance" level="6" />
+			<select type="Archetype Feature" name="Beast Stance(Level 11)" supports="Beast Stance" level="11" />
+			<select type="Archetype Feature" name="Beast Stance(Level 17)" supports="Beast Stance" level="17" />
+		</rules>
+	</element>
+	<element name="Friend of Fauna" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_FRIEND_OF_FAUNA">
+		<description>
+			<p>At 6th level, you can cast speak with animals as a ritual, or as a bonus action, spending 2 ki points to do so.</p>
+			<p class="indent">In addition, you can add your Wisdom modifier to any Charisma checks made while interacting with animals.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
+			</div>
+		</description>
+		<sheet action="Bonus Action" usage="2 Ki Points">
+			<description>You can cast speak with animals as a ritual, or as a bonus action, spending 2 ki points to do so. In addition, you can add your Wisdom modifier to any Charisma checks made while interacting with animals.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
+		</rules>
+	</element>
+	<element name="Hybrid Style" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_HYBRID_STYLE">
+		<description>
+			<p>At 11th level, when you enter a beast stance, you may spend 3 ki points to enter 2 Beast Stances simultaneously. When you change stances you can spend 1 ki point to enter 1 stance or spend 3 ki points to enter 2 stances.</p>
+		</description>
+		<sheet>
+			<description>When you enter a beast stance, you may spend 3 ki points to enter 2 Beast Stances simultaneously. When you change stances you can spend 1 ki point to enter 1 stance or spend 3 ki points to enter 2 stances.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+	</element>
+	<element name="Embrace the Land" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_ARCHETYPE_FEATURE_WAYOFTHEBEAST_EMBRACE_THE_LAND">
+		<description>
+			<p>At 17th level, you may spend 10 ki points and an action to enter all the stances you know simultaneously for 1 minute. After this ends, you cannot do this again until you finish a long rest.</p>
+		</description>
+		<sheet action="Action" usage="10 Ki Points">
+			<description>You may spend 10 ki points and an action to enter all the stances you know simultaneously for 1 minute. After this ends, you cannot do this again until you finish a long rest.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+	</element>
+	
+	<!-- Beast Stance -->
+	<element name="Monkey Stance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_WAY_OF_BEAST_STANCE_MONKEY">
+		<supports>Beast Stance</supports>
+		<description>
+			<p>You draw from the mobility of a monkey. You gain a climbing speed equal to your walking speed, and you have advantage on Dexterity saving throws.</p>
+		</description>
+		<sheet alt="Monkey">
+			<description>You gain a climbing speed equal to your walking speed, and you have advantage on Dexterity saving throws.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:climb" value="30" />
+		</rules>
+	</element>
+	<element name="Tortoise Stance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_WAY_OF_BEAST_STANCE_TORTOISE">
+		<supports>Beast Stance</supports>
+		<description>
+			<p>You shape your ki into a shell to protect you from harm. You gain resistance to bludgeoning, piercing, and slashing damage.</p>
+		</description>
+		<sheet alt="Tortoise">
+			<description>You gain resistance to bludgeoning, piercing, and slashing damage.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+	</element>
+	<element name="Crane Stance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_WAY_OF_THE_BEAST_CRANE">
+		<supports>Beast Stance</supports>
+		<description>
+			<p>You channel the grace of a swan. Creatures cannot make attacks of opportunity against you, and you have advantage on saving throws against being pushed or knocked prone.</p>
+		</description>
+		<sheet alt="Crane">
+			<description>Creatures cannot make attacks of opportunity against you, and you have advantage on saving throws against being pushed or knocked prone.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+	</element>
+	<element name="Mantis Stance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_WAY_OF_THE_BEAST_MANTIS">
+		<supports>Beast Stance</supports>
+		<description> 
+			<p>You adopt the reach of a mantis. Your unarmed strikes gain the Reach property.</p>
+		</description>
+		<sheet alt="Mantis">
+			<description>Your unarmed strikes gain the Reach property.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+	</element>
+	<element name="Bear Stance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_WAY_OF_THE_BEAST_BEAR">
+		<supports>Beast Stance</supports>
+		<description> 
+			<p>You embrace the power of a bear. You count as proficient in Athletics, and you can use your Dexterity score in place of your Strength score.</p>
+		</description>
+		<sheet alt="Bear">
+			<description>You count as proficient in Athletics, and you can use your Dexterity score in place of your Strength score.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+	</element>
+	<element name="Cobra Stance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_WAY_OF_THE_BEAST_COBRA">
+		<supports>Beast Stance</supports>
+		<description>
+			<p>You strike with the deadly speed and accuracy of a cobra. Your attacks made with unarmed strikes or monk weapons score a critical hit on a roll of 19-20.</p>
+		</description>
+		<sheet alt="Cobra">
+			<description>Your attacks made with unarmed strikes or monk weapons score a critical hit on a roll of 19-20.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+	</element>
+	<element name="Owl Stance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_WAY_OF_THE_BEAST_OWL">
+		<supports>Beast Stance</supports>
+		<sheet alt="Owl" />
+		<description>
+			<p>You are granted the wisdom and senses of the owl, the nocturnal predator. You gain truesight at a range of 60 feet, and have advantage on Wisdom saving throws.</p>
+		</description>
+		<sheet>
+			<description>You gain truesight at a range of 60 feet, and have advantage on Wisdom saving throws.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+	</element>
+	<element name="Panther Stance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_WAY_OF_THE_BEAST_PANTHER">
+		<supports>Beast Stance</supports>
+		<description>
+			<p>You hunt your prey and manifest the strength of the primal nightstalker. The first time you hit a creature on your turn with an unarmed strike or monk weapon, you can add double your Dexterity modifier, instead.</p>
+		</description>
+		<sheet alt="Panther">
+			<description>The first time you hit a creature on your turn with an unarmed strike or monk weapon, you can add double your Dexterity modifier, instead.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
+		</setters>
+	</element>
+</elements>
