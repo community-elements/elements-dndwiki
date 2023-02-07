@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<name>Researcher</name>
+		<description>The Researcher background from the dandwiki.com.</description>
+		<author url="https://www.dandwiki.com/wiki/Researcher_(5e_Background)">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="background-researcher.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-researcher.xml"/>
+		</update>
+	</info>
+
+
+    <element name="Researcher" type="Background" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_RESEARCHER">
+        <description>
+            <p>The lifestyle of an adventurer was never really to your suiting. Your friends went off and fought dragons and pixies; whatever took their fancy. But not you. You found interest in the smaller details of life. Why does this stone have this particular mark on it? Where on earth is this item or information found? You have dedicated your life to the much humbler lifestyle of finding these mysteries and then answering them. You are a researcher!</p>
+            <p class="indent">Why do you prefer this opposed to adventuring? Do you find the ideals of adventuring too dangerous, or too boring? Do you see yourself as an Indiana Jones character? What do you study? Why do you want to study it? Does it relate to your parents' professions or are your simply seeking power through knowledge?</p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong>Choose two from: History, Athletics, Arcana, Investigation, Perception, Religion, Medicine or Insight.</li>
+                <li><strong>Tool Proficiencies:</strong>Choose any one tool that relates to your area of study, e.g. if you like studying poisons, choose the poisoner's kit.</li>
+                <li><strong>Languages:</strong>Three of your choice.</li>
+                <li><strong>Equipment:</strong>A set of fine clothes, a set of tools you are proficient with, a pouch containing 15gp, a notebook including potion and ingredient lists, and an item (trinket) created by you or useful to your field of study.</li>
+            </ul>
+            <div element="ID_BACKGROUND_FEATURE_KNOWLEDGEABLE" />
+            <div element="ID_BACKGROUND_FEATURE_RENOWN" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>Every researcher has their own reasons for hunting down information. While not all of them are your stereotypical nerd, they can normally hold themselves in a fair fight.</p>
+        </description>
+        <setters>
+            <set name="short">2 Arcana/Athletics/History/Insight/Investigation/Medicine/Perception/Religion, 3 languages</set>
+        </setters>
+        <rules>
+            <select type="Proficiency" name="Skill Proficiency (Researcher)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION" number="2" />
+            <select type="Proficiency" name="Tool Proficiency (Researcher)" supports="Artisan tools" />
+            <select type="Language" name="Language (Researcher)" number="3" supports="Standard||Exotic" />
+            <grant type="Background Feature" id="ID_BACKGROUND_FEATURE_KNOWLEDGEABLE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+            <select type="Background Variant" name="Variant Researcher" supports="Background Variant, Researcher" optional="true" />
+            <select type="List" name="Personality Trait" number="2">
+                <item id="1">My research is of dire importance and will always comes before everything else.</item>
+                <item id="2">I am very secretive and strive to protect all that I know from unsavory characters.</item>
+                <item id="3">I'm stubborn. If something catches my eye, nothing will sway me from it until I have thoroughly investigated it.</item>
+                <item id="4">Nobody understands me or my research. It makes me feel lonely, knowing I'm on this journey alone.</item>
+                <item id="5">I'm overly enthusiastic about the prospect of learning new things.</item>
+                <item id="6">I'm very inquisitive about everything.</item>
+                <item id="7">I know everything there is to know about anything. You think you know more than me? Don't make me laugh.</item>
+                <item id="8">I might be insistent, but I just know the dragon has that archaic rune in its mouth.</item>
+            </select>
+            <select type="List" name="Ideal">
+                <item id="1"><strong>Selfless.</strong> I want to find out everything I can to benefit the world. (Good)</item>
+                <item id="2"><strong>Selfish.</strong> These things have power, and that power will be mine. (Evil)</item>
+                <item id="3"><strong>Thoughtful.</strong> I want to learn the history of everything. (Any)</item>
+                <item id="4"><strong>Destructive.</strong> I wonder how much destruction I am capable of. (Chaotic)</item>
+                <item id="5"><strong>Collector.</strong> I will document everything then give it to the monarchs; they deserve to know about this. (Lawful)</item>
+                <item id="6"><strong>Seller.</strong> How much money can I make off these items? (Neutral)</item>
+            </select>
+            <select type="List" name="Bond">
+                <item id="1">I trust those who respect my work and see the value in my labors.</item>
+                <item id="2">Only those who can match my intelligence are worthy of my regard.</item>
+                <item id="3">If others can protect me while I do my work, I owe them my upmost gratitude.</item>
+                <item id="4">Everyone has something significant to contribute to my endeavors.</item>
+                <item id="5">How did I get lumbered with these fools in the first place?</item>
+                <item id="6">I’m simply terrified of most people around me.</item>
+            </select>
+            <select type="List" name="Flaw">
+                <item id="1">My research come firsts. If anyone tries to stop me, I will hurt them.</item>
+                <item id="2">This is so interesting! What’s that, there’s a battle happening?</item>
+                <item id="3">I indirectly insult others without meaning to.</item>
+                <item id="4">I see no value in frivolous things like money or weapons.</item>
+                <item id="5">Well, it may be broken now, but I think I learned enough from breaking it to fix it.</item>
+                <item id="6">I know you said not to touch it, but it’s a red button! What did you expect me to do?</item>
+            </select>
+        </rules>
+    </element>
+
+    <element name="Feature: Knowledgeable" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_KNOWLEDGEABLE">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Your studies have all channeled into a single, great project. This project could be of a weapon, a magic item or something related to your studies. Ask your DM if they are ok with your project. During a Long Rest, you can progress your studies. Roll a DC10 Intelligence check with an ability related to your studies ( Poisoner's kit/Nature for poisons, Alchemist's supplies for potions, History for lore, and Arcana for magic). Every time you succeed, your project is a step closer to completion. The DM decides how many rolls you have to do before the project is complete. Also, your DM can change the DC to better reflect what it is you are trying to accomplish.</p>
+		</description>
+		<sheet alt="Researcher" />
+	</element>
+    <element name="Alternate Feature: Renown" type="Background Variant" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_RENOWN">
+		<supports>Background Variant, Researcher</supports>
+		<description>
+			<p>You have some renown as a researcher in your field of study, whatever that may be. When traveling from town to town, you can find sanctuary in a library or the lab or home of another researcher in that town. You can also receive help and ask for information from said researcher or librarian, and they will be much more likely to help you, if they can.</p>
+		</description>
+        <sheet alt="Researcher" />
+	</element>
+</elements>

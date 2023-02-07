@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<name>Psiblade</name>
+		<description>The Psiblade class from the D&amp;D Wiki</description>
+		<author url="https://www.dandwiki.com/wiki/Psiblade_(5e_Class)">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="class-psiblade.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-psiblade.xml"/>
+		</update>
+	</info>
+
+    <element name="Psiblade" type="Class" source="D&amp;D Wiki" id="ID_WIKI_CLASS_PSIBLADE">
+        <description>
+            <p>A man flips his knife, over and over again. Suddenly it disappears, and a purple blade appears in the stomach of the man behind him. Someone grabs the dagger, thinking the man to be vulnerable, but the knife disappears in his hand. As the glowing weapon is stabbed through his skull, he realizes who he was dealing with as the world goes black.</p>
+            <h4>Psychic Combatant</h4>
+            <p>The psiblade is a warrior who specializes in a martial method that combine one's natural psychic abilities with fighting training to create a unique and unpredictable technique. A psychic combatant usually is member of a race that have already natural predisposition to develop psychic abilities, being psiblades very common between giths for example. However, anyone with enough mental prowess can learn the secrets of psionics and learn how to fight with them becoming a psiblade, with the proper training.</p>
+            <h4>CREATING A PSIBLADE</h4>
+            <p>When creating a psiblade, answer a few questions: how did you discovered your psychic abilities? Did you have been trained by someone or they have awakened spontaneously as you grew older? Why did you become a psychic warrior? To protect yourself using your new found powers and as means to survival, or are you follower of a long forgotten martial tradition?</p>
+            <p class="indent">What's your place in the world, and why did you become an adventurer? You want just to discover and hone more and more your powers, or do you have a bigger goal in mind?</p>
+            <h5 class="caption">QUICK BUILD</h5>
+            <p>You can make a Psiblade quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Dexterity or Strength, depending on the type of weapon you intend to choose. Finally, a good Constitution score can grant you more durability in combat. Second, choose the hermit background. Third, choose the rapier, longbow with a quiver of 20 arrows, and a explorer's pack this also include two daggers.</p>
+            <h2>CLASS FEATURES</h2>
+            <p>As a psiblade, you gain the following class features.</p>
+            <h5 class="caption">HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per psiblade level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per psiblade level after 1st</li>
+            </ul>
+            <h5 class="caption">PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> None</li>
+                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Intelligence, Wisdom</li>
+                <li><strong>Skills:</strong> Insight and choose two from Acrobatics, Athletics, Investigation, Perception, Sleight of Hand, Stealth</li>
+            </ul>
+            <h5 class="caption">EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li>(a) a rapier or (b) any martial weapon</li>
+                <li>(a) a longbow and quiver of 20 arrows or (b) any martial weapon</li>
+                <li>(a) a dungeoneer's pack or (b) an explorer's pack</li>
+                <li>two daggers</li>
+            </ul>
+            <h5 class="cpation">THE PSIBLADE</h5>
+            <table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-60 left">Features</td><td>Psychic Damage</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Psiblade Discipline, Unarmored Defense</td><td>-</td></tr>
+				<tr><td> 2nd</td><td class="left">Mindspy, Psychic Channeling</td><td>1d4</td></tr>
+				<tr><td> 3rd</td><td class="left">Sixth Sense, Psiblade Discipline Feature</td><td>1d4</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>1d4</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack, Psychic Channeling Improvement</td><td>1d6</td></tr>
+				<tr><td> 6th</td><td class="left">Mental Barriers</td><td>1d6</td></tr>
+				<tr><td> 7th</td><td class="left">Psiblade Discipline Feature</td><td>1d6</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>1d6</td></tr>
+				<tr><td> 9th</td><td class="left">Telekinesis</td><td>1d8</td></tr>
+				<tr><td>10th</td><td class="left">Resilience</td><td>1d8</td></tr>
+				<tr><td>11th</td><td class="left">Psiblade Discipline Feature</td><td>1d8</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>1d8</td></tr>
+				<tr><td>13th</td><td class="left">Telekinesis Improvement</td><td>1d10</td></tr>
+				<tr><td>14th</td><td class="left">Resilience Improvement</td><td>1d10</td></tr>
+				<tr><td>15th</td><td class="left">Psiblade Discipline Feature</td><td>1d10</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>1d10</td></tr>
+				<tr><td>17th</td><td class="left">Telekinesis Improvement</td><td>1d12</td></tr>
+				<tr><td>18th</td><td class="left">Resilience Improvement</td><td>1d12</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>1d12</td></tr>
+				<tr><td>20th</td><td class="left">Psiblade Discipline Feature</td><td>1d12</td></tr>
+			</table>
+                    <div element="ID_WIKI_CLASS_FEATURE_PSIBLADE_UNARMORED_DEFENSE" />
+                    <div element="ID_WIKI_CLASS_FEATURE_PSIBLADE_PSIBLADE_DISCIPLINE" />
+                    <div element="ID_WIKI_CLASS_FEATURE_PSIBLADE_PSYCHIC_CHANNELING" />
+                    <div element="ID_WIKI_CLASS_FEATURE_PSIBLADE_MINDSPY" />
+                    <div element="ID_WIKI_CLASS_FEATURE_PSIBLADE_SIXTH_SENSE" />
+                    <div element="ID_WIKI_CLASS_FEATURE_PSIBLADE_ABILITY_SCORE_IMPROVEMENT" />
+                    <div element="ID_WIKI_CLASS_FEATURE_PSIBLADE_EXTRA_ATTACK" />
+                    <div element="ID_WIKI_CLASS_FEATURE_PSIBLADE_MENTAL_BARRIERS" />
+                    <div element="ID_WIKI_CLASS_FEATURE_PSIBLADE_TELEKINESIS" />
+                    <div element="ID_WIKI_CLASS_FEATURE_PSIBLADE_RESILIENCE" />
+        </description>
+        <setters>
+            <set name="hd">d8</set>
+            <set name="short">A warrior with the mind awakened for his innate psychic powers, and who uses this power to boost their martial capabilities</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_PSIBLADE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_PSIBLADE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_PSIBLADE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_PSIBLADE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_PSIBLADE" />
+            <select type="Proficiency" name="Skill Proficiency, Psiblade" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH" number="2" requirements="!ID_CUSTOM_DANDWIKI_MULTICLASS_PSIBLADE" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_UNARMORED_DEFENSE" level="1" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_PSIBLADE_DISCIPLINE" level="1" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_PSYCHIC_CHANNELING" level="2" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_MINDSPY" level="2" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_SIXTH_SENSE" level="3" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_EXTRA_ATTACK" level="5" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_MENTAL_BARRIERS" level="6" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_TELEKINESIS" level="9" />
+            <grant type="Class Feature" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_RESILIENCE" level="10" />
+        </rules>
+        <multiclass id="ID_CUSTOM_DANDWIKI_MULTICLASS_PSIBLADE">
+			<prerequisite>Intelligence 13 and Wisdom 13</prerequisite>
+			<requirements>([int:13],[wis:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">simple weapons, martial weapons, insight</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			</rules>
+		</multiclass>
+    </element>
+    <element name="Unarmored Defense" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_UNARMORED_DEFENSE">
+		<description>
+		    <p>Starting at 1st level, While you are not wearing any armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Intelligence modifier.</p>
+		</description>
+		<sheet display="false">
+			<description>While you are not wearing any armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Intelligence modifier.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense psiblade:base" value="10" />
+			<stat name="ac:unarmored defense psiblade:dexterity" value="dexterity:modifier" />
+			<stat name="ac:unarmored defense psiblade:intelligence" value="intelligence:modifier" />
+			<stat name="ac:unarmored defense psiblade" value="ac:unarmored defense psiblade:base" />
+			<stat name="ac:unarmored defense psiblade" value="ac:unarmored defense psiblade:dexterity" />
+			<stat name="ac:unarmored defense psiblade" value="ac:unarmored defense psiblade:intelligence" />
+			<stat name="ac:calculation" value="ac:unarmored defense psiblade" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Unarmored Defense (Psiblade)" />
+		</rules>
+	</element>
+    <element name="Psiblade Discipline" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_PSIBLADE_DISCIPLINE">
+		<description>
+		    <p>At 1st level, you chose a psiblade discipline. Choose between the Ascetic Saint and the Mind Drinker, both detailed at the end of the class description. Your choice grants you features at 1st level and again at 3rd, 7th, 11th, 15th and 20th levels.</p>
+		</description>
+        <sheet display="false">
+			<description>You chose a psiblade discipline. Choose between the Ascetic Saint and the Mind Drinker, both detailed at the end of the class description. Your choice grants you features at 1st level and again at 3rd, 7th, 11th, 15th and 20th levels.</description>
+        </sheet>
+        <rules>
+			<select type="Archetype" name="Psiblade Discipline" supports="Psiblade Discipline" />
+		</rules>
+    </element>
+    <element name="Psychic Channeling" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_PSYCHIC_CHANNELING">
+		<description>
+			<p>Starting at 2nd level, you can channel your psychic energy into your attacks. You gain the following benefits: </p>
+            <p><strong><em>Psi blade.</em></strong> As a bonus action before making an attack roll, you can infuse a strike with psychic energy. As a part of the Attack action, You can add your Intelligence, instead of Strength or Dexterity, to the attack and damage roll on a hit. On a success, you deal additional damage equal to your psychic damage die, as shown on the Psychic Damage column on the Psiblade table. This damage is psychic. When you reach the 5th level, you can roll one additional psychic damage die to the damage roll on a hit. </p>
+            <p><strong><em>Telekinetic Push.</em></strong> When you take the Attack action on your turn, you can push an opponent with your mind. You can use this push as part of your Attack action, if you are able to make multiple attacks. Make a melee weapon attack, using your Intelligence modifier, against a target within 5 feet. On a hit, you deal damage equal to the damage shown on the Psychic Damage column on the Psiblade table and push the target 5 feet away for each Proficiency Bonus point you have.</p>
+		</description>
+		<sheet>
+			<description>
+                <p>You can channel your psychic energy into your attacks. </p>
+                <p><strong><em>Psi blade.</em></strong> As a bonus action before making an attack roll, you can infuse a strike with psychic energy. As a part of the Attack action, You can add your Intelligence, instead of Strength or Dexterity, to the attack and damage roll on a hit. On a success, you deal additional damage equal to your psychic damage die, as shown on the Psychic Damage column on the Psiblade table. This damage is psychic. When you reach the 5th level, you can roll one additional psychic damage die to the damage roll on a hit. </p>
+                <p><strong><em>Telekinetic Push.</em></strong> When you take the Attack action on your turn, you can push an opponent with your mind. You can use this push as part of your Attack action, if you are able to make multiple attacks. Make a melee weapon attack, using your Intelligence modifier, against a target within 5 feet. On a hit, you deal damage equal to the damage shown on the Psychic Damage column on the Psiblade table and push the target 5 feet away for each Proficiency Bonus point you have.</p>
+            </description>
+		</sheet>
+	</element>
+    <element name="Mindspy" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_MINDSPY">
+        <description>
+            <p>When you reach the 2nd level, you can sense thoughts of creatures around you. You have advantage on all Wisdom checks made to perceive intentions, emotions and feelings of any creature you can see within 30 feet, that has Intelligence score bellow your Wisdom score, but higher than 3.</p>
+            <p class="indent">In addition, you can make Wisdom (Perception) checks as a bonus action.</p>
+        </description>
+        <sheet>
+            <description>you can sense thoughts of creatures around you. You have advantage on all Wisdom checks made to perceive intentions, emotions and feelings of any creature you can see within 30 feet, that has Intelligence score bellow your Wisdom score, but higher than 3. In addition, you can make Wisdom (Perception) checks as a bonus action.</description>
+        </sheet>
+    </element>
+    <element name="Sixth Sense" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_SIXTH_SENSE">
+		<description>
+			<p>At 3rd level, you develop a deep awareness to perceive threats with your thoughts. You can sense any creature with Intelligence score of 7 or higher, without relying on sight, up to a range of 20 feet. If the creature is a hostile creature you have seen before within the last 7 days, this sense increases to 60 feet.</p>
+		</description>
+		<sheet>
+			<description>You develop a deep awareness to perceive threats with your thoughts. You can sense any creature with Intelligence score of 7 or higher, without relying on sight, up to a range of 20 feet. If the creature is a hostile creature you have seen before within the last 7 days, this sense increases to 60 feet.</description>
+		</sheet>
+	</element>
+    <element name="Ability Score Improvement" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_ABILITY_SCORE_IMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+		<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option, Psiblade, 4" level="4" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option, Psiblade, 8" level="8" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option, Psiblade, 12" level="12" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option, Psiblade, 16" level="16" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option, Psiblade, 19" level="19" />
+		</rules>
+	</element>
+    <element name="Extra Attack" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+    <element name="Mental Barriers" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_MENTAL_BARRIERS">
+		<description>
+			<p>At 6th level, you start to develop stronger mind barriers. You double your proficiency in Wisdom saving throws. At 18th level, your mental defenses increase, and you also gain proficiency in Charisma saving throws.</p>
+		</description>
+		<sheet>
+			<description>You start to develop stronger mind barriers. You double your proficiency in Wisdom saving throws.</description>
+		</sheet>
+        <rules>
+            <stat name="wisdom:save:proficiency" bonus="double" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" level="18" />
+        </rules>
+	</element>
+    <element name="Telekinesis" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_TELEKINESIS">
+		<description>
+			<p>At 9th level, you can use your mind to move yourself and objects around you. As an action, you can move a willing creature or object within your telekinetic push range up 10 feet for each Intelligence modifier point you have. The target can't weight more than 10 pounds for each level you have on this class. Using this feature requires concentration (as if you were concentrating on a spell). At the start of each of your turns, you need to spend your action keeping control over the moved object or creature, otherwise the creature or object will fall on the ground (if it is suspended) and you will lose your grasp. </p>
+            <p class="indent">Starting at 13th level, you can also try to move a unwillingly creature as an action. Doing so requires a grapple contest, using your Intelligence modifier instead of your Strength. On a success, you can move the target up to 10 feet to any direction. In other aspects, this functions in the same way as a regular grapple. </p>
+            <p class="indent">When you reach the 17th level, you can try to crush objects and creatures grasped by your telekinesis. You can choose to deal damage equal to your psychic damage die in each of the turns a creature or object ends grappled by it. The damage is force.</p>
+		</description>
+		<sheet>
+			<description>You can use your mind to move yourself and objects around you. As an action, you can move a willing creature or object within your telekinetic push range up 10 feet for each Intelligence modifier point you have. The target can't weight more than 10 pounds for each level you have on this class. Using this feature requires concentration (as if you were concentrating on a spell). At the start of each of your turns, you need to spend your action keeping control over the moved object or creature, otherwise the creature or object will fall on the ground (if it is suspended) and you will lose your grasp.</description>
+		</sheet>
+	</element>
+    <element name="Resilience" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_PSIBLADE_RESILIENCE">
+		<description>
+			<p>Starting at 10th level, your mind is hard and strong as pure steel. You have become immune to the frightened and charmed conditions. In addition, you become resistant to psychic damage.</p>
+            <p>When you reach the 14th level, you gain resistance to force damage.</p>
+            <p>Finally, at 18th level, you gain resistant to slashing, piercing and bludgeoning damage from non-magical weapons.</p>
+		</description>
+        <sheet>
+            <description>Your mind is hard and strong as pure steel. You have become immune to the frightened and charmed conditions. In addition, you become resistant to psychic damage. When you reach the 14th level, you gain resistance to force damage. Finally, at 18th level, you gain resistant to slashing, piercing and bludgeoning damage from non-magical weapons.</description>
+        </sheet>
+	</element>
+    <element name="Ascetic Saint" type="Archetype" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_PSIBLADE_ASCETIC_SAINT">
+		<supports>Psiblade Discipline</supports>
+		<description>
+			<p>Ascetics saints are psiblades who seek the total purification of the body and clarity of mind by abnegation of carnal pleasures.</p>
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PURITY_OF_BODY" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_SHIELD" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_RESTLESS_MIND" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MENTAL_REBIRTH" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PERFECTION_OF_MIND" />
+            <div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_AVATAR_OF_PURITY" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PURITY_OF_BODY" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_SHIELD" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_RESTLESS_MIND" level="7" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MENTAL_REBIRTH" level="11" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PERFECTION_OF_MIND" level="15" />
+            <grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_AVATAR_OF_PURITY" level="20" />
+		</rules>
+	</element>
+    <element name="Purity of Body" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PURITY_OF_BODY">
+        <description>
+            <p>Starting at 1st level, you gain resistance to poison and advantage against the poisoned condition. Also, you become immune to disease. You no longer need to eat or drink water and you can meditate for 4 hours instead of sleeping, to gain the benefits of a long rest. While meditating, you keep your awareness of your surroundings, and can still maintain watch. In addition, whenever you roll initiative, roll your psychic damage die. You gain a number of temporary hit points equal to the number rolled. The temporary hit points lasts until the end of your next turn. You lose all this benefits if you consume any drug, alcohol or magic potion, needing 24 hours without eating, drinking or sleeping to regain them.</p>
+        </description>
+        <sheet>
+            <description>You gain resistance to poison and advantage against the poisoned condition. Also, you become immune to disease. You no longer need to eat or drink water and you can meditate for 4 hours instead of sleeping, to gain the benefits of a long rest. While meditating, you keep your awareness of your surroundings, and can still maintain watch. In addition, whenever you roll initiative, roll your psychic damage die. You gain a number of temporary hit points equal to the number rolled. The temporary hit points lasts until the end of your next turn. You lose all this benefits if you consume any drug, alcohol or magic potion, needing 24 hours without eating, drinking or sleeping to regain them.</description>
+        </sheet>
+    </element>
+    <element name="Mind Shield" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_SHIELD">
+        <description>
+            <p>Starting at 3rd level, whenever you take damage from a non-magical source, you can use your reaction to roll a d12 and reduce the damage by the number rolled (to a minimum of one).</p>
+        </description>
+        <sheet>
+            <description>Whenever you take damage from a non-magical source, you can use your reaction to roll a d12 and reduce the damage by the number rolled (to a minimum of one).</description>
+        </sheet>
+    </element>
+    <element name="Restless Mind" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_RESTLESS_MIND">
+        <description>
+            <p>At 7th level you can hold your breath indefinitely, and you don't require sleep, although you still require rest to reduce exhaustion and still benefit from finishing a short or a long rest. In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.</p>
+        </description>
+        <sheet>
+            <description>You can hold your breath indefinitely, and you don't require sleep, although you still require rest to reduce exhaustion and still benefit from finishing a short or a long rest. In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.</description>
+        </sheet>
+    </element>
+    <element name="Mental Rebirth" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MENTAL_REBIRTH">
+        <description>
+            <p>When you reach the 11th level, you become almost immune to death. When you are reduced to 0 hit points, roll your Psychic damage die. You are reduced to the number rolled instead. Once you use this feature, you can't use it again until you finish a short or a long rest.</p>
+        </description>
+        <sheet usage="1/Short or Long Rest">
+            <description>You become almost immune to death. When you are reduced to 0 hit points, roll your Psychic damage die. You are reduced to the number rolled instead. Once you use this feature, you can't use it again until you finish a short or a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Perfection of Mind" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PERFECTION_OF_MIND">
+        <description>
+            <p>At 15th level, whenever you finish a short or a long rest, you can choose a damage type to become resistant to, until your next rest. In addition, whenever you are blinded or deafened, you can spend an action to end the effect. Furthermore, you can eliminate one level of exhaustion during a short or a long rest.</p>
+        </description>
+        <sheet>
+            <description>Whenever you finish a short or a long rest, you can choose a damage type to become resistant to, until your next rest. In addition, whenever you are blinded or deafened, you can spend an action to end the effect. Furthermore, you can eliminate one level of exhaustion during a short or a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Avatar of Purity" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_AVATAR_OF_PURITY">
+        <description>
+            <p>At 20th level, your Intelligence and Constitution scores increase in 4, to a maximum of 24.</p>
+        </description>
+        <sheet display="false">
+            <description>Your Intelligence and Constitution scores increase in 4, to a maximum of 24.</description>
+        </sheet>
+        <rules>
+            <stat name="intelligence:max" value="4" />
+            <stat name="constitution:max" value="4" />
+            <stat name="intelligence" value="4" />
+            <stat name="constitution" value="4" />
+        </rules>
+    </element>
+    <element name="Mind Drinker" type="Archetype" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_PSIBLADE_MIND_DRINKER">
+		<supports>Psiblade Discipline</supports>
+		<description>
+			<p>Mind drinkers are psiblades who track and kill illithids, enhancing their innate powers by mimicking the mind devourers abilities.</p>
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PSYCHIC_TENTACLES" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_HUNTER" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_ILLITHID_GRASP" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PSIONIC_POWERS" />
+			<div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_EXTRACTION" />
+            <div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MENTAL_BLOCKING" />
+            <div element="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_BLAST" />
+		</description>
+		<sheet display="false" />
+        <spellcasting name="Mind Drinker" ability="Intelligence">
+            <list>DNDWIKI_PSIBLADE</list>
+		</spellcasting>
+		<rules>
+			<stat name="mind drinker:spellcasting:slots:2" value="2" level="7" />
+
+			<select type="Spell" name="Illithid Grasp" supports="$(spellcasting:list), 0" level="3" number="1" spellcasting="Mind Drinker" />
+
+			<select type="Spell" name="Psionic Powers" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="2" spellcasting="Mind Drinker" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PSYCHIC_TENTACLES" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_HUNTER" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_ILLITHID_GRASP" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PSIONIC_POWERS" level="7" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_EXTRACTION" level="11" />
+            <grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MENTAL_BLOCKING" level="15" />
+            <grant type="Archetype Feature" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_BLAST" level="20" />
+		</rules>
+	</element>
+    <element name="Psychic Tentacles" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PSYCHIC_TENTACLES">
+        <description>
+            <p>Starting at 1st level, you gain tentacles made of psionic energy. You can replace one of your attacks as part of an Attack with one tentacle attack. These tentacles have the reach property and deal damage equal to your psychic damage die + your Intelligence modifier. The damage is psychic. As bonus action, when you make an attack with those tentacles, you can try to grappled the creature, using your Intelligence modifier + your Proficiency Bonus on the contest.</p>
+        </description>
+        <sheet>
+            <description>You gain tentacles made of psionic energy. You can replace one of your attacks as part of an Attack with one tentacle attack. These tentacles have the reach property and deal damage equal to your psychic damage die + your Intelligence modifier. The damage is psychic. As bonus action, when you make an attack with those tentacles, you can try to grappled the creature, using your Intelligence modifier + your Proficiency Bonus on the contest.</description>
+        </sheet>
+    </element>
+    <element name="Mind Hunter" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_HUNTER">
+        <description>
+            <p>At 1st level, you have advantage on all Wisdom checks made to track aberrations or resist effects and abilities from aberrations, and on Intelligence checks to recall information about them. In addition, you can intercept telepathic signals. Whenever a creature communicates telepathically with another within a 300 feet radius, you can sense its presence.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on all Wisdom checks made to track aberrations or resist effects and abilities from aberrations, and on Intelligence checks to recall information about them. In addition, you can intercept telepathic signals. Whenever a creature communicates telepathically with another within a 300 feet radius, you can sense its presence.</description>
+        </sheet>
+    </element>
+    <element name="Illithid Grasp" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_ILLITHID_GRASP">
+        <description>
+            <p>When you reach the 3rd level, whenever you start your turn with a creature grappled by your psychic tentacles, the target must succeed on a Wisdom saving throw with a DC equal 8 + your Proficiency Bonus + your Intelligence modifier. On a failed save, the creature is stunned for the duration of the grapple. You can use this feature a number of times equal to your Proficiency Bonus, and regain all uses when finish a long rest. In addition, you learn the mage hand cantrip. Intelligence is your spellcasting ability for this spell.</p>
+        </description>
+        <sheet>
+            <description>Whenever you start your turn with a creature grappled by your psychic tentacles, the target must succeed on a Wisdom saving throw with a DC equal 8 + your Proficiency Bonus + your Intelligence modifier. On a failed save, the creature is stunned for the duration of the grapple. You can use this feature a number of times equal to your Proficiency Bonus, and regain all uses when finish a long rest. In addition, you learn the mage hand cantrip. Intelligence is your spellcasting ability for this spell.</description>
+        </sheet>
+    </element>
+    <element name="Psionic Powers" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_PSIONIC_POWERS">
+        <description>
+            <p>Starting at 7th level, you have two 2nd-level spell slots, which you can use to cast the following spells: detect thoughts and levitate. You regain any expended uses after finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description>You have two 2nd-level spell slots, which you can use to cast the following spells: detect thoughts and levitate. You regain any expended uses after finish a short or long rest.</description>
+        </sheet>
+    </element>
+    <element name="Mind Extraction" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_EXTRACTION">
+        <description>
+            <p>At 11th level, you can try to extract the mind of the target grappled by your tentacles. Whenever a incapacited creature is grappled by your tentacles, you can use your action to force this creature to make a saving throw against a DC equal 8 + your Proficiency Bonus + your Intelligence modifier. On a failed save, the target takes 1d10 x half your psiblade level psychic damage. If this damage reduce the creature to 0 hit points, the creature's mind is drained. Draining the mind of the creature grant's you advantage to all Intelligence checks and saving throws for 1 hour. After using this feature, you can't use it again until you finish a short or a long rest.</p>
+        </description>
+        <sheet usage="1/Short or Long Rest">
+            <description>You can try to extract the mind of the target grappled by your tentacles. Whenever a incapacited creature is grappled by your tentacles, you can use your action to force this creature to make a saving throw against a DC equal 8 + your Proficiency Bonus + your Intelligence modifier. On a failed save, the target takes 1d10 x half your psiblade level psychic damage. If this damage reduce the creature to 0 hit points, the creature's mind is drained. Draining the mind of the creature grant's you advantage to all Intelligence checks and saving throws for 1 hour. After using this feature, you can't use it again until you finish a short or a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Mental Blocking" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MENTAL_BLOCKING">
+        <description>
+            <p>Starting at 15th level, you gain proficiency in all saving throws and you can't be stunned. In addition, you have advantage against any effect that would allow a creature access to your thoughts.</p>
+        </description>
+        <sheet>
+            <description>You gain proficiency in all saving throws and you can't be stunned. In addition, you have advantage against any effect that would allow a creature access to your thoughts.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+        </rules>
+    </element>
+    <element name="Mind Blast" type="Archetype Feature" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ARCHETYPE_FEATURE_PSIBLADE_MIND_BLAST">
+        <description>
+            <p>At 20th level, you can unleash a wave of psychic energy. As an action, you force all creatures within a 60-foot cone must make a Wisdom saving throw against a DC equal 8 + your Proficiency Bonus + your Intelligence modifier. On a failed save, all creatures in the area take damage equal to Intelligence modifier x your psychic damage die + your Intelligence modifier. And are stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short or Long Rest">
+            <description>You can unleash a wave of psychic energy. As an action, you force all creatures within a 60-foot cone must make a Wisdom saving throw against a DC equal 8 + your Proficiency Bonus + your Intelligence modifier. On a failed save, all creatures in the area take damage equal to Intelligence modifier x your psychic damage die + your Intelligence modifier. And are stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Once you use this feature, you can’t use it again until you finish a short or long rest.</description>
+        </sheet>
+    </element>
+
+    <append id="ID_PHB_SPELL_MAGE_HAND">
+		<supports>DNDWIKI_PSIBLADE</supports>
+	</append>
+    <append id="ID_PHB_SPELL_DETECT_THOUGHTS">
+		<supports>DNDWIKI_PSIBLADE</supports>
+	</append>
+    <append id="ID_PHB_SPELL_LEVITATE">
+		<supports>DNDWIKI_PSIBLADE</supports>
+	</append>
+</elements>
+

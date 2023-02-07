@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Doctor</name>
+		<description>Doctor Background</description>
+		<author url="https://www.dandwiki.com/wiki/Doctor_(5e_Background)">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="background-doctor.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/backgrounds/background-doctor.xml" />
+		</update>
+	</info>
+
+	<element name="Doctor" type="Background" source="D&amp;D Wiki" id="ID_BACKGROUND_DOCTOR">
+		<description>
+			<p>The world's doctors come in many shapes and sizes. There are apothecaries, shamans, field medics; a lot more variety exists beyond the standard cleric healer of faith. These doctors are better known for their additional social aspect of communicating with patients as well as often treating their ailments through an accessible and nonmagical procedure. Doctors also perform invasive procedures to save lives, like conducting surgeries or helping induce birth. For the most part, doctors are expected to be paragons of good. They are beholden to a code that ensures they do no harm and try their very best to help patients. As such, it should come as no surprise that they often encounter the worst in humanity. Moral issues tail them around as purveyors of a limited good. Temptations can lead a doctor astray and easily make them into a monster.</p>
+            <p class="indent">When creating your doctor character, consider what sort of doctor they are. Traveling doctors are not unheard of and welcomed often as a benign sight. Of course, there lie rotten apples with every orchard, and your character could very well be a false doctor who extorts money from their patients. Or are you perhaps a grizzled veteran who has seen and treated many, vowing only to go further? Do you discriminate between patients, choosing only to treat certain races or groups? Do you have more knowledge treating individuals of these specific races over other races? What is your special doctor touch? There are the diné, medicine men who specialize in warding off evil spirits, as well as the alchemists of the east who craft potions of alleged immortality.</p>
+            <p class="indent">What drives your doctor? Money? Fame? Doctors are generally recognized one way or another within communities where they practice as figures of authority. Have they maybe experienced crippling illness themselves, spurring them into this field? Due to the strain of the work, doctors may disassociate themselves from patients or choose to treat everyone professionally. Consider how your character deals with all the death they may have seen, as well as any miracles of medicine they may have witnessed. They, above all others, know the fragility of life and how easily it can be forgotten. In a world where everyone can not pay for resurrection spells or even minor curative magic, a doctor can be the final arbiter between who lives and who dies.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong>Investigation, Medicine</li>
+				<li><strong>Tool Proficiencies:</strong>Herbalism kit</li>
+				<li><strong>Languages:</strong>Two of your choice</li>
+				<li><strong>Equipment:</strong>A bedroll, blanket, 2-man tent, doctoral notes on your area of specialization, doctor's certification, a set of common clothes, and a belt pouch containing 5 gp. You also gain one additional piece of equipment based on your specialization below.</li>
+			</ul>
+			<h5>FEILD OF PRACTICE</h5>
+			<p>Doctors vary widely based on their specialized treatment options. Some take care of specific age groups while others focus on general, minor treatment of everyday aches and pains. Stranger still are those who practice native medicinal techniques that are anachronisms.</p>
+			<table>
+				<thead>
+					<tr><td>d6</td><td>Field of Practice</td></tr>
+				</thead>
+				<tr><td>1</td><td><strong>Shaman.</strong> You use a variety of ancient ancestral techniques that use a range of remedies from plants to inhalation agents. You have an herbalism kit.</td></tr>
+				<tr><td>2</td><td><strong>Modern.</strong> You have an understanding of basic family medicine to keep people healthy after years of studying. You have a set of doctor's tools.</td></tr>
+				<tr><td>3</td><td><strong>Plague.</strong> Using your old and time-tested techniques of humorism and knowledge of bodily fluid, you use things like leeches and perform minor surgeries. You have a plague doctor's case.</td></tr>
+				<tr><td>4</td><td><strong>Holistic.</strong> Home care remedies are trusted by many, no matter how it cannot be explained, including acupuncture and cupping. You have a case of home remedies like needles, glass cups, and oils.</td></tr>
+				<tr><td>5</td><td><strong>Cosmic.</strong> Doctors who know of the energies in the universe and their interactions with the body understand there are materials that can balance and imbalance the body to cause illness, including lapidary practices and meditation. You have a case of up to 10 gemstones of your choice, each one worth no more than 5 gp.</td></tr>
+				<tr><td>6</td><td><strong>Folk.</strong> Old folk remedies include poultices and brews that passed through stories and local history, like a stone soup or octane-rating toddy. You have a satchel of remedy ingredients including sachet cloth, onions, and containers of crushed herbs and a flask of honey.</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_WITHOUT_BORDERS" />
+            <div element="ID_BACKGROUND_VARIANT_THIS_OUGHT_TO_HELP" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Doctors come from many walks of life. Some may be well educated while others may have learned how to be a doctor through the passing down of knowledge from one generation to another, while others may have had to start from scratch and have had to learn as they doctored. Regardless, many doctors are troubled by harrowing events they bore witness to. Some are shockingly pragmatic, with an "it may not be pretty, but you'll live" approach to problems. Many are seemingly tireless, hard-working individuals. Some can be inspiring souls, with a deep appreciation, not only for life, but for the person who is alive as well.</p>
+		</description>
+		<setters>
+			<set name="short">Investigation, Medicine, Herbalism Kit, 2 Languages</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT"/>
+			<select type="Language" name="Language (Doctor)" number="2" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_WITHOUT_BORDERS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variant Doctor" supports="Variant Doctor" optional="true" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select name="Field of Practice" type="List" optional="true">
+				<item id="1">Shaman</item>
+				<item id="2">Modern</item>
+				<item id="3">Plague</item>
+				<item id="4">Holistic</item>
+				<item id="5">Cosmic</item>
+				<item id="6">Folk</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">All I think about is saving lives, or lives that have been lost.</item>
+				<item id="2">I practice in the name of my religion, nation, or clan.</item>
+				<item id="3">I am cold and calculating in my every word and action, even when furious or frightened.</item>
+				<item id="4">When the bodies hit the floor, my hands go into automatic.</item>
+				<item id="5">I consider magical healers and healing either to be cheating and unaccountable, or an integral future counterpart of a greater medical art.</item>
+				<item id="6">I am waging a personal war on death itself.</item>
+				<item id="7">I am entranced and inspired by the brilliance and glory of the living body.</item>
+				<item id="8">I am actively involved in the medical society and engage in theoretical discourse and debate.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1"><strong>Life.</strong> I was put in this world to protect and save life. (Good)</item>
+                <item id="2"><strong>Oath.</strong> I swore my oath, and now I must live by its tenets. (Lawful)</item>
+                <item id="3"><strong>Vigilantism.</strong> No man can dictate who shall die, when, or how! (Chaotic)</item>
+                <item id="4"><strong>Profit.</strong> Is it really my fault that all who come to me suffering also come bearing compensation? (Evil)</item>
+                <item id="5"><strong>Survival.</strong> We are all in this together, for better or for worse. (Neutral)</item>
+                <item id="6"><strong>Right.</strong> Everyone deserves to live. (Neutral)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">I owe everything to my home village/clan, for pooling their resources to have me educated.</item>
+				<item id="2">I was pushed, or encouraged, into the field by my parents, one of whom may have been a doctor.</item>
+				<item id="3">My professor is the most important person in the world to me.</item>
+				<item id="4">My patients are my everything- losing one of them is like dying, but it never ends.</item>
+				<item id="5">I took up the profession because someone close to me died of something treatable.</item>
+				<item id="6">I started my training alone from texts I obtained by my own means.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">I took the vow to be a healer without realizing its full implications.</item>
+				<item id="2">No one can know that I have broken my promises before.</item>
+				<item id="3">I feel contempt for many of my patients.</item>
+				<item id="4">I think I am better than other doctors, and other people in general.</item>
+				<item id="5">Sometimes I go too far in my search for knowledge.</item>
+				<item id="6">I am frightened/sickened by human suffering.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: Without Borders" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_WITHOUT_BORDERS">
+		<supports>Background Feature</supports>
+		<description>
+			<p>However you may have earned your prestige or title as a doctor, you are now known to be a person who has sworn to do their very best to save lives. Your certification as a doctor makes others see you as a nonpartisan who often does what is right, no matter the case. In instances where there may be fractious conflict between neighbors or borders, you, as a doctor, may be the ideal figure to ask to mediate. If you require crossing into dangerous territory, like one of war or feud, authorities will be more lenient on your plea due to your profession providing ample reason in their eyes. This is not to say you will always get a free pass, as the respect owed to doctors is not always a given in society. Additionally, if your plea contradicts the role of a doctor, you may arouse more suspicion than usual.</p>
+		</description>
+		<sheet alt="Doctor" />
+	</element>
+
+	<element name="Alternative Feature: This Ought to Help" type="Background Variant" source="D&amp;D Wiki" id="ID_BACKGROUND_VARIANT_THIS_OUGHT_TO_HELP">
+		<supports>Variant Doctor</supports>
+		<description>
+			<p>Choose a creature type besides humanoid to be a specialized doctor of. You are generally aware of what substances are helpful or harmful to members within the species of that type. If you encounter new species, you can put together a rough idea of how old knowledge affects new and fascinating creatures. Spending time to study a creature lets you get a better and more accurate idea of minute details to treat issues that might ail them, as well as what ailments can develop. Other doctors may not take you as seriously, but anyone who has an important animal, such as a knight's steed or a caster's familiar, will have deep respect for you, for acknowledging that their creature is worth saving.</p>
+		</description>
+		<sheet alt="Doctor" />
+		<rules>
+			<select type="Background Feature" name="Creature Type" supports="Creature Type" />
+		</rules>
+	</element>
+	<element name="Aberrations" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_ABERRATIONS">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Aberrations.</p>
+		</description>
+	</element>
+    <element name="Beasts" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_BEASTS">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Beasts.</p>
+		</description>
+	</element>
+    <element name="Celestials" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_CELESTIALS">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Celestials.</p>
+		</description>
+	</element>
+    <element name="Constructs" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_CONSTRUCTS">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Constructs.</p>
+		</description>
+	</element>
+    <element name="Dragons" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_DRAGONS">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Dragonss.</p>
+		</description>
+	</element>
+    <element name="Elementals" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_ELEMENTALS">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Elementals.</p>
+		</description>
+	</element>
+    <element name="Fey" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_FEY">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Fey.</p>
+		</description>
+	</element>
+    <element name="Fiends" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_FIENDS">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Fiendss.</p>
+		</description>
+	</element>
+    <element name="Giants" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_GIANTS">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Giantss.</p>
+		</description>
+	</element>
+    <element name="Monstrosities" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_MONSTROSITIES">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Monstrosities.</p>
+		</description>
+	</element>
+    <element name="Oozes" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_OOZES">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Oozes.</p>
+		</description>
+	</element>
+    <element name="Plants" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_PLANTS">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Plantss.</p>
+		</description>
+	</element>
+    <element name="Undead" type="Background Feature" source="D&amp;D Wiki" id="ID_BACKGROUND_FEATURE_CREATURE_TYPE_UNDEAD">
+		<supports>Creature Type</supports>
+		<description>
+			<p>You have a better idea for treatments for Undead.</p>
+		</description>
+	</element>
+</elements>

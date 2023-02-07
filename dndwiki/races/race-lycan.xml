@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Lycan</name>
+        <description>The Lycan race from the D&amp;D Wiki</description>
+        <author url="https://www.dandwiki.com/wiki/Lycan_(5e_Race)">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="race-lycan.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-lycan.xml" />
+		</update>
+	</info>
+
+    <element name="Lycan" type="Race" source="D&amp;D Wiki" id="ID_WIKI_RACE_LYCAN">
+        <description>
+            <h4>Physical Description</h4>
+            <p>Lycans are nearly identical to regular lycanthropes in almost every way. The only differences are that their hybrid form is permanent, as in they cannot change into a wolf nor a human, forever existing in a hybrid form of the two. As a result, they are often large and intimidating figures with attributes to match.</p>
+            <p class="indent">They are vaguely humanoid in shape with digitigrade legs and paws for feet, but almost always their forelimbs more resemble that of a human arm and hands with some wolf-ish attributes of course. That being the addition of fur and claws. Their torsos also resemble human torsos. In the case of female lycans, they tend to have two teats instead of the usual four pairs with a build up of subcutaneous adipose tissue, forming breasts. It is rare that a lycan would have the usual four pairs of teats, but not unheard of. This may be due to the fact that birthing habits are modified as well. A lycan mother may have anywhere from 1-3 children on average. Along with a long and bushy tail, lycans tend to have mostly canid skulls. A snout and sharp fangs with taste, sight, and smell befitting that of an apex hunter. Though most lycan diets remain mostly to entirely carnivorous. It is also not uncommon to see a "set of hair" growing atop a lycan's head. Finally, as one would expect, their entire body is covered in fur. It is considerably thinner and less dense in some areas (such as the stomach), and thicker and denser in other areas.</p>
+            <p class="indent">The common lycan is not only a hybrid on the outside but within as well. Unlike humans, the stomach has the ability to fight more food-born illnesses. But are still susceptible to sickness from eating chocolate or caffeine products when eaten in amounts that exceed what their weight would allow. As a general rule of thumb, err heavily on the side of caution.</p>
+            <h4>History</h4>
+            <p>Lycans have been known to exist for as long as the curse of lycanthropy has existed. Though lycans are considerably rarer than lycanthropes in the sense that lycans are always a hybrid between man and wolf instead of a creature with the ability to switch between human, hybrid, and wolf, thus giving them the name "lycan". This specific form of lycanthropy cannot be transferred by infection, and in all documented cases a lycan biting a non-afflicted individual has only infected them the regular curse of lycanthropy. It is speculated among researchers, however, that there may be a ritual that can grant the caster this aforementioned form of the lycanthropy curse if they were not already born with it.</p>
+            <h4>Society</h4>
+            <p>Lycans are not seen as inferior to those affected by lycanthropes or even held above that standard. Instead they are just different. But in terms of how much humanity they have left, while still technically just under the influence of a curse, some consider themselves entirely different species. And for good reason. After all, the only way to rid yourself of the curse of lycanthropy is through high magic. And lycans can't shapeshift into wolf or human form. Lycans will often live in packs with other lycans or lycanthropes, generally nomadic tribes at that. They hunt like wolves, keep good hygiene like humans, have a hierarchy system like wolves, and have existential crisis like humans. As a result, contact with other more civilized groups can yield mixed results. For while communication between parties may be possible, understanding one another takes more time.</p>
+            <h4>Names</h4>
+            <p>Most names for Lycans are taken from astrological entities or events (usually involving the moon). Less commonly they may be named after Greco-Roman gods and goddesses. In this case it is not uncommon for the borrowed name to be modified.</p>
+            <li><strong>Male Lycan Names:</strong> Mars, Apollo, Eclipse</li>
+            <li><strong>Female Lycan Names:</strong> Diana, Aurora, Luna</li>
+            <h4>Lycan Traits</h4>
+            <p>Lycans are built tough and strong, not unlike the goliaths.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2 and another ability score of your choice increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Lycans are slightly longer lived than regular lycanthropes. They reach sexual maturity at around 15 and can live long enough to be 130.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Valuing freedom above all, most Lycans are of the chaotic alignment.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Lycans can range anywhere from around a little over 6ft tall to an astounding 8ft. It is uncommon for a lycan to be shorter than 6ft in height and or lack mass befitting of the type, but not unheard of. Your size is medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 40 feet.</p>
+            <p class="indent"><strong><em>Natural Weapons.</em></strong> Your claws can deliver a nasty slash when traditional weaponry can't. Your claws are natural weapons with which you are proficient in and deal 1d6 + your strength modifier of slashing damage.</p>
+            <p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when determining the weight you are able to carry, lift, push, or pull.</p>
+            <p class="indent"><strong><em>Natural Armor.</em></strong> Your natural AC is 13 + your dexterity modifier. This natural armor is lost if you don armor or are using a shield.</p>
+            <p class="indent"><strong><em>Silvered Weakness.</em></strong> You are vulnerable to silvered weapons.</p>
+            <p class="indent"><strong><em>Pack Senses.</em></strong> You have advantage on nature and perception checks made track and locate others of your kind or allies.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Druidic.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+			<set name="names" type="male">Mars, Apollo, Eclipse</set>
+			<set name="names" type="female">Diana, Aurora, Luna</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="2d8">7'0"</set>
+			<set name="weight" modifier="2d6">140 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Lycan)" supports="Ability Score Improvement, Lycan" number="1"/>
+			<stat name="innate speed" value="40" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_DRUIDIC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURAL_WEAPONS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_POWERFUL_BUILD"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURAL_ARMOR" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SILVERED_WEAKNESS" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_PACK_SENSES" />
+		</rules>
+    </element>
+    <element name="Natural Weapons" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_NATURAL_WEAPONS">
+		<description>
+			<p>Your claws can deliver a nasty slash when traditional weaponry can't. Your claws are natural weapons with which you are proficient in and deal 1d6 + your strength modifier of slashing damage.</p>
+		</description>
+		<sheet>
+			<description>Your claws can deliver a nasty slash when traditional weaponry can't. Your claws are natural weapons with which you are proficient in and deal 1d6 + {{strength:modifier}} slashing damage.</description>
+		</sheet>
+	</element>
+    <element name="Powerful Build" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_POWERFUL_BUILD">
+        <description>
+            <p>You count as one size larger when determining the weight you are able to carry, lift, push, or pull.</p>
+        </description>
+        <sheet>
+            <description>You count as one size larger when determining the weight you are able to carry, lift, push, or pull.</description>
+        </sheet>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+        </rules>
+    </element>
+    <element name="Natural Armor" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_NATURAL_ARMOR">
+		<description>
+			<p>Your natural AC is 13 + your dexterity modifier. This natural armor is lost if you don armor.</p>
+		</description>
+		<sheet>
+			<description>Your natural AC is {{ac:natural armor lycan}}. This natural armor is lost if you don armor.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:natural armor lycan:base" value="13" />
+			<stat name="ac:natural armor lycan:dexterity" value="dexterity:modifier" />
+			<stat name="ac:natural armor lycan" value="ac:natural armor lycan:base" />
+			<stat name="ac:natural armor lycan" value="ac:natural armor lycan:dexterity" />
+			<stat name="ac:calculation" value="ac:natural armor lycan" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Lycan)" />
+		</rules>
+	</element>
+    <element name="Silvered Weakness" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_SILVERED_WEAKNESS">
+		<description>
+			<p>You are vulnerable to silvered weapons.</p>
+		</description>
+		<sheet>
+			<description>You are vulnerable to silvered weapons.</description>
+		</sheet>
+	</element>
+    <element name="Pack Senses" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_PACK_SENSES">
+        <description>
+            <p>You have advantage on nature and perception checks made track and locate others of your kind or allies.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on nature and perception checks made track and locate others of your kind or allies.</description>
+        </sheet>
+    </element>
+
+    <element name="Strength" type="Ability Score Improvement" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ASI_LYCAN_STRENGTH">
+        <compendium display="false" />
+        <supports>Ability Score Improvement, Lycan</supports>
+        <description>
+            <p>Your Strength increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1"/>
+        </rules>
+    </element>
+    <element name="Dexterity" type="Ability Score Improvement" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ASI_LYCAN_DEXTERITY">
+        <compendium display="false" />
+        <supports>Ability Score Improvement, Lycan</supports>
+        <description>
+            <p>Your Dexterity increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1"/>
+        </rules>
+    </element>
+    <!-- <element name="Constitution" type="Ability Score Improvement" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ASI_LYCAN_CONSTITUTION">
+        <compendium display="false" />
+        <supports>Ability Score Improvement, Lycan</supports>
+        <description>
+            <p>Your Constitution increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1"/>
+        </rules>
+    </element> -->
+    <element name="Intelligence" type="Ability Score Improvement" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ASI_LYCAN_INTELLIGENCE">
+        <compendium display="false" />
+        <supports>Ability Score Improvement, Lycan</supports>
+        <description>
+            <p>Your Intelligence increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1"/>
+        </rules>
+    </element>
+    <element name="Wisdom" type="Ability Score Improvement" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ASI_LYCAN_WISDOM">
+        <compendium display="false" />
+        <supports>Ability Score Improvement, Lycan</supports>
+        <description>
+            <p>Your Wisdom increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1"/>
+        </rules>
+    </element>
+    <element name="Charisma" type="Ability Score Improvement" source="D&amp;D Wiki" id="ID_CUSTOM_DANDWIKI_ASI_LYCAN_CHARISMA">
+        <compendium display="false" />
+        <supports>Ability Score Improvement, Lycan</supports>
+        <description>
+            <p>Your Charisma increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1"/>
+        </rules>
+    </element>
+</elements>
