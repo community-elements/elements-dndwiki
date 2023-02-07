@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <elements>
 	<info>
-        <description>The Way of the Beast Monk subclass from D&amp;D Wiki, created by "2601:601:1300:3446:b0d0:56e1:d611:5a24", with contributions from users "Swankypants", "Anastacio", "MarshDASavage" and many others.</description>
+		<!-- file is created by: MeriadarGoblin
+		date of file creation: 28 December 2022 -->
+        <description>The Way of the Beast Monk subclass from D&amp;D Wiki, created by "2601:601:1300:3446:b0d0:56e1:d611:5a24", with contributions from users "Swankypants" and "Anastacio", </description>
 		<author url="https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759">D&amp;D Wiki</author>
 		<update version="0.0.3">
 			<file name="subclass-monk-beast.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/subclass-monk-beast.xml" />
