@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+	   <name>Items: Tools</name>
+		<description>Tools and Tool Proficiencies from D&amp;D Wiki.</description>
+	   <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
+	   <update version="0.0.1">
+		   <file name="items-tools.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/items/items-tools.xml" />
+	   </update>
+	</info>
+
+	<!-- Prospector's Kit, created by "Marasmusine"; element created by: NickVendel -->
+	<element name="Prospector's Kit" type="Item" source="D&amp;D Wiki" id="ID_WIKI_ITEM_PROSPECTORS_KIT">
+		<description>
+			<p>A prospector's kit contains:</p>
+			<ul>
+				<li>Rockhammer</li>
+				<li>Shovel</li>
+				<li>Gold pan or betea</li>
+				<li>Small hand lens</li>
+				<li>Various small brushes and scraping tools</li>
+			</ul>
+			<p>Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to locate or analyse geological features such as mineral veins, precious metal veins or fossils.</p>
+		</description>
+		<setters>
+			<set name="category">Tools</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="10">10 lbs.</set>
+			<set name="type">Tool</set>
+			<set name="proficiency">ID_WIKI_PROFICIENCY_TOOL_PROFICIENCY_PROSPECTORS_KIT</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Prospector%27s_Kit_(5e_Equipment)&amp;oldid=708889</set>
+		</setters>
+	</element>
+
+	<!-- Tool Proficiency for Prospector's Kit, created by "Marasmusine"; element created by: TheKrush -->
+	<element name="Tool Proficiency (Prospector's kit)" type="Proficiency" source="D&amp;D Wiki" id="ID_WIKI_PROFICIENCY_TOOL_PROFICIENCY_PROSPECTORS_KIT">
+		<supports>Tool, Kit</supports>
+		<description>
+			<p>Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to locate or analyse geological features such as mineral veins, precious metal veins or fossils.</p>
+		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Prospector%27s_Kit_(5e_Equipment)&amp;oldid=708889</set>
+		</setters>
+	</element>
+</elements>

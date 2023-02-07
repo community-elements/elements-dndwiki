@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/source.xml" />
+		</update>
+	</info>
+	<element name="D&amp;D Wiki" type="Source" source="D&amp;D Wiki" id="ID_HOMEBREW_SOURCE_DND_WIKI">
+		<description>
+			<p>A collection of content from articles of D&amp;D Wiki website.</p>
+			<p><b>Warning:</b> Balance and quality of the content may vary. Make sure to consult with your DM before using content from this source.</p>
+		</description>
+		<setters>
+			<set name="abbreviation">WIKI</set>
+			<set name="url">https://www.dandwiki.com/wiki/</set>
+			<set name="author" url="https://www.dandwiki.com/wiki/">D&amp;D Wiki</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
