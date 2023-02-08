@@ -5,7 +5,7 @@
 		date of file creation: 28 December 2022 -->
         <description>The Way of the Beast Monk subclass from D&amp;D Wiki, created by "2601:601:1300:3446:b0d0:56e1:d611:5a24", with contributions from users "Swankypants" and "Anastacio", </description>
 		<author url="https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759">D&amp;D Wiki</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="subclass-monk-beast.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/subclass-monk-beast.xml" />
 		</update>
     </info>
@@ -105,13 +105,13 @@
 			<p>You draw from the mobility of a monkey. You gain a climbing speed equal to your walking speed, and you have advantage on Dexterity saving throws.</p>
 		</description>
 		<sheet alt="Monkey">
-			<description>You gain a climbing speed equal to your walking speed, and you have advantage on Dexterity saving throws.</description>
+			<description>You gain a climbing speed equal to {{innate speed}}, and you have advantage on Dexterity saving throws.</description>
 		</sheet>
 		<setters>
 			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Way_of_the_Beast_(5e_Subclass)&amp;oldid=1588759</set>
 		</setters>
 		<rules>
-			<stat name="innate speed:climb" value="30" />
+			<stat name="speed:climb" value="speed" />
 		</rules>
 	</element>
 	<element name="Tortoise Stance" type="Archetype Feature" source="D&amp;D Wiki" id="ID_WIKI_WAY_OF_BEAST_STANCE_TORTOISE">
