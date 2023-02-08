@@ -4,7 +4,7 @@
 		<name>D&amp;D Wiki</name>
 		<description>The 5e homebrew content from the D&amp;D Wiki website.</description>
 		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="dndwiki.index" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki.index" />
 		</update>
 	</info>
@@ -21,6 +21,7 @@
 		<file name="class-necromancer.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-necromancer.xml" />
 		<file name="class-weapon-master.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/class-weapon-master.xml" />
 		<file name="druid-claw.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/druid-claw.xml" />
+		<file name="subclass-monk-beast.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/subclass-monk-beast.xml" />
 		<file name="sorcerer-arcane-origin.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/classes/sorcerer-arcane-origin.xml" />
 
 		<!-- Items -->
