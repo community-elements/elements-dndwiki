@@ -4,7 +4,7 @@
 		<name>D&amp;D Wiki</name>
 		<description>The 5e homebrew content from the D&amp;D Wiki website.</description>
 		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="dndwiki.index" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki.index" />
 		</update>
 	</info>
@@ -28,6 +28,7 @@
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/items/items-weapons.xml" />
 
 		<!-- Races -->
+		<file name="race-blue-bloods.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-blue-bloods.xml" />
 		<file name="race-dryad.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-dryad.xml" />
 		<file name="race-homunculus.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-homunculus.xml" />
 		<file name="race-sprite.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-sprite.xml" />
