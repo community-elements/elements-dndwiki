@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+	<info>
+		<!-- File is created by MeriadarGoblin
+		date of file creation: 7 February 2023 -->
+		<name>Blue Bloods</name>
+		<description>The Blue Bloods from D&amp;D Wiki, created by user "Yanied" with major contributions from "IsolatedMonk".</description>
+		<author url="https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="race-blue-bloods.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-blue-bloods.xml" />
+		</update>
+	</info>
+
+	<element name="Blue Bloods" type="Race" source="D&amp;D Wiki" id="ID_WIKI_RACE_BLUE_BLOODS">
+		<description>
+			<center>
+				<p>"We're not your typical b-rated movie bloodsuckers. We're more than that. Meant for more."</p>
+				<p style="text-align:right">- Jack Force, son of Archangel Michael (paraphrased)</p>
+			</center>
+			<h4>Physical Description</h4>
+			<p>Blue bloods are born human, with their true nature latent. They are naturally pale in skin, even though their hair colors may be dark or light. They mature around 16 or so. A mature blue blood has iconic blue veins running through their body because of their awakened blood. It shows most where the skin is thinnest, so on the wrist, at the neck, and such. These veins may become more pronounced when the blue blood is stressed. When a blue blood bleeds, their blood is blue, hence their appropriate name. They are known to often have blue eyes though they can also have the generic human eye color.</p>
+			<p class="indent">Silver bloods, a subrace of blue bloods, have silver blood instead, obviously. They appear much more muscular than normal blue bloods. Their hair can be discolored and their skin does not show their blood easily due to its metallic tint. Silver bloods often have red eyes when they are hungry or angered.</p>
+			<p class="indent">Additionally, blue bloods have two sharp fangs like that of vampires, but they are set nearer the back of the mouth, by the molars. Silver blood fangs are sharper. There is a tendency for blue bloods in general to be naturally beautiful or handsome. Some look like victorian dolls or chiseled faces, unmoved from another beautiful era.</p>
+			<h4>History of Redemption</h4>
+			<p>At the beginning of time, the angels were united under the banner of heaven. However, turmoil began over the betrayal by Lucifer, who defied their Lord. The defiant angel convinced others to join his ranks. Together, they waged an epic biblical war against the forces of heaven, trying to take it all for themselves. They were defeated overwhelmingly before heaven's gates. A portion of the angels repented and so were granted a chance to redeem themselves by helping humanity regain their redemption, thus symbiotically coexisting. These were the blue bloods; fallen angels. Blue bloods no longer had an immortal body like angels, but they retained their soul. When they died, given they completed their rituals fastidiously, they would be reborn with all their past memories and experiences. Thus, they could continue helping mankind and growing from mistakes.</p>
+			<p class="indent">However, as the hundreds of years dragged on, some blue bloods became disillusioned with reconciling with heaven and gaining redemption. It is believed Lucifer retained influence over some of them and influenced them as a devil. They resented heaven for having cursed them like this. So, in their depravity, they attacked their fellow blue bloods and killed them, devouring them. This violent change resulted in their blood changing to silver. Thus, the silver bloods diverged from the blue bloods.</p>
+			<p class="indent">This split resulted in a massive war and massacre. At the head of the silver bloods was the ever elusive and crafty Lucifer. Leading the regular blue bloods were two angels, Gabriel and Michael. These two had pitied their fallen kin and so joined them down on earth to help. Their forces triumphed over Lucifer and the devil was sealed away. The silver bloods fled and hid for the time, awaiting Lucifer's return.</p>
+			<p class="indent">In current time, blue bloods remain trying to gain their redemption. However, even those who did not become blue bloods were growing weary of the ever-fallible nature of humans and the seemingly sisyphean task of redemption. Less and less blue bloods completed all their necessary rituals and rebirth cycles, opting to lay their souls to sleep forever instead. Many blue bloods were also born of marriage with other races, whose offspring would have the same blue blood.</p>
+			<h4>Society</h4>
+			<p>Blue bloods are raised in human societies, since the two races are closely intertwined historically and biblically. Blue bloods are often in the higher echelons of society. They would be the politicians, philanthropists and millionaires to humans. This is because their long lines of rebirth have allowed them to build a good standing for themselves in the world. Often, they live in clustered, gated communities of mansions and posh surroundings. Their political power is manifested in the High Society, which helps monitor community activity and ensure safety for them by managing public relations. All their historical knowledge is accumulated and stored in huge, sprawling underground vaults called libraries, which are usually guarded by choice humans with long family histories with blue bloods.</p>
+			<p class="indent">When a blue blood comes to be of age for their blood to awaken, the High Society gathers all of the generation and ushers them to accept their destinies. Due to more lax blue bloods not undertaking full rebirth and proliferation, more blue bloods are born without memories and purpose, making these introduction seminars all the more important.</p>
+			<p class="indent">Blue bloods are usually strong pillars in their societies, often donating large amounts from prestigious funds to finance progressive causes to better the world. They are encouraged upon awakening to commit to community service and other philanthropic acts. They therefore have very amicable relations with humans. They are also very hard to distinguish in public from humans save for maybe their funerals, which usually feature white clothes rather than black.</p>
+			<p class="indent">Silver bloods are sparse and far flung. They do not have a micro society like the blue bloods but are suspected to have small groups which congregate and operate in a net across societies, plotting for the return of their leader. Individuals often scatter into human societies, looking for blue bloods to hunt and kill.</p>
+			<h4>Blue Blood Names</h4>
+			<p>Today, blue bloods take names often from human culture. However, more traditional blue bloods use time-worn names, often overbearingly important-sounding. Most blue bloods have their secret angelic aliases.</p>
+			<ul class="unstyled">
+				<li><strong>Male: </strong>Jack Force, Kingsley Drexel Martin, Ted Lennox</li>
+				<li><strong>Female: </strong>Schulyer van Chase, Cordelia van Allen, Bliss Llewellyn</li>
+				<li><strong>Angel: </strong>Azazel, Abbadon, Michael, Xanthanael</li>
+			</ul>
+			<h4>Blue Blood Traits</h4>
+			<p>As an name, you have the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Blue bloods mature at about 16 and live a normal lifespan of human years, about 100.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Blue bloods are conditioned to be on the spectrum of good and are rarely chaotic. Silver bloods are very maddened and so more chaotic and evil.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Blue bloods vary slightly in height and build, usually around 6 feet, give or take. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Heaven Fallen.</em></strong> You are a creature descended from the heavens. You are resistant to radiant damage.</p>
+			<p class="indent"><strong><em>Angelic Fortitutde.</em></strong> You have the constitution of angels reminiscent in you. You are immune to diseases.</p>
+			<p class="indent"><strong><em>Ancient Knowledge.</em></strong> Blue bloods are well versed in religious connotations. You are proficient in the Religion skill.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Celestial.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> Choose from the Normal or Silver Blood subraces.</p>
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>When creating a blue blood character, you can use the following table of traits, ideals, bonds and flaws to help flesh out your character. Use these tables in addition to or in place of your background's characteristics.</p>
+			<p class="indent">Blue bloods are usually righteous or mild doers of good. The exceptions are obviously the silver bloods.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Jack Force, Kingsley Drexel Martin, Ted Lennox</set>
+			<set name="names" type="female">Schulyer van Chase, Cordelia van Allen, Bliss Llewellyn</set>
+			<set name="names" type="angel">Azazel, Abbadon, Michael, Xanthanael</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="+7">5'9"</set>
+			<set name="weight" modifier="x4">150</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Blue Bloods)" supports="Custom Ability Score Improvement Option" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_CELESTIAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Sprite)" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_HEAVEN_FALLEN" requirements="!ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_REFUSAL_OF_SALVATION" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_ANGELIC_FORTITUDE" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_ANCIENT_KNOWLEDGE" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_SUBRACES" />
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">I am unsure of myself as a person meant to do good.</item>
+				<item id="2">I try to be carefree despite whatever weighs on my mind.</item>
+				<item id="3">My goals and status come first over others.</item>
+				<item id="4">I'm not the person in control of my own destiny.</item>
+				<item id="5">My duty is all I require to get through life.</item>
+				<item id="6">We must do to preserve tradition. New ways are killing us.</item>
+				<item id="7">I want to do good so I can get on with this curse of a life.</item>
+				<item id="8">This burden of a duty is too much and I rather think of ways to evade it.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">I want to help the world reach redemption. (Good)</item>
+				<item id="2">There is an orderly way we must do things. (Lawful)</item>
+				<item id="3">I don't want to follow any prewritten rules without my consent! (Chaotic)</item>
+				<item id="4">If the heavens scorn me, I scorn them back. (Neutral)</item>
+				<item id="5">Forget salvation. I'm fine drowning my troubles in innocent blood. (Evil)</item>
+				<item id="6">I just want to live my life as I choose, regardless of this blood in my veins. (Chaotic)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">I try to live as tradition dictates.</item>
+				<item id="2">Memories of my duties and past life help me make choices.</item>
+				<item id="3">I have great friends that are my family, since I have no real one.</item>
+				<item id="4">I am in love with the heir of a family that my family despises.</item>
+				<item id="5">People need to worship me, since I'm so much better looking.</item>
+				<item id="6">I want to preserve knowledge for future generations to come.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">I'm too pompous for my own good to hide my insecurity.</item>
+				<item id="2">I can be quite jaded to loss due to my numbed empathy.</item>
+				<item id="3">The desire to follow tradition blinds me of the beauties of the present.</item>
+				<item id="4">I am a very picky eater.</item>
+				<item id="5">I hold grudges like you wouldn't believe.</item>
+				<item id="6">When I'm hungry, I lose my head.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Heaven Fallen" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_HEAVEN_FALLEN">
+		<description>
+			<p>You are a creature descended from the heavens. You are resistant to radiant damage.</p>
+		</description>
+		<sheet>
+			<description>You are resistant to radiant damage.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+		</rules>
+	</element>
+	<element name="Angelic Fortitude" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_ANGELIC_FORTITUDE">
+		<description>
+			<p>You have the constitution of angels reminiscent in you. You are immune to diseases.</p>
+		</description>
+		<sheet>
+			<description>You are immune to diseases.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+	</element>
+	<element name="Ancient Knowledge" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_ANCIENT_KNOWLEDGE">
+		<description>
+			<p> Blue bloods are well versed in religious connotations. You are proficient in the Religion skill.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+		</rules>
+	</element>
+	<element name="Blue Blood Subraces" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_SUBRACES">
+		<description>
+			<p>Choose from the Normal or Silver Blood subraces.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+		<rules>
+			<select type="Sub Race" name="Blue Bloods Subrace" supports="Blue Bloods Subrace" />
+		</rules>
+	</element>
+
+	<!-- subraces -->
+	<element name="Normal" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_BLUE_BLOOD_SUBRACE_NORMAL">
+		<supports>Blue Bloods Subrace</supports>
+		<description>
+			<p>Normal blue bloods are the descendants of the repentant angels who still strive for redemption.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Charisma score increase by 1.</p>
+			<p class="indent"><b><i>Drop Dead Gorgeous.</i></b> You are beautiful, handsome, radiant creatures. You are proficient in the Persuasion skill.</p>
+			<p class="indent"><b><i>Force Projection.</i></b> You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Normal)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_DROP_DEAD_GORGEOUS" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_FORCE_PROJECTION" />
+		</rules>
+	</element>
+	<element name="Drop Dead Gorgeous" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_DROP_DEAD_GORGEOUS">
+		<description>
+			<p>You are beautiful, handsome, radiant creatures. You are proficient in the Persuasion skill.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+	<element name="Force Projection" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_FORCE_PROJECTION">
+		<description>
+			<p>You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</p>
+		</description>
+		<sheet>
+			<description>When you cast mage hand with this trait, the hand is invisible.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
+		</rules>
+	</element>
+
+	<element name="Silver" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_BLUE_BLOOD_SUBRACE_SILVER">
+		<supports>Blue Bloods Subrace</supports>
+		<description>
+			<p>Silver bloods are murderous fallen angels who shun redemption. Gorging on the flesh and blood of other blue bloods has driven them mad and schizophrenic.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Your Charisma score increase by 1.</p>
+			<p class="indent"><b><i>Refusal of Salvation.</i></b> You, having renounced your claim to redemption, are not resistant to radiant damage like the normal blue blood and are actually vulnerable to it.</p>
+			<p class="indent"><b><i>Maddened Angel.</i></b> When you are afflicted with short-term madness, you instead get long-term madness. In addition, after the ritual you became afflicted with a form of indefinite madness. If cured, it returns after 1d4 days.</p>
+			<p class="indent"><b><i>Natural Killer.</i></b> You have strong fangs, formed from your savage life of killing, unlike your softer counterparts. As an action, you can bite a creature with your fangs dealing 1d6 piercing damage. The damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+			<p class="indent"><b><i>Frightened Visage.</i></b> You look very scary, unlike your beautiful and handsome counterparts. You are proficient in the Intimidation skill.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Silver Blooded)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_REFUSAL_OF_SALVATION" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_MADDENED_ANGEL" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_NATURAL_KILLER" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_FRIGHTENED_VISAGE" />
+		</rules>
+	</element>
+	<element name="Refusal of Salvation" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_REFUSAL_OF_SALVATION">
+		<description>
+			<p>You, having renounced your claim to redemption, are not resistant to radiant damage like the normal blue blood and are actually vulnerable to it.</p>
+		</description>
+		<sheet>
+			<description>You are vulnerable to radiant damage.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_RADIANT" />
+		</rules>
+	</element>
+	<element name="Maddened Angel" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_MADDENED_ANGEL">
+		<description>
+			<p>When you are afflicted with short-term madness, you instead get long-term madness. In addition, after the ritual you became afflicted with a form of indefinite madness. If cured, it returns after 1d4 days.</p>
+		</description>
+		<sheet>
+			<description>When you are afflicted with short-term madness, you instead get long-term madness. In addition, after the ritual you became afflicted with a form of indefinite madness. If cured, it returns after 1d4 days.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+	</element>
+	<element name="Natural Killer" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_NATURAL_KILLER">
+		<description>
+			<p>You have strong fangs, formed from your savage life of killing, unlike your softer counterparts. As an action, you can bite a creature with your fangs dealing 1d6 piercing damage. The damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+		</description>
+		<sheet action="Action">
+			<description>You have strong fangs, formed from your savage life of killing, unlike your softer counterparts. As an action, you can bite a creature with your fangs dealing 1d6 piercing damage.</description>
+			<description level="5">You have strong fangs, formed from your savage life of killing, unlike your softer counterparts. As an action, you can bite a creature with your fangs dealing 2d6 piercing damage.</description>
+			<description level="5">You have strong fangs, formed from your savage life of killing, unlike your softer counterparts. As an action, you can bite a creature with your fangs dealing 3d6 piercing damage.</description>
+			<description level="5">You have strong fangs, formed from your savage life of killing, unlike your softer counterparts. As an action, you can bite a creature with your fangs dealing 4d6 piercing damage.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+	</element>
+	<element name="Frightening Visage" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_BLUE_BLOODS_FRIGHTENED_VISAGE">
+		<description>
+			<p>You look very scary, unlike your beautiful and handsome counterparts. You are proficient in the Intimidation skill.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Blue_Bloods_(5e_Race)&amp;oldid=1623287</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+	</element>
+</elements>
