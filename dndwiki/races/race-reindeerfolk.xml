@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Reindeerfolk</name>
+		<description>The Reindeerfolk Race from the D&amp;D Wiki</description>
+		<author url="https://www.dandwiki.com/wiki/Dessert_Genasi_(5e_Subrace)">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="race-reindeerfolk.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-reindeerfolk.xml" />
+		</update>
+	</info>
+
+	<element name="Reindeerfolk" type="Race" source="D&amp;D Wiki" id="ID_WIKI_RACE_REINDEERFOLK">
+		<description>
+			<p>The reindeerfolk are a mysterious and charming race of humanoid reindeer that hail in the frigid northern regions of the world. They are kind-hearted and agreeable people that live their lives to the fullest. They create many close-knit communities and share the holiday spirit with all that they encounter. While they may be cheerful and generally non-confrontational people, they aren't afraid to fight for their home and their beliefs.</p>
+			<h4>PHYSICAL DESCRIPTION</h4>
+			<p>Reindeerfolk are about as tall and as heavy as the average half-orc, standing at about 6 feet and weighing no less than 200 lbs. Their extra weight comes from their muscles and body fat, which are present in much higher abundance than other humanoids. The muscles of a reindeerfolk are mostly concentrated in the legs, as they are capable of running at full speed for hours on end. Their high levels of body fat are necessary to maintain their body temperatures during the winter.</p>
+			<p class="indent">The external appearance of the reindeerfolk is most recognizable by their antlers, which regrow annually and increase in size as a reindeerfolk grows older. All reindeerfolk posses antlers regardless of their gender. The number of points on a reindeerfolk's antlers reveals its height, as the number of points on a reindeerfolk's antlers increases the taller they are. Reindeerfolk are also covered in thick brown fur, allowing them to live comfortably in the near sub-zero temperatures of the north. Their more reindeer-like features of the reindeerfolk are their heads, which resemble that of a normal reindeer, hooved feet, and a short, stubby tail. However, despite these animalistic features, they are bipedal and still possess padded hands, which allow them to grab onto objects just as a normal humanoid would.</p>
+			<p class="indent">Reindeerfolk are also divided into two subraces, which are defined by the appearance of their nose. The first of these subraces are the black-nosed reindeerfolk, which have black noses as their name implies. They have an increased amount of physical endurance and have noticeably bigger antlers than their red-nosed counterparts. Red-nosed reindeerfolk are smaller and are far less brawny than their black-nosed brethren. Their most important feature is their glowing nose, which is capable of producing red light that can pierce through blinding snowstorms and fog.</p>
+			<h4>HISTORY</h4>
+			<p>With the presence of the legendary Santa Claus in the North Pole, many evil entities have attempted to destroy the joy and happiness that he brought, often leading raids on his workshop. Things took a turn for the worst when an ice monster was able to completely destroy Santa's workshop, leading to that year's Christmas celebration being delayed. Because of this, Santa's workshop was in dire need of protectors that would fend off these evil creatures. After many months of deliberation between his elves, Santa enlisted the aid of his most skilled elves to create massive steel golems that would fight the creatures off. However, these large constructs were vulnerable to magic and were destroyed as a result. Desperate for a solution, Santa Claus eventually reached out to a powerful wizard who used his magic to create an entirely new race of creature. These jolly creatures of the north had formidable strength and determination and took on the appearance of humanoid reindeer. These new reindeerfolk proved to be a success against the North Pole invaders, leading to the reconstruction of Santa's Workshop and many millennia of peace and prosperity in the North Pole. For thousands of years, reindeerfolk tradition of protecting and cherishing the holiday spirit has been at the forefront of reindeerfolk life.</p>
+			<h4>SOCIETY</h4>
+			<p>Reindeerfolk society is mainly comprised of many of the main features that make up other humanoid societies. However, reindeerfolk are far more light-hearted with their lives compared to other humanoid races, playing many kinds of games and entertaining themselves with performances of song and acting. Black-nosed reindeerfolk are excellent workers, making the most gruelling of physical tasks seem like a walk in the park. In contrast, Red-nosed reindeerfolk are known to be some of the best performers in reindeerfolk society, acting as leaders both in the political and the performative sense. While reindeerfolk society may seem like fun and games on the surface, all reindeerfolk act as minutemen while they live in the North Pole, ready to defend Santa Claus, his workers, and his workshop at a moment's notice. While they aren't hunting for food, completing other tasks for survival, or defeating invaders of the North Pole, reindeerfolk are preparing for their annual Christmas festival. Christmas festivities in reindeerfolk society are some of the most excessive celebrations in the world and use up a vast majority of the reindeerfolk's natural resources. Thousands of electric Christmas lights blind on-goers and large parades are held throughout reindeerfolk towns. Large town-wide feasts are held and an annual gift-exchange acts as the highlight of their festivities.</p>
+			<h4>REINDEERFOLK NAMES</h4>
+			<p>The names of reindeerfolk are primarily derived from holiday folktales and songs. Many reindeerfolk names are also words associated with speed and endurance.</p>
+			<ul class="unstyled">
+				<li><strong>Example Names:</strong> Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner (Dunder), Blitzen (Blixem), Rudolph</li>
+			</ul>
+			<h4>REINDEERFOLK TRAITS</h4>
+			<p>Humanoid reindeer that embody all that is the holiday spirit.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span> Your Dexterity score increases by 2.<br />
+				<span class="feature">Age.</span> Reindeerfolk lead slightly shorter lives than humans. While male reindeerfolk live to be about 60-70 years old, female reindeerfolk live to be as old as 80-90 years of age.<br />
+				<span class="feature">Alignment.</span> Reindeerfolk are almost always lawful good, as their collective moral code is bound by the holiday spirit.<br />
+				<span class="feature">Size.</span> Reindeerfolk are about as tall and as heavy as the average half-orc, standing at about 6 feet and weighing no less than 200 lbs. Your size is Medium.<br />
+				<span class="feature">Speed.</span> Your base walking speed is 35 feet.<br />
+				<span class="feature">Arctic Fur.</span> You are resistant to cold damage.<br />
+				<span class="feature">Reindeer Games.</span> You are proficient in one gaming set of your choice.<br />
+				<span class="feature">Languages.</span> You can speak, read, and write Common and one other language of your choice.<br />
+				<span class="feature">Subrace.</span> Pick one from Black or Red Nose.<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="custom">Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, Dunder, Blitzen, Blixem, Rudolph</set>
+			<set name="names-format">{{custom}}</set>
+			<set name="height" modifier="1d6">6'0"</set>
+			<set name="weight" modifier="x 1 lb.">200 lb.</set>
+			<set name="sourceUrl">https://www.dandwiki.com/wiki/Reindeerfolk_(5e_Race)</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Reindeerfolk)" supports="Custom Ability Score Increase 2" number="1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Language (Reindeerfolk)" supports="Standard||Exotic" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_ARCTIC_FUR" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_REINDEER_GAMES" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_SUBRACE" />
+		</rules>
+	</element>
+	
+	<element name="Arctic Fur" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_ARCTIC_FUR">
+		<description>
+			<p>You are resistant to cold damage.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+	
+	<element name="Reindeer Games" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_REINDEER_GAMES">
+		<description>
+			<p>You are proficient in one gaming set of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Gaming Set (Reindeerfolk)" supports="Gaming Set" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Simple Weapon or Tool, Reindeer Games" supports="Simple||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	
+	<element name="Reindeerfolk Subrace" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_SUBRACE">
+		<description>
+			<p>Pick one from Black or Red Nose.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Sub Race" name="Reindeerfolk Subrace" supports="Reindeerfolk" />
+		</rules>
+	</element>
+	
+	<element name="Black-Nosed" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_REINDEERFOLK_BLACKNOSED">
+		<supports>Reindeerfolk</supports>
+		<description>
+			<p>     
+				<span class="feature">Ability Score Increase.</span> Your Strength score increases by 1.<br />
+				<span class="feature">Trained Sprinter.</span> You are proficient in the Athletics skill.<br />
+				<span class="feature">Antlers.</span> Your antlers are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.<br />
+			</p>  
+		</description>
+		<sheet alt="Black-Nosed Reindeerfolk" display="false" />
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Black-Nosed)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_TRAINED_SPRINTER" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_ANTLERS" />
+		</rules>
+	</element>
+	
+	<element name="Trained Sprinter" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_TRAINED_SPRINTER">
+		<description>
+			<p>You have proficiency in the Athletics skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Athletics skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	
+	<element name="Antlers" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_ANTLERS">
+		<description>
+			<p>Your antlers are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>You can use your antlers to make unarmed strikes. When you hit with them, the strike deals 1d4 + {{strength:modifier}}.</description>
+		</sheet>
+	</element>
+	
+	<element name="Red-Nosed" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_REINDEERFOLK_REDNOSED">
+		<supports>Reindeerfolk</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span> Your Charisma score increases by 1.<br />
+				<span class="feature">Natural Leader.</span> You are proficient in the Persuasion skill.<br />
+				<span class="feature">Shiny Nose.</span> You can use an action to produce red light from your nose. Your nose sheds bright red light in a 20-foot radius and dim light for an additional 20 feet. You can use a bonus action to stop your nose from glowing.<br />
+			</p>  
+		</description>
+		<sheet alt="Red-Nosed Reindeerfolk" display="false" />
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Red-Nosed)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_NATURAL_LEADER" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_SHINY_NOSE" />
+		</rules>
+	</element>
+	
+	<element name="Natural Leader" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_NATURAL_LEADER">
+		<description>
+			<p>You have proficiency in the Persuasion skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Persuasion skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	
+	<element name="Shiny Nose" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_REINDEERFOLK_SHINY_NOSE">
+		<description>
+			<p>You can use an action to produce red light from your nose. Your nose sheds bright red light in a 20-foot radius and dim light for an additional 20 feet. You can use a bonus action to stop your nose from glowing.</p>
+		</description>
+		<sheet action="Action">
+			<description>Your nose sheds bright red light in a 20-foot radius and dim light for an additional 20 feet. You can use a bonus action to stop your nose from glowing.</description>
+		</sheet>
+	</element>
+</elements>
