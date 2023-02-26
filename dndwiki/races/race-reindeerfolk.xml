@@ -3,7 +3,7 @@
 	<info>
 		<name>Reindeerfolk</name>
 		<description>The Reindeerfolk Race from the D&amp;D Wiki</description>
-		<author url="https://www.dandwiki.com/wiki/Reindeerfolk_(5e_Race)">D&amp;D Wiki</author>
+		<author url="https://www.dandwiki.com/w/index.php?title=Reindeerfolk_(5e_Race)&amp;oldid=1261415">D&amp;D Wiki</author>
 		<update version="0.0.1">
 			<file name="race-reindeerfolk.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-reindeerfolk.xml" />
 		</update>
