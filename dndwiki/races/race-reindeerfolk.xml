@@ -3,7 +3,7 @@
 	<info>
 		<name>Reindeerfolk</name>
 		<description>The Reindeerfolk Race from the D&amp;D Wiki</description>
-		<author url="https://www.dandwiki.com/wiki/Dessert_Genasi_(5e_Subrace)">D&amp;D Wiki</author>
+		<author url="https://www.dandwiki.com/wiki/Reindeerfolk_(5e_Race)">D&amp;D Wiki</author>
 		<update version="0.0.1">
 			<file name="race-reindeerfolk.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-reindeerfolk.xml" />
 		</update>
