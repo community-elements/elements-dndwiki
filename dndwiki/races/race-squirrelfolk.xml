@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+	<!-- file is created by: FreshRoyal
+		date of file creation: 12 Mar 2023 -->
+		<name>Squirrelfolk</name>
+		<description>The Squirrelfolk Race from the D&amp;D Wiki, created by user "199.30.124.203", with minor contributions from other users</description>
+		<author url="https://www.dandwiki.com/w/index.php?title=Squirrelfolk_(5e_Race)&amp;oldid=1688928">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="race-squirrelfolk.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-squirrelfolk.xml" />
+		</update>
+	</info>
+
+	<element name="Squirrelfolk" type="Race" source="D&amp;D Wiki" id="ID_WIKI_RACE_SQUIRRELFOLK">
+		<description>
+			<p>Squirrelfolk are known for their quick thinking and tongue, generally quite the talkers they have found ways to fit into towns of larger species, even though most are still comfortable in the wild woods.</p>
+			<h4>PHYSICAL DESCRIPTION</h4>
+			<p>Their fur ranges from a orangey red to dull greys and browns that have black hairs mixed in. Their eyes tend to be black - large and always alert. Their pride is their tails, generally well groomed and fluffy, perfect for twitching when annoyed or excited. Touching a squirrelfolk's tail is frowned upon unless you are in a relationship (either romantically or family) as squirrelfolk tend to wrap their tails around each other to show affection.</p>
+			<p class="indent">Squirrelfolk are a little like dragons in the sense that they tend to horde, though for the most part, it's for the good of their families.</p>
+			<p class="indent">Squirrelfolk eat mostly nuts, but any vegetable will do, they will never eat meat.</p>
+			<h4>SOCIETY</h4>
+			<p>There are two kinds of societies in the squirrelfolk's world, they are almost polar opposites. </p>
+			<p class="indent">Town squirrelfolk tend to have an easier life, despite the hardships of trying to fit into a world of larger creatures. They make themselves into fast talking merchants, or messengers of important people, earning coins to buy food for their families. They tend to stay inside towns, having grown up hearing horror stories about the creatures of the wild. Town squirrelfolk families are close-knit and tend to live together in one house, usually consisting of grandparents, parents and up to three pups for each couple of parents. Though they tend to live right on top of each other, they would not have it any other way.</p>
+			<p class="indent">Wild squirrelfolk tend to have a harder life, forging and fighting for each day. At a young age these squirrelfolk are taught about the dangers of the wild that they live in, and how to fight, or avoid them all together and to be independent. Seeing this society is rare as they aren't very trusting of outsiders, they tend to go into hiding when seeing a stranger. Growing up in forests or woods these Squirrels see a lot of customs in towns as foreign and strange. Wild squirrelfolk families tend to be more spread out as they are territorial, most homes consist of singles or parents and up to three pups which leave as soon as they're adults to find their own section of the woods to inhabit.</p>
+			<h4>SQUIRRELFOLK NAMES</h4>
+			<p>Squirrelfolk gain their names in different ways, both sides tend to give lots of nicknames:</p>
+			<p class="indent">For the town squirrelfolk, they have taken on the traditions of the humans to name their children at birth, but tend to keep within the realm of their race's classic names, which usually take on the form of plants, descriptions, events or sometimes even other animals, granted they tend to be named after larger and more ferocious ones.</p>
+			<ul class="unstyled">
+				<li><strong>Male:</strong> Lion, Firewheat, Phoenix, Bon(fire)</li>
+				<li><strong>Female:</strong> Badger, Redroot, Wonder, Dragon</li>
+			</ul>
+			<p class="indent" style="margin-top:15px">For the wild squirrelfolk, they fallow the tradition of letting the pups name themselves once they come of age and are ready to leave the nest to find their own place in the world, to leave their name as a mark on it. Tree names are used a lot. </p>
+			<ul class="unstyled">
+				<li><strong>Male:</strong> Root, Draco, Pine, Griffon</li>
+				<li><strong>Female:</strong> Birch, Bear, Oak, Wolf</li>
+				<li><strong>Nicknames:</strong> Small One, Squeaker, Swift, Chomp, Snooze, Leap, Trouble</li>
+			</ul>
+
+			<h4>SQUIRRELFOLK TRAITS</h4>
+			<p>A race of small fur covered humanoids with a striking resemblance to squirrels.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span> Your Dexterity score increases by 2.<br />
+				<span class="feature">Age.</span> Both subraces reach adulthood at 5 years old, but the town squirrelfolk tend to live to 40 years old while the wild squirrelfolk live to be around 32.<br />
+				<span class="feature">Alignment.</span> Squirrelfolk tend to be neutral, though like with every race, there are temptations and they can be evil or good.<br />
+				<span class="feature">Size.</span> They usually stand between 3 to 4 feet tall and weigh around 45 pounds. Your size is Small.<br />
+				<span class="feature">Speed.</span> Your base walking speed is 25 feet. If both your hands are free you can run on all fours, increasing your speed to 30 feet and granting you a climbing speed of 30 feet.<br />
+				<span class="feature">Alert.</span> You are proficient in the Perception skill.<br />
+				<span class="feature">Hard Bite.</span> You can make an unarmed strike with your bite, which deals 1d4 piercing damage.<br />
+				<span class="feature">Languages.</span> You can speak, read and write Common and Sylvan.<br />
+				<span class="feature">Subrace.</span> You are either a town squirrelfolk or a wild squirrelfolk.<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="custom">Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, Dunder, Blitzen, Blixem, Rudolph</set>
+			<set name="names-format">{{custom}}</set>
+			<set name="height" modifier="1d6">1'6"</set>
+			<set name="weight" modifier="x 1d4 lb.">1 lb.</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Squirrelfolk_(5e_Race)&amp;oldid=1688928</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Squirrelfolk)" supports="Custom Ability Score Increase 2" number="1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_SPEED" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_ALERT" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_HARD_BITE" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_SUBRACE" />
+		</rules>
+	</element>
+	
+	<element name="Speed" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_SPEED">
+		<description>
+			<p>Your base walking speed is 25 feet. If both your hands are free you can run on all fours, increasing your speed to 30 feet and granting you a climbing speed of 30 feet.</p>
+		</description>
+		<sheet>
+			<description>If both your hands are free you can run on all fours, increasing your speed to 30 feet and granting you a climbing speed of 30 feet.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="25" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Alert" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_ALERT">
+		<description>
+			<p>You are proficient in the Perception skill.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Alert)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	
+	<element name="Hard Bite" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_HARD_BITE">
+		<description>
+			<p>You can make an unarmed strike with your bite, which deals 1d4 piercing damage.</p>
+		</description>
+		<sheet>
+			<description>You can make an unarmed strike with your bite, which deals 1d4 piercing damage.</description>
+		</sheet>
+	</element>
+	
+	<element name="Squirrelfolk Subrace" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_SUBRACE">
+		<description>
+			<p>You are either a town squirrelfolk or a wild squirrelfolk.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Sub Race" name="Squirrelfolk Subrace" supports="Squirrelfolk" />
+		</rules>
+	</element>
+	
+	<element name="Town Squirrelfolk" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_SQUIRRELFOLK_TOWN">
+		<supports>Squirrelfolk</supports>
+		<description>
+			<p>Town squirrelfolk tend to be less shy than they cousins in the wild. </p>
+			<p>
+				<span class="feature">Ability Score Increase.</span> Your Intelligence score increases by 1.<br />
+				<span class="feature">Professional Salesman.</span> You know one extra language of your choice.<br />
+				<span class="feature">Town Travel.</span> You can travel through towns at twice the normal rate. The distance you can jump is doubled when traversing buildings.<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="male" type="male">Lion, Firewheat, Phoenix, Bon(fire)</set>
+			<set name="female" type="female">Badger, Redroot, Wonder, Dragon</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Town Squirrelfolk)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_PROFESSIONAL_SALESMAN" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_TOWN_TRAVEL" />
+		</rules>
+	</element>
+	
+	<element name="Professional Salesman" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_PROFESSIONAL_SALESMAN">
+		<description>
+			<p>You know one extra language of your choice.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Language" name="Language (Professional Salesman)" supports="Standard||Exotic" />
+		</rules>
+	</element>
+	
+	<element name="Town Travel" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_TOWN_TRAVEL">
+		<description>
+			<p>You can travel through towns at twice the normal rate. The distance you can jump is doubled when traversing buildings.</p>
+		</description>
+		<sheet>
+			<description>You can travel through towns at twice the normal rate. The distance you can jump is doubled when traversing buildings.</description>
+		</sheet>
+	</element>
+
+	<element name="Wild Squirrelfolk" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_SQUIRRELFOLK_WILD">
+		<supports>Squirrelfolk</supports>
+		<description>
+			<p>Wild squirrelfolk tend to be shyer, but excellent foragers.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span> Your Strength score increases by 1.<br />
+				<span class="feature">Excellent Forager.</span> You can always find daily provisions for yourself and up to four other people, given that the land holds water and edible plants.<br />
+				<span class="feature">Fearless Leap.</span> You can travel through woods at twice the normal rate. The distance you can jump is doubled when traversing trees.<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="male" type="male">Root, Draco, Pine, Griffon</set>
+			<set name="female" type="female">Birch, Bear, Oak, Wolf</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Wild Squirrelfolk)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_EXCELLENT_FORAGER" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_FEARLESS_LEAP" />
+		</rules>
+	</element>
+
+	<element name="Excellent Forager" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_EXCELLENT_FORAGER">
+		<description>
+			<p>You can always find daily provisions for yourself and up to four other people, given that the land holds water and edible plants.</p>
+		</description>
+		<sheet>
+			<description>You can always find daily provisions for yourself and up to four other people, given that the land holds water and edible plants.</description>
+		</sheet>
+	</element>
+
+	<element name="Fearless Leap" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_SQUIRRELFOLK_FEARLESS_LEAP">
+		<description>
+			<p>You can travel through woods at twice the normal rate. The distance you can jump is doubled when traversing trees.</p>
+		</description>
+		<sheet>
+			<description>You can travel through woods at twice the normal rate. The distance you can jump is doubled when traversing trees.</description>
+		</sheet>
+	</element>
+	
+</elements>

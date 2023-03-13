@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>	
+	<info>
+	<!-- file is created by: FreshRoyal
+		date of file creation: 22 Aug 2022 -->
+		<name>Dessert Genasi</name>
+		<description>The Dessert Genasi Sub Race from the D&amp;D Wiki, created by user "ConcealedLight", with minor contributions from other users</description>
+		<author url="https://www.dandwiki.com/w/index.php?title=Dessert_Genasi_(5e_Subrace)&amp;oldid=1625565">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="subrace-dessertgenasi.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-dessertgenasi.xml" />
+		</update>
+	</info>
+
+	<element name="Dessert Genasi" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_GENASI_DESSERT">
+		<supports>Genasi</supports>
+		<description>
+			<p>Whether your base is ice cream, chocolate, honey or another tasty treat, you are sweet as can be. Dessert genasi are the delectable creations of capricious fey, eldritch puddings, or wizards that dared to wonder what if?</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span> Your Dexterity or Charisma score increases by 1.<br />
+				<span class="feature">Chilled.</span> You are resistant to cold damage and have disadvantage on saving throws against Extreme Heat, as described in chapter 5 of the Dungeon Master's Guide.<br />
+				<span class="feature">Slippery.</span> You have advantage on saving throws against being grappled or restrained, as well as any spell that would change your form, such as the polymorph spell.<br />
+				<span class="feature">Sugar Coat.</span> As an action, you can touch a willing creature and cause it to gain a number of temporary hit points equal to your level until they complete a rest. Once you use this trait, you can't use it again until you finish a long rest.<br />
+				<span class="feature">Tasty.</span> When a creature makes a successful bite, engulf, lick or similar attack against you, they must succeed on a Wisdom saving throw or be charmed by you for 1 minute or until you deal damage to it. On a successful saving throw, the creature is immune to being charmed by this trait for 1 hour. The DC for this saving throw is equal to 8 + your proficiency bonus + your Constitution modifier.<br />
+			</p>
+		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Dessert_Genasi_(5e_Subrace)&amp;oldid=1625565</set>
+		</setters>
+		<sheet display="false"/>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Improvement +1 (Dessert Genasi)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CHARISMA" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dessert Genasi)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_CHILLED" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_SLIPPERY" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_SUGAR_COAT" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_TASTY" />
+		</rules>
+	</element>
+	
+	<element name="Chilled" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_CHILLED">
+		<description>
+			<p>You are resistant to cold damage and have disadvantage on saving throws against Extreme Heat, as described in chapter 5 of the <i>Dungeon Master's Guide.</i></p>
+		</description>
+		<sheet>
+			<description>You have disadvantage on saving throws against Extreme Heat, as described in chapter 5 of the <i>Dungeon Master's Guide.</i></description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+
+	<element name="Slippery" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_SLIPPERY">
+		<description>
+			<p>You have advantage on saving throws against being grappled or restrained, as well as any spell that would change your form, such as the polymorph spell.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being grappled or restrained, as well as any spell that would change your form, such as the polymorph spell.</description>
+		</sheet>
+	</element>
+
+	<element name="Sugar Coat" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_SUGAR_COAT">
+		<description>
+			<p>As an action, you can touch a willing creature and cause it to gain a number of temporary hit points equal to your level until they complete a rest. Once you use this trait, you can't use it again until you finish a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>You can touch a willing creature and cause it to gain {{temp:hp}} temporary hit points until they complete a rest.</description>
+		</sheet>
+		<rules>
+			<stat name="temp:hp" value="level" />
+		</rules>
+	</element>
+
+	<element name="Tasty" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_TASTY">
+		<description>
+			<p>When a creature makes a successful bite, engulf, lick or similar attack against you, they must succeed on a Wisdom saving throw or be charmed by you for 1 minute or until you deal damage to it. On a successful saving throw, the creature is immune to being charmed by this trait for 1 hour. The DC for this saving throw is equal to 8 + your proficiency bonus + your Constitution modifier.</p>
+		</description>
+		<sheet>
+			<description>When a creature makes a successful bite, engulf, lick or similar attack against you, they must succeed on a Wisdom saving throw or be charmed by you for 1 minute or until you deal damage to it. On a successful saving throw, the creature is immune to being charmed by this trait for 1 hour. The DC for this saving throw is {{save}}.</description>
+		</sheet>
+		<rules>
+			<stat name="save" value="8" />
+			<stat name="save" value="proficiency" />
+			<stat name="save" value="constitution:modifier" />
+		</rules>
+	</element>
+</elements>
