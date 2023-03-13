@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>	
 	<info>
+	<!-- file is created by: FreshRoyal
+		date of file creation: 22 Aug 2022 -->
 		<name>Dessert Genasi</name>
-		<description>The Dessert Genasi Sub Race from the D&amp;D Wiki</description>
+		<description>The Dessert Genasi Sub Race from the D&amp;D Wiki, created by user "ConcealedLight", with minor contributions from other users</description>
 		<author url="https://www.dandwiki.com/w/index.php?title=Dessert_Genasi_(5e_Subrace)&amp;oldid=1625565">D&amp;D Wiki</author>
 		<update version="0.0.1">
 			<file name="subrace-dessertgenasi.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/subrace-dessertgenasi.xml" />
@@ -22,11 +24,11 @@
 			</p>
 		</description>
 		<setters>
-			<set name="sourceUrl">https://www.dandwiki.com/wiki/Dessert_Genasi_(5e_Subrace)</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Dessert_Genasi_(5e_Subrace)&amp;oldid=1625565</set>
 		</setters>
 		<sheet display="false"/>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Improvement +1 (Dessert Genasi)" supports="Dessert Genasi Ability Score Improvement" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement +1 (Dessert Genasi)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CHARISMA" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dessert Genasi)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_CHILLED" />
 			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_SLIPPERY" />
@@ -34,13 +36,7 @@
 			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_TASTY" />
 		</rules>
 	</element>
-	<append id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1">
-		<supports>Dessert Genasi Ability Score Improvement</supports>
-	</append>
-	<append id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1">
-		<supports>Dessert Genasi Ability Score Improvement</supports>
-	</append>
-
+	
 	<element name="Chilled" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_GENASI_DESSERT_CHILLED">
 		<description>
 			<p>You are resistant to cold damage and have disadvantage on saving throws against Extreme Heat, as described in chapter 5 of the <i>Dungeon Master's Guide.</i></p>

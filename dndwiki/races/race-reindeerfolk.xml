@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
+	<!-- file is created by: FreshRoyal
+		date of file creation: 30 Dec 2022 -->
 		<name>Reindeerfolk</name>
-		<description>The Reindeerfolk Race from the D&amp;D Wiki</description>
+		<description>The Reindeerfolk Race from the D&amp;D Wiki, created by user "EpicBoss99", with minor contributions from other users</description>
 		<author url="https://www.dandwiki.com/w/index.php?title=Reindeerfolk_(5e_Race)&amp;oldid=1261415">D&amp;D Wiki</author>
 		<update version="0.0.1">
 			<file name="race-reindeerfolk.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-reindeerfolk.xml" />
@@ -45,7 +47,7 @@
 			<set name="names-format">{{custom}}</set>
 			<set name="height" modifier="1d6">6'0"</set>
 			<set name="weight" modifier="x 1 lb.">200 lb.</set>
-			<set name="sourceUrl">https://www.dandwiki.com/wiki/Reindeerfolk_(5e_Race)</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Reindeerfolk_(5e_Race)&amp;oldid=1261415</set>
 		</setters>
 		<rules>
 			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
