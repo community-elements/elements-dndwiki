@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+	<!-- file is created by: FreshRoyal
+		date of file creation: 03 Apr 2023 -->
+		<name>Oni</name>
+		<description>The Oni Race from the D&amp;D Wiki, created by user "2600:1702:3750:f210:2462:1a06:3b5e:445d", with minor contributions from other users</description>
+		<author url="https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="race-oni.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-oni.xml" />
+		</update>
+	</info>
+
+	<element name="Oni" type="Race" source="D&amp;D Wiki" id="ID_WIKI_RACE_ONI">
+		<description>
+			<p class="flavor">Sanzo was transfixed by the beauty of the maiden in front of him, so much so that he did not notice that the sake in his cup had become muddy water, or that the magnificent castle around him was fading away like an ink painting submerged in water. He only noticed when the horns poked up from the maiden's forehead and the smile she had so carefully hidden throughout his visit, revealed a row of sharp teeth. And by then it was too late.</p>
+			<p class="text-align:right">–A cautionary tale to a young samurai</p>
+			
+			<h4>PHYSICAL DESCRIPTION</h4>
+			<p>In their natural form, Oni look like demonic Ogres though are slightly smaller in stature. They have skin that varies between hues of red, blue and white, and dark colored eyes with shining white pupils. They have long wild hair that is usually black or grey; however, pure white hair is not an uncommon sight, especially among the Pale Oni.</p>
+			<p class="indent">They have a pair of short ivory horns protruding out of their forehead that grow longer as they age and their teeth and claws are jet black. The length of their horns is something Oni take pride in, to the point that even the most disheveled Oni are known to polish their horns on a daily basis.</p>
+			<p class="indent">While Oni commonly take the form of other humanoid species to blend in, some Oni who live in harmony with other races, tend to take on hybrid forms, still appearing to be part of their host race, except with their horns protruding from their forehead, proudly visible to all.</p>
+			
+			<h4>HISTORY</h4>
+			<p>At one time, the Oni guarded locations where the Spirit World overlapped with the Material Plane. Years on the Material Plane, however, corrupted some of the Oni splintering them into the three sub-races. The Oni corrupted by the material pleasures of the world became the Red Oni. The Oni corrupted by the power and knowledge of the world became the Blue Oni. The Oni that remained guard, resisting the temptations became the White Oni.</p>
+			
+			<h4>SOCIETY</h4>
+			<p>Most Oni live solitary lives in the wilderness, only interacting with other Oni in annual revels. These revels are massive in size, sometimes containing up to two hundred Oni and the Oni are drawn to them like moths to a candle, usually sensing the event weeks in advance. Violence is forbidden during these revels, and those that violate this rule have their horns sawed short and are cast out in exile.</p>
+			<p class="indent">It is not uncommon for Oni to live among other races, whether secretly or not, due to their shapeshifting power, however, they are mostly shunned from all but the most accepting settlements in their true forms until they prove themselves to the inhabitants. Even after they are accepted, Oni rarely revert to their true form, preferring to take on their hybrid appearance to keep others at ease, out of kindness... or for their own personal benefit.</p>
+			
+			<h4>ONI NAMES</h4>
+			<p>Oni names are granted at their first level if they are Blue or Red Oni. Sometimes, the names are from a famous Oni, or a powerful adversary, but often they are just words of meaning fused together in a drunken stupor.</p>
+			<ul class="unstyled">
+				<li><strong>Male:</strong> Waka, Douji, Akuran, Yorozu, Ibaraki, Jizou, Hachiman, Daikoku, Akuma</li>
+				<li><strong>Female:</strong> Hashi, Rairaku, Akane, Izami, Koyane, Sakuya, Benzen, Amematsu</li>
+			</ul>
+			<p class="indent" style="margin-top:15px">Pale Oni do not have names in order to keep themselves distant from the Material Plane and usually address each other and themselves as "this one". However, when traveling with companions from other races, the Oni will often take a name that signifies a virtue or concept.</p>
+			<ul class="unstyled">
+				<li><strong>Pale Oni Taken Names:</strong> Mu (Nothingness), Jingi (Honor), Hei-on (Tranquil), Daigo (Enlightenment), Satori (Comprehension), Waraku (Harmony), Enman (Perfection), Tsutome (Duty)</li>
+			</ul>
+
+			<h4>ONI TRAITS</h4>
+			<p>Once proud protectors of the spirit world, now rowdy creatures of the night.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span> Your Constitution score increases by 2.<br />
+				<span class="feature">Age.</span> Oni reach maturity about the same time as humans do, but their aging slows down drastically after that. Most live to about 1000 years old.<br />
+				<span class="feature">Alignment.</span> Most oni are naturally evil. Their heightened sensitivity to the temptations of the Material Plane usually drives them to steal, fight and manipulate to get what they want. The raucous red oni are the most interested in simple pleasures, and tend towards chaotic alignments.. Their colder and calculating cousins, blue oni, tend towards lawful alignments. Pale oni are closer to the spiritual world than the rest of their kin, often trying to keep the balance between the spirit world and the material plane; as such, they tend towards the lawful neutral alignment. In some cases, a red or blue oni can overcome his or her natural tendencies and dedicate his or her life to good. Most of these oni keep strict moral codes to keep their wild natures in check.<br />
+				<span class="feature">Size.</span> Oni are a sizeable people, reaching heights from 7 and 8 feet tall by maturity and weigh between 280 and 340 pounds. Your size is Medium.<br />
+				<span class="feature">Speed.</span> Your base walking speed is 30 feet.<br />
+				<span class="feature">Darkvision.</span> As a creature of the night, you are very good at seeing in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+				<span class="feature">Shapechanger.</span> As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can’t duplicate the appearance of a creature you’ve never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren’t changed by this trait. You stay in the new form until you use an action to revert to your true form or until you die.<br />
+				<span class="feature">Claws.</span> In your true form, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.<br />
+				<span class="feature">Powerful Build.</span> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.<br />
+				<span class="feature">Yokai Resistance.</span> Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned.<br />
+				<span class="feature">Languages.</span> You can speak, read and write, Common and Giant.<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Waka, Douji, Akuran, Yorozu, Ibaraki, Jizou, Hachiman, Daikoku, Akuma</set>
+			<set name="names" type="female">Hashi, Rairaku, Akane, Izami, Koyane, Sakuya, Benzen, Amematsu</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="2d8">6'5"</set>
+			<set name="weight" modifier="2d6">350 lb.</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Oni)" supports="Custom Ability Score Increase 2" number="1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_GIANT" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_ONI_SHAPECHANGER" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_ONI_CLAWS" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_ONI_POWERFUL_BUILD" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_ONI_YOKAI_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_ONI_SUBRACE" />
+		</rules>
+	</element>
+	
+	
+	<element name="Shapechanger" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_ONI_SHAPECHANGER">
+		<description>
+			<p>As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can’t duplicate the appearance of a creature you’ve never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren’t changed by this trait. You stay in the new form until you use an action to revert to your true form or until you die.</p>
+		</description>
+		<sheet>
+			<description>As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can’t duplicate the appearance of a creature you’ve never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren’t changed by this trait. You stay in the new form until you use an action to revert to your true form or until you die.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+
+	<element name="Claws" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_ONI_CLAWS">
+		<description>
+			<p>In your true form, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d4 + {{strength:modifier}} slashing.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+
+	<element name="Powerful Build" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_ONI_POWERFUL_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+	
+	<element name="Yokai Resistance" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_ONI_YOKAI_RESISTANCE">
+		<description>
+			<p>Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against becoming poisoned.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+	
+	<element name="Oni Subrace" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_ONI_SUBRACE">
+		<description>
+			<p></p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Sub Race" name="Oni Subrace" supports="Wiki Oni" />
+		</rules>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+	
+	<element name="Aka Oni (Red Oni)" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_ONI_AKA_ONI">
+		<supports>Wiki Oni</supports>
+		<description>
+			<p>The most common out of the oni, red oni or aka oni are known for their large size and toughness. They are slightly bigger than the rest of their kin, with skin coloration in shades of dark red. They are violent, hot-headed, and unfocused, often pursuing immediate satisfaction and disregarding long-term plots and schemes.</p>
+			<p>     
+				<span class="feature">Ability Score Increase.</span> Your Strength score increases by 1.<br />
+				<span class="feature">The Revel Continues.</span> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.<br />
+			</p>  
+		</description>
+		<sheet alt="Aka Oni" display="false" />
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Aka Oni)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_ONI_AKA_THE_REVEL_CONTINUES" />
+		</rules>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+	
+	<element name="The Revel Continues" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_ONI_AKA_THE_REVEL_CONTINUES">
+		<description>
+			<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When you are reduced to 0 hps but not killed outright, you can drop to 1 hp instead.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+	
+	<element name="Ao Oni (Blue Oni)" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_ONI_AO_ONI">
+		<supports>Wiki Oni</supports>
+		<description>
+			<p>Blue oni or ao oni are known for their unnatural cunning and aptitude for magic. They are smaller than their red kin, though larger than their pale kin, and with skin coloration of shades of dark blue. They are usually calculating and meticulous pursuing lofty goals such as of power and knowledge.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span> Your Intelligence score increases by 1.<br />
+				<span class="feature">Oni Magic.</span> Blue oni can muster the innate magic within themselves which gets stronger as they grow in power. You know the dancing lights cantrip. When you reach 3rd level, you can cast the charm person spell once and need to finish a long rest before you can cast it again. Intelligence is your spellcasting ability for these spells.<br />
+			</p>
+		</description>
+		<sheet alt="Ao Oni" display="false" />
+		<rules>
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Ao Oni)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_ONI_AO_ONI_MAGIC" />
+		</rules>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+	
+	<element name="Oni Magic" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_ONI_AO_ONI_MAGIC">
+		<description>
+			<p>Blue oni can muster the innate magic within themselves which gets stronger as they grow in power. You know the dancing lights cantrip. When you reach 3rd level, you can cast the charm person spell once and need to finish a long rest before you can cast it again. Intelligence is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>You know the dancing lights cantrip. Charisma is your spellcasting ability for these spells.</description>
+			<description level="3">You know the dancing lights cantrip. You can cast the charm person spell as a 2nd-level spell once per long rest. Intelligence is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
+			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" level="3"/>
+		</rules>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+	
+	<element name="Shiro Oni (Pale Oni)" type="Sub Race" source="D&amp;D Wiki" id="ID_WIKI_SUBRACE_ONI_SHIRO_ONI">
+		<supports>Wiki Oni</supports>
+		<description>
+			<p>Pale oni or shiro oni are known for their aloofness and connections to the spiritual realm. They are the smallest of oni, and are the fewest. Their skin can vary from pale white to light grey. Unlike the other oni, pale oni wish only to keep the balance between the Spirit World and the Material Plane. They usually guard locations where the presence of the Spirit World but sometimes adventure to seek artifacts of the spirit world or mend imbalances.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span> Your Wisdom score increases by 1.<br />
+				<span class="feature">Spirit Walk.</span> Pale oni are still heavily in tune with the spirit world and can for brief moments step through the boundaries between planes. As an action, you can magically teleport up to 30 feet to an unoccupied space of darkness that you can see. Once you use this trait, you can’t do so again until you finish a short or long rest.<br />
+			</p>
+		</description>
+		<sheet alt="Shiro Oni" display="false" />
+		<rules>
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Shiro Oni)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_ONI_SHIRO_SPIRIT_WALK" />
+		</rules>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+	
+	<element name="Spirit Walk" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_ONI_SHIRO_SPIRIT_WALK">
+		<description>
+			<p>Pale oni are still heavily in tune with the spirit world and can for brief moments step through the boundaries between planes. As an action, you can magically teleport up to 30 feet to an unoccupied space of darkness that you can see. Once you use this trait, you can’t do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Short Rest">
+			<description>You can magically teleport up to 30 feet to an unoccupied space of darkness that you can see.</description>
+		</sheet>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Oni_(5e_Race)&amp;oldid=1620920</set>
+		</setters>
+	</element>
+</elements>
